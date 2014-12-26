@@ -9,15 +9,14 @@ module.exports = function less(grunt) {
     return {
         build: {
             options: {
-                cleancss: false
+                yuicompress: true,
+                paths: ['public/css']
             },
-            files: [{
-                expand: true,
-                cwd: 'public/css',
-                src: ['**/*.less'],
-                dest: '.build/css/',
-                ext: '.css'
-            }]
+            files: {
+                'public/css/master.css': 'public/css/master.less',
+                'public/css/global.css': 'public/css/global.less',
+                'public/css/map.css': 'public/css/map.less',
+            }
         }
     };
 };

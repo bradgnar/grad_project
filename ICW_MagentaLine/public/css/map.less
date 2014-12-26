@@ -1,0 +1,45 @@
+@import "color-swatch";
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,600,400');
+
+body {
+    background-color: @darkAqua;
+}
+
+
+h1 {
+    font-family: 'Open Sans', Arial, serif;
+    font-weight: 400;
+
+    a {
+        text-decoration: none;
+        color: @white;
+    }
+}
+
+
+#map-canvas {
+    height: 50%;
+    width: 50%;
+    display: inline-block;
+}
+
+#content {
+    height: 90%;
+    width: 100%;
+    text-align: center;
+}
+
+
+.box-wrap-inner {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+}

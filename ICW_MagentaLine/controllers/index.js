@@ -1,18 +1,16 @@
 'use strict';
 
 
-var IndexModel = require('../models/index');
+// var mapController = require('.');
 
 
 module.exports = function (router) {
 
-    var model = new IndexModel();
-
 
     router.get('/', function (req, res) {
-        
-        res.render('index', model);
-        
+
+        res.render('map', {});
+
     });
 
 };
