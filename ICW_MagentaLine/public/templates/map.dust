@@ -8,7 +8,19 @@
 {/headerIncludes}
 
 {<body}
-  <div id="content">
-    <div id="map-canvas"></div>
-  </div>
+    <section id="intro" class="screen-section">
+        <div id="intro-header">
+            <h1 id="title">The Atlantic ICW</h1>
+            <div id="picture-nav">
+            </div>
+        </div>
+        {>navbar/}
+    </section>
+    <section id="content" class="screen-section">
+        <div id="map-canvas"></div>
+        {>navbar/}
+    </section>
+    <section id="contact" class="screen-section">
+        {>navbar/}
+    </section>
 {/body}

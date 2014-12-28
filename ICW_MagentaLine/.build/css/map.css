@@ -1,39 +1,36 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,600,400');
-/* line 4, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/map */
-body {
-  background-color: #006666;
+@import url('http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,700,300');
+/* line 6, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/map */
+#intro {
+  background: url(images/icw_sunset.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-/* line 9, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/map */
-h1 {
-  font-family: 'Open Sans', Arial, serif;
-  font-weight: 400;
+/* line 15, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/map */
+.screen-section {
+  width: 100%;
+  height: 100%;
+  float: left;
 }
-/* line 13, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/map */
-h1 a {
-  text-decoration: none;
+/* line 22, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/map */
+#title {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 300;
+  font-size: 300%;
+  position: relative;
+  left: 50px;
+  top: 0px;
   color: #ffffff;
 }
-/* line 20, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/map */
-#map-canvas {
+/* line 35, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/map */
+#content {
+  text-align: center;
+}
+/* line 38, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/map */
+#content #map-canvas {
   height: 50%;
   width: 50%;
   display: inline-block;
-}
-/* line 26, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/map */
-#content {
-  height: 90%;
-  width: 100%;
-  text-align: center;
-}
-/* line 33, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/map */
-.box-wrap-inner {
-  display: -webkit-box;
-  display: -moz-box;
-  display: box;
-  -webkit-box-align: center;
-  -moz-box-align: center;
-  box-align: center;
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  box-pack: center;
 }
