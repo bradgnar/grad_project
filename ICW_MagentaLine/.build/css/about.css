@@ -1,14 +1,17 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,600,400');
 @import url('http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,700,300');
-#content {
-  position: relative;
+#about {
   border-bottom: 4px solid #000000;
 }
-#content #map-canvas {
+#about #about-content {
   position: relative;
-  top: 15%;
-  left: 25%;
-  height: 50%;
+  left: 15%;
+  top: 20%;
   width: 50%;
-  display: block;
+  font-family: 'Open Sans', sans serif;
+  font-size: 120%;
+  font-weight: 400;
+  color: #000000;
+  text-align: justify;
+  text-justify: inter-word;
 }

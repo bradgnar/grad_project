@@ -17,7 +17,8 @@ module.exports = function less(grunt) {
                 'public/css/map.css': 'public/css/map.less',
                 'public/css/contacts.css': 'public/css/contacts.less',
                 'public/css/navbar.css': 'public/css/navbar.less',
-                'public/css/intro.css': 'public/css/intro.less'
+                'public/css/intro.css': 'public/css/intro.less',
+                'public/css/about.css': 'public/css/about.less'
             }
         }
     };

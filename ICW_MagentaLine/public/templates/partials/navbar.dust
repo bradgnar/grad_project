@@ -1,6 +1,9 @@
 <div class="navbar">
     <div class="navbar-item-containers">
-        <a href="#intro">Intro</a>
+        <a href="#intro">Main</a>
+    </div>
+    <div class="navbar-item-containers">
+        <a href="#about">About</a>
     </div>
     <div class="navbar-item-containers">
         <a href="#content">Map</a>

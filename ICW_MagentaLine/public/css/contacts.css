@@ -1,5 +1,8 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,600,400');
 @import url('http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,700,300');
+#contact {
+  border-bottom: 4px solid #000000;
+}
 #contact #contact-list-container {
   display: flex;
   position: relative;
@@ -26,4 +29,16 @@
 }
 #contact #contact-list-container mcguire-contact {
   flex-grow: 1;
+}
+#contact #contact-content {
+  position: relative;
+  left: 15%;
+  top: 20%;
+  width: 50%;
+  font-family: 'Open Sans', sans serif;
+  font-size: 120%;
+  font-weight: 400;
+  color: #000000;
+  text-align: justify;
+  text-justify: inter-word;
 }

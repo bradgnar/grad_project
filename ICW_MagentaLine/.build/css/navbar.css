@@ -23,6 +23,7 @@
   font-size: 160%;
   justify-content: flex-end;
   color: #000000;
+  margin-top: 1.5%;
 }
 .header .navbar .navbar-item-containers {
   width: 20%;
@@ -34,4 +35,5 @@
   color: #000000;
   position: relative;
   bottom: 0;
+  text-decoration: none;
 }
