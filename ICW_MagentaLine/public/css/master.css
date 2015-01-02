@@ -1,0 +1,27 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,600,400');
+@import url('http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,700,300');
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.screen-section {
+  width: 100%;
+  height: 100%;
+}
+/*#main-navbar {
+    position: fixed;
+    top: 90%;
+    left:0;
+    height: 10%;
+    width: 100%;
+    float: left;
+    background-color: @darkGray;
+    display: flex;
+    justify-content: center;
+
+    .main-navbar-item-containers {
+        color: @forest-green;
+    }
+}*/

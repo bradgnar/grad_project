@@ -1,35 +1,12 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,600,400');
 @import url('http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,700,300');
-/* line 6, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/map */
-#intro {
-  background: url(images/icw_sunset.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-/* line 15, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/map */
-.screen-section {
-  width: 100%;
-  height: 100%;
-  float: left;
-}
-/* line 22, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/map */
-#title {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-weight: 300;
-  font-size: 300%;
-  position: relative;
-  left: 50px;
-  top: 0px;
-  color: #ffffff;
-}
-/* line 35, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/map */
 #content {
   text-align: center;
 }
-/* line 38, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/map */
 #content #map-canvas {
+  position: relative;
+  top: 30%;
+  left: 25%;
   height: 50%;
   width: 50%;
   display: inline-block;

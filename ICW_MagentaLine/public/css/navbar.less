@@ -2,14 +2,38 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,600,400');
 @import url('http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,700,300');
 
-.navbar {
-    float: right;
-    display: inline-flex;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-weight: 700;
-    justify-content: flex-end;
+.header {
+    display: inline;
+    float: left;
 
-    .navbar-item-containers {
-        width: 10%;
+    h1 {
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-weight: 300;
+        font-size: 300%;
+        position: relative;
+        left: 50px;
+        top: 0px;
+        color: @black;
+        display: inline;
+        float: left;
+    }
+
+    .navbar {
+        float: right;
+        display: inline-flex;
+        width: 50%;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-weight: 700;
+        font-size: 160%;
+        justify-content: flex-end;
+        color: @black;
+
+        .navbar-item-containers {
+            width: 20%;
+
+            a:link, a:hover, a:visited, a:active {
+                color: @black;
+            }
+        }
     }
 }

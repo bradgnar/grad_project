@@ -1,0 +1,39 @@
+@import "color-swatch";
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,600,400');
+@import url('http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,700,300');
+
+#contact {
+
+    #contact-list-container {
+        display: flex;
+        position: relative;
+        top: 60%;
+        left: 15%;
+        width: 70%;
+
+        .contact-item {
+            font-family: 'Open Sans', sans serif;
+            font-size: 100%;
+            font-weight: 400;
+            color: @black;
+            width: 20%;
+
+            span {
+                display: block;
+            }
+        }
+
+        #brad-contact {
+            flex-grow: 1;
+        }
+
+        #survice-contact {
+            font-size: 150%;
+            flex-grow: 2;
+        }
+
+        mcguire-contact {
+            flex-grow: 1;
+        }
+    }
+}
