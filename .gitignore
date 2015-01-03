@@ -30,3 +30,19 @@ node_modules
 #Ignore ENC_ROOT anything
 ENC_ROOT/*
 ENC_ROOT*
+
+#ignore data files in the work to be cleaned
+work_to_be_cleaned/cli_csv2mongo/*.json
+work_to_be_cleaned/cli_csv2mongo/*.csv
+work_to_be_cleaned/cli_csv2mongo/*.txt
+work_to_be_cleaned/cli_csv2mongo/*.log
+work_to_be_cleaned/cli_csv2mongo/*.out
+work_to_be_cleaned/ogr_transform/*.json
+work_to_be_cleaned/ogr_transform/*.csv
+work_to_be_cleaned/ogr_transform/*.txt
+work_to_be_cleaned/ogr_transform/*.log
+work_to_be_cleaned/ogr_transform/*.out
+work_to_be_cleaned/cli_csv2mongo/*.kml
+work_to_be_cleaned/ogr_transform/*.kml
+work_to_be_cleaned/cli_csv2mongo/*.xml
+work_to_be_cleaned/ogr_transform/*.xml
