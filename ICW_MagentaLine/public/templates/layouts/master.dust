@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>{+title /}</title>
+    <link rel="stylesheet" href="/icw/components/bootstrap/dist/css/bootstrap.min.css"></link>
     <link rel="stylesheet" href="/icw/css/master.css"></link>
     <link rel="stylesheet" href="/icw/css/navbar.css"></link>
     {+headerIncludes /}

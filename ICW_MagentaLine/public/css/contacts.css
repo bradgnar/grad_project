@@ -20,12 +20,21 @@
 #contact #contact-list-container .contact-item span {
   display: block;
 }
+#contact #contact-list-container .contact-item span .email {
+  display: inline !important;
+}
+#contact #contact-list-container .contact-item a {
+  display: inline;
+}
 #contact #contact-list-container #brad-contact {
   flex-grow: 1;
 }
 #contact #contact-list-container #survice-contact {
   font-size: 150%;
   flex-grow: 2;
+}
+#contact #contact-list-container #survice-contact .email {
+  padding-top: 2px;
 }
 #contact #contact-list-container mcguire-contact {
   flex-grow: 1;

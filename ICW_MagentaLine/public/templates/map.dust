@@ -40,21 +40,19 @@
         </div>
         <div id="contact-list-container">
             <div id="brad-contact" class="contact-item">
-                <span>Bradley Smith</span>
-                <span>bksmith23@gmail.com</span>
+                <span><a href="mailto:bksmith23@gmail.com?subject=ICW_MagentaLine"><span class="email glyphicon glyphicon-envelope" aria-hidden="true"></a> Bradley Smith</span>
+                <span>Student Developer</span>
                 <span>(410) 279-3151</span>
             </div>
             <div id="survice-contact" class="contact-item">
-                <span>John Hersey</span>
+                <span><a href="mailto:Jogn.Hursey@survice.com?subject=ICW_MagentaLine"><span class="email glyphicon glyphicon-envelope" aria-hidden="true"></a> John Hersey</span>
                 <span>Survice Engineering</span>
-                <span>John.Hersey@survice.com</span>
                 <span>(410) 297-2378</span>
             </div>
             <div id="mcguire-contact" class="contact-item">
-                <span>Dr. Michael McGuire</span>
+                <span><a href="mailto:mmcguire@towson.edu?subject=ICW_MagentaLine"><span class="email glyphicon glyphicon-envelope" aria-hidden="true"></span></a> Dr. Michael McGuire</span>
                 <span>Towson University</span>
                 <span>(410) 704-2337</span>
-                <span>mmcguire@towson.edu</span>
             </div>
         </div>
     </section>
