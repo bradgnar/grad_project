@@ -2,6 +2,9 @@
   "name": "icw-magenta-line",
   "version": "0.0.1",
   "dependencies": {
-    "bootstrap": "~3.3.*"
+    "bootstrap": "~3.3.*",
+    "dustjs-linkedin": "~2.3.*",
+    "dustjs-linkedin-helpers": "~1.2.*",
+    "jquery": "2.1.*"
   }
 }
