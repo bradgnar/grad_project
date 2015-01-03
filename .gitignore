@@ -30,3 +30,6 @@ node_modules
 #Ignore ENC_ROOT anything
 ENC_ROOT/*
 ENC_ROOT*
+
+#ignore data files in the work to be cleaned
+work_to_be_cleaned/*
