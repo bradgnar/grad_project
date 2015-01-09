@@ -1,0 +1,759 @@
+-78.3556449
+33.9103621
+>>>>>>>>>>>>>>>
+{u'loc': [-78.36218, 33.90927], u'WLDepth_ft': 20.5, u'Vessel': u'C7C - Altair', u'Time': u'12:45:52', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2db'), u'StaticDraft': 2.0}
+{u'loc': [-78.36252, 33.90928], u'WLDepth_ft': 21.1, u'Vessel': u'C7C - Altair', u'Time': u'13:17:45', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2e0'), u'StaticDraft': 2.0}
+{u'loc': [-78.36243, 33.90928], u'WLDepth_ft': 21.0, u'Vessel': u'C7C - Altair', u'Time': u'13:17:47', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2e1'), u'StaticDraft': 2.0}
+{u'loc': [-78.36238, 33.90928], u'WLDepth_ft': 20.8, u'Vessel': u'C7C - Altair', u'Time': u'12:45:56', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2e2'), u'StaticDraft': 2.0}
+{u'loc': [-78.36233, 33.90928], u'WLDepth_ft': 21.4, u'Vessel': u'C7C - Altair', u'Time': u'13:17:49', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2e3'), u'StaticDraft': 2.0}
+{u'loc': [-78.36228, 33.90928], u'WLDepth_ft': 20.6, u'Vessel': u'C7C - Altair', u'Time': u'12:45:54', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2e4'), u'StaticDraft': 2.0}
+{u'loc': [-78.36223, 33.90928], u'WLDepth_ft': 21.0, u'Vessel': u'C7C - Altair', u'Time': u'13:17:51', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2e5'), u'StaticDraft': 2.0}
+{u'loc': [-78.3621, 33.90928], u'WLDepth_ft': 20.2, u'Vessel': u'C7C - Altair', u'Time': u'12:45:50', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2e6'), u'StaticDraft': 2.0}
+{u'loc': [-78.362, 33.90928], u'WLDepth_ft': 19.4, u'Vessel': u'C7C - Altair', u'Time': u'12:45:48', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2e7'), u'StaticDraft': 2.0}
+{u'loc': [-78.3619, 33.90928], u'WLDepth_ft': 18.9, u'Vessel': u'C7C - Altair', u'Time': u'12:45:46', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2e8'), u'StaticDraft': 2.0}
+{u'loc': [-78.36248, 33.9093], u'WLDepth_ft': 21.4, u'Vessel': u'C7C - Altair', u'Time': u'12:45:58', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2ec'), u'StaticDraft': 2.0}
+{u'loc': [-78.36213, 33.9093], u'WLDepth_ft': 21.1, u'Vessel': u'C7C - Altair', u'Time': u'13:17:53', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2ed'), u'StaticDraft': 2.0}
+{u'loc': [-78.36182, 33.9093], u'WLDepth_ft': 19.2, u'Vessel': u'C7C - Altair', u'Time': u'12:45:44', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2ee'), u'StaticDraft': 2.0}
+{u'loc': [-78.36172, 33.9093], u'WLDepth_ft': 18.7, u'Vessel': u'C7C - Altair', u'Time': u'12:45:42', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2ef'), u'StaticDraft': 2.0}
+{u'loc': [-78.36203, 33.90932], u'WLDepth_ft': 21.3, u'Vessel': u'C7C - Altair', u'Time': u'13:17:55', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2f5'), u'StaticDraft': 2.0}
+{u'loc': [-78.36162, 33.90932], u'WLDepth_ft': 18.9, u'Vessel': u'C7C - Altair', u'Time': u'12:45:40', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2f6'), u'StaticDraft': 2.0}
+{u'loc': [-78.36195, 33.90933], u'WLDepth_ft': 20.8, u'Vessel': u'C7C - Altair', u'Time': u'13:17:57', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2fe'), u'StaticDraft': 2.0}
+{u'loc': [-78.36153, 33.90933], u'WLDepth_ft': 19.1, u'Vessel': u'C7C - Altair', u'Time': u'12:45:38', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2ff'), u'StaticDraft': 2.0}
+{u'loc': [-78.36185, 33.90935], u'WLDepth_ft': 21.2, u'Vessel': u'C7C - Altair', u'Time': u'13:17:59', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc302'), u'StaticDraft': 2.0}
+{u'loc': [-78.36143, 33.90935], u'WLDepth_ft': 19.1, u'Vessel': u'C7C - Altair', u'Time': u'12:45:36', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc303'), u'StaticDraft': 2.0}
+-78.3428736
+33.9126555
+>>>>>>>>>>>>>>>
+{u'loc': [-78.34977, 33.9116], u'WLDepth_ft': 18.5, u'Vessel': u'C7C - Altair', u'Time': u'12:41:29', u'Date': u'2012-11-02', u'_id': ObjectId('54433673ddcb8703024bcb9e'), u'StaticDraft': 2.0}
+{u'loc': [-78.34976, 33.9116], u'WLDepth_ft': 18.5, u'Vessel': u'CDE - Altair', u'Time': u'18:17:18', u'Date': u'2014-05-23', u'_id': ObjectId('54433673ddcb8703024bcb9f'), u'StaticDraft': 2.0}
+{u'loc': [-78.34973, 33.9116], u'WLDepth_ft': 13.7, u'Vessel': u'1A1 - Marina Life', u'Time': u'13:42:53', u'Date': u'2013-06-17', u'_id': ObjectId('54433673ddcb8703024bcba0'), u'StaticDraft': 0.0}
+{u'loc': [-78.34978, 33.91162], u'WLDepth_ft': 19.3, u'Vessel': u'C7C - Altair', u'Time': u'13:22:14', u'Date': u'2012-05-21', u'_id': ObjectId('54433673ddcb8703024bcbae'), u'StaticDraft': 2.0}
+{u'loc': [-78.34972, 33.91162], u'WLDepth_ft': 17.8, u'Vessel': u'C7C - Altair', u'Time': u'12:52:18', u'Date': u'2013-04-14', u'_id': ObjectId('54433673ddcb8703024bcbaf'), u'StaticDraft': 2.0}
+{u'loc': [-78.34971, 33.91162], u'WLDepth_ft': 12.5, u'Vessel': u'C47 - Chez Nous', u'Time': u'17:41:00', u'Date': u'2011-09-26', u'_id': ObjectId('54433673ddcb8703024bcbb0'), u'StaticDraft': 1.3}
+{u'loc': [-78.34968, 33.91162], u'WLDepth_ft': 18.5, u'Vessel': u'C7C - Altair', u'Time': u'12:41:27', u'Date': u'2012-11-02', u'_id': ObjectId('54433673ddcb8703024bcbb1'), u'StaticDraft': 2.0}
+{u'loc': [-78.34967, 33.91162], u'WLDepth_ft': 13.7, u'Vessel': u'1A1 - Marina Life', u'Time': u'13:42:55', u'Date': u'2013-06-17', u'_id': ObjectId('54433673ddcb8703024bcbb2'), u'StaticDraft': 0.0}
+{u'loc': [-78.34966, 33.91162], u'WLDepth_ft': 18.4, u'Vessel': u'CDE - Altair', u'Time': u'18:17:20', u'Date': u'2014-05-23', u'_id': ObjectId('54433673ddcb8703024bcbb3'), u'StaticDraft': 2.0}
+{u'loc': [-78.34973, 33.91163], u'WLDepth_ft': 15.3, u'Vessel': u'CDE - Altair', u'Time': u'20:49:52', u'Date': u'2013-11-07', u'_id': ObjectId('54433673ddcb8703024bcbbe'), u'StaticDraft': 2.0}
+{u'loc': [-78.34968, 33.91163], u'WLDepth_ft': 19.1, u'Vessel': u'C7C - Altair', u'Time': u'13:22:16', u'Date': u'2012-05-21', u'_id': ObjectId('54433673ddcb8703024bcbbf'), u'StaticDraft': 2.0}
+{u'loc': [-78.34962, 33.91163], u'WLDepth_ft': 17.9, u'Vessel': u'C7C - Altair', u'Time': u'12:52:20', u'Date': u'2013-04-14', u'_id': ObjectId('54433673ddcb8703024bcbc0'), u'StaticDraft': 2.0}
+{u'loc': [-78.34958, 33.91163], u'WLDepth_ft': 13.4, u'Vessel': u'1A1 - Marina Life', u'Time': u'13:42:57', u'Date': u'2013-06-17', u'_id': ObjectId('54433673ddcb8703024bcbc1'), u'StaticDraft': 0.0}
+{u'loc': [-78.34958, 33.91163], u'WLDepth_ft': 17.9, u'Vessel': u'C7C - Altair', u'Time': u'12:41:25', u'Date': u'2012-11-02', u'_id': ObjectId('54433673ddcb8703024bcbc2'), u'StaticDraft': 2.0}
+{u'loc': [-78.34952, 33.91163], u'WLDepth_ft': 13.1, u'Vessel': u'1A1 - Marina Life', u'Time': u'13:42:59', u'Date': u'2013-06-17', u'_id': ObjectId('54433673ddcb8703024bcbc3'), u'StaticDraft': 0.0}
+{u'loc': [-78.34964, 33.91164], u'WLDepth_ft': 12.6, u'Vessel': u'C47 - Chez Nous', u'Time': u'17:40:58', u'Date': u'2011-09-26', u'_id': ObjectId('54433673ddcb8703024bcbc7'), u'StaticDraft': 1.3}
+{u'loc': [-78.34963, 33.91164], u'WLDepth_ft': 15.2, u'Vessel': u'CDE - Altair', u'Time': u'20:49:50', u'Date': u'2013-11-07', u'_id': ObjectId('54433673ddcb8703024bcbc8'), u'StaticDraft': 2.0}
+{u'loc': [-78.34956, 33.91164], u'WLDepth_ft': 18.1, u'Vessel': u'CDE - Altair', u'Time': u'18:17:22', u'Date': u'2014-05-23', u'_id': ObjectId('54433673ddcb8703024bcbc9'), u'StaticDraft': 2.0}
+{u'loc': [-78.34958, 33.91165], u'WLDepth_ft': 19.4, u'Vessel': u'C7C - Altair', u'Time': u'13:22:18', u'Date': u'2012-05-21', u'_id': ObjectId('54433673ddcb8703024bcbce'), u'StaticDraft': 2.0}
+{u'loc': [-78.34952, 33.91165], u'WLDepth_ft': 17.7, u'Vessel': u'C7C - Altair', u'Time': u'12:52:22', u'Date': u'2013-04-14', u'_id': ObjectId('54433673ddcb8703024bcbcf'), u'StaticDraft': 2.0}
+-78.336624
+33.9138148
+>>>>>>>>>>>>>>>
+{u'loc': [-78.3435, 33.91273], u'WLDepth_ft': 18.6, u'Vessel': u'C7C - Altair', u'Time': u'12:54:24', u'Date': u'2013-04-14', u'_id': ObjectId('54433674ddcb8703024bd004'), u'StaticDraft': 2.0}
+{u'loc': [-78.3434, 33.91275], u'WLDepth_ft': 18.9, u'Vessel': u'C7C - Altair', u'Time': u'12:54:26', u'Date': u'2013-04-14', u'_id': ObjectId('54433674ddcb8703024bd018'), u'StaticDraft': 2.0}
+{u'loc': [-78.3435, 33.91277], u'WLDepth_ft': 19.5, u'Vessel': u'C7C - Altair', u'Time': u'12:39:17', u'Date': u'2012-11-02', u'_id': ObjectId('54433674ddcb8703024bd02a'), u'StaticDraft': 2.0}
+{u'loc': [-78.34349, 33.91277], u'WLDepth_ft': 18.5, u'Vessel': u'CDE - Altair', u'Time': u'18:19:32', u'Date': u'2014-05-23', u'_id': ObjectId('54433674ddcb8703024bd02b'), u'StaticDraft': 2.0}
+{u'loc': [-78.34347, 33.91277], u'WLDepth_ft': 19.7, u'Vessel': u'C7C - Altair', u'Time': u'13:24:26', u'Date': u'2012-05-21', u'_id': ObjectId('54433674ddcb8703024bd02c'), u'StaticDraft': 2.0}
+{u'loc': [-78.34348, 33.91278], u'WLDepth_ft': 13.8, u'Vessel': u'1A1 - Marina Life', u'Time': u'13:45:41', u'Date': u'2013-06-17', u'_id': ObjectId('54433674ddcb8703024bd036'), u'StaticDraft': 0.0}
+{u'loc': [-78.34343, 33.91278], u'WLDepth_ft': 19.2, u'Vessel': u'CDE - Altair', u'Time': u'18:19:34', u'Date': u'2014-05-23', u'_id': ObjectId('54433674ddcb8703024bd037'), u'StaticDraft': 2.0}
+{u'loc': [-78.3434, 33.91278], u'WLDepth_ft': 19.9, u'Vessel': u'C7C - Altair', u'Time': u'12:39:15', u'Date': u'2012-11-02', u'_id': ObjectId('54433674ddcb8703024bd038'), u'StaticDraft': 2.0}
+{u'loc': [-78.34337, 33.91278], u'WLDepth_ft': 19.6, u'Vessel': u'C7C - Altair', u'Time': u'13:24:28', u'Date': u'2012-05-21', u'_id': ObjectId('54433674ddcb8703024bd039'), u'StaticDraft': 2.0}
+{u'loc': [-78.34332, 33.91278], u'WLDepth_ft': 18.5, u'Vessel': u'C7C - Altair', u'Time': u'12:54:28', u'Date': u'2013-04-14', u'_id': ObjectId('54433674ddcb8703024bd03a'), u'StaticDraft': 2.0}
+{u'loc': [-78.34354, 33.91279], u'WLDepth_ft': 12.6, u'Vessel': u'C47 - Chez Nous', u'Time': u'17:38:24', u'Date': u'2011-09-26', u'_id': ObjectId('54433674ddcb8703024bd042'), u'StaticDraft': 1.3}
+{u'loc': [-78.34353, 33.9128], u'WLDepth_ft': 19.5, u'Vessel': u'C7C - Chez Nous', u'Time': u'13:49:24', u'Date': u'2010-10-25', u'_id': ObjectId('54433674ddcb8703024bd049'), u'StaticDraft': 1.3}
+{u'loc': [-78.34346, 33.9128], u'WLDepth_ft': 12.8, u'Vessel': u'C47 - Chez Nous', u'Time': u'17:38:22', u'Date': u'2011-09-26', u'_id': ObjectId('54433674ddcb8703024bd04a'), u'StaticDraft': 1.3}
+{u'loc': [-78.3434, 33.9128], u'WLDepth_ft': 13.1, u'Vessel': u'1A1 - Marina Life', u'Time': u'13:45:42', u'Date': u'2013-06-17', u'_id': ObjectId('54433674ddcb8703024bd04b'), u'StaticDraft': 0.0}
+{u'loc': [-78.34338, 33.9128], u'WLDepth_ft': 18.7, u'Vessel': u'CDE - Altair', u'Time': u'18:19:36', u'Date': u'2014-05-23', u'_id': ObjectId('54433674ddcb8703024bd04c'), u'StaticDraft': 2.0}
+{u'loc': [-78.3433, 33.9128], u'WLDepth_ft': 19.9, u'Vessel': u'C7C - Altair', u'Time': u'12:39:13', u'Date': u'2012-11-02', u'_id': ObjectId('54433674ddcb8703024bd04d'), u'StaticDraft': 2.0}
+{u'loc': [-78.34327, 33.9128], u'WLDepth_ft': 20.7, u'Vessel': u'C7C - Altair', u'Time': u'13:24:30', u'Date': u'2012-05-21', u'_id': ObjectId('54433674ddcb8703024bd04e'), u'StaticDraft': 2.0}
+{u'loc': [-78.34323, 33.9128], u'WLDepth_ft': 19.3, u'Vessel': u'C7C - Altair', u'Time': u'12:54:30', u'Date': u'2013-04-14', u'_id': ObjectId('54433674ddcb8703024bd04f'), u'StaticDraft': 2.0}
+{u'loc': [-78.34353, 33.91281], u'WLDepth_ft': 15.7, u'Vessel': u'CDE - Altair', u'Time': u'20:47:48', u'Date': u'2013-11-07', u'_id': ObjectId('54433674ddcb8703024bd053'), u'StaticDraft': 2.0}
+{u'loc': [-78.34332, 33.91281], u'WLDepth_ft': 18.7, u'Vessel': u'CDE - Altair', u'Time': u'18:19:38', u'Date': u'2014-05-23', u'_id': ObjectId('54433674ddcb8703024bd054'), u'StaticDraft': 2.0}
+-78.3295757
+33.9144068
+>>>>>>>>>>>>>>>
+{u'loc': [-78.3365, 33.91398], u'WLDepth_ft': 20.4, u'Vessel': u'C7C - Altair', u'Time': u'13:26:50', u'Date': u'2012-05-21', u'_id': ObjectId('54433675ddcb8703024bd4c7'), u'StaticDraft': 2.0}
+{u'loc': [-78.3364, 33.914], u'WLDepth_ft': 20.4, u'Vessel': u'C7C - Altair', u'Time': u'13:26:52', u'Date': u'2012-05-21', u'_id': ObjectId('54433675ddcb8703024bd4cf'), u'StaticDraft': 2.0}
+{u'loc': [-78.3363, 33.914], u'WLDepth_ft': 20.0, u'Vessel': u'C7C - Altair', u'Time': u'13:26:54', u'Date': u'2012-05-21', u'_id': ObjectId('54433675ddcb8703024bd4d0'), u'StaticDraft': 2.0}
+{u'loc': [-78.33656, 33.91402], u'WLDepth_ft': 13.5, u'Vessel': u'C47 - Chez Nous', u'Time': u'17:35:28', u'Date': u'2011-09-26', u'_id': ObjectId('54433675ddcb8703024bd4de'), u'StaticDraft': 1.3}
+{u'loc': [-78.3362, 33.91402], u'WLDepth_ft': 19.9, u'Vessel': u'C7C - Altair', u'Time': u'13:26:56', u'Date': u'2012-05-21', u'_id': ObjectId('54433675ddcb8703024bd4df'), u'StaticDraft': 2.0}
+{u'loc': [-78.3361, 33.91402], u'WLDepth_ft': 19.8, u'Vessel': u'C7C - Altair', u'Time': u'13:26:58', u'Date': u'2012-05-21', u'_id': ObjectId('54433675ddcb8703024bd4e0'), u'StaticDraft': 2.0}
+{u'loc': [-78.33602, 33.91403], u'WLDepth_ft': 19.5, u'Vessel': u'C7C - Altair', u'Time': u'13:27:00', u'Date': u'2012-05-21', u'_id': ObjectId('54433675ddcb8703024bd4e7'), u'StaticDraft': 2.0}
+{u'loc': [-78.33592, 33.91403], u'WLDepth_ft': 19.7, u'Vessel': u'C7C - Altair', u'Time': u'13:27:02', u'Date': u'2012-05-21', u'_id': ObjectId('54433675ddcb8703024bd4e8'), u'StaticDraft': 2.0}
+{u'loc': [-78.33648, 33.91404], u'WLDepth_ft': 13.4, u'Vessel': u'C47 - Chez Nous', u'Time': u'17:35:26', u'Date': u'2011-09-26', u'_id': ObjectId('54433675ddcb8703024bd4ec'), u'StaticDraft': 1.3}
+{u'loc': [-78.33614, 33.91404], u'WLDepth_ft': 18.8, u'Vessel': u'CDE - Altair', u'Time': u'18:22:38', u'Date': u'2014-05-23', u'_id': ObjectId('54433675ddcb8703024bd4ed'), u'StaticDraft': 2.0}
+{u'loc': [-78.33656, 33.91405], u'WLDepth_ft': 19.5, u'Vessel': u'C7C - Chez Nous', u'Time': u'13:46:28', u'Date': u'2010-10-25', u'_id': ObjectId('54433675ddcb8703024bd4f2'), u'StaticDraft': 1.3}
+{u'loc': [-78.33653, 33.91405], u'WLDepth_ft': 18.5, u'Vessel': u'C7C - Altair', u'Time': u'12:57:24', u'Date': u'2013-04-14', u'_id': ObjectId('54433675ddcb8703024bd4f3'), u'StaticDraft': 2.0}
+{u'loc': [-78.33648, 33.91405], u'WLDepth_ft': 20.3, u'Vessel': u'C7C - Altair', u'Time': u'12:36:43', u'Date': u'2012-11-02', u'_id': ObjectId('54433675ddcb8703024bd4f4'), u'StaticDraft': 2.0}
+{u'loc': [-78.3364, 33.91405], u'WLDepth_ft': 13.5, u'Vessel': u'C47 - Chez Nous', u'Time': u'17:35:24', u'Date': u'2011-09-26', u'_id': ObjectId('54433675ddcb8703024bd4f5'), u'StaticDraft': 1.3}
+{u'loc': [-78.3364, 33.91405], u'WLDepth_ft': 20.1, u'Vessel': u'C7C - Altair', u'Time': u'12:36:41', u'Date': u'2012-11-02', u'_id': ObjectId('54433675ddcb8703024bd4f6'), u'StaticDraft': 2.0}
+{u'loc': [-78.33604, 33.91405], u'WLDepth_ft': 19.1, u'Vessel': u'CDE - Altair', u'Time': u'18:22:40', u'Date': u'2014-05-23', u'_id': ObjectId('54433675ddcb8703024bd4f7'), u'StaticDraft': 2.0}
+{u'loc': [-78.33582, 33.91405], u'WLDepth_ft': 18.3, u'Vessel': u'C7C - Altair', u'Time': u'13:27:04', u'Date': u'2012-05-21', u'_id': ObjectId('54433675ddcb8703024bd4f8'), u'StaticDraft': 2.0}
+{u'loc': [-78.33572, 33.91405], u'WLDepth_ft': 19.4, u'Vessel': u'C7C - Altair', u'Time': u'13:27:06', u'Date': u'2012-05-21', u'_id': ObjectId('54433675ddcb8703024bd4f9'), u'StaticDraft': 2.0}
+{u'loc': [-78.33562, 33.91405], u'WLDepth_ft': 18.6, u'Vessel': u'C7C - Altair', u'Time': u'13:27:08', u'Date': u'2012-05-21', u'_id': ObjectId('54433675ddcb8703024bd4fa'), u'StaticDraft': 2.0}
+{u'loc': [-78.33649, 33.91406], u'WLDepth_ft': 16.3, u'Vessel': u'CDE - Altair', u'Time': u'20:45:22', u'Date': u'2013-11-07', u'_id': ObjectId('54433675ddcb8703024bd4fb'), u'StaticDraft': 2.0}
+-78.4751083
+33.8890383
+>>>>>>>>>>>>>>>
+{u'loc': [-78.48205, 33.88838], u'WLDepth_ft': 16.4, u'Vessel': u'C7C - Altair', u'Time': u'11:59:23', u'Date': u'2013-04-14', u'_id': ObjectId('54433669ddcb8703024b7967'), u'StaticDraft': 2.0}
+{u'loc': [-78.48199, 33.88838], u'WLDepth_ft': 17.4, u'Vessel': u'CDE - Altair', u'Time': u'17:22:08', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b7968'), u'StaticDraft': 2.0}
+{u'loc': [-78.4819, 33.88839], u'WLDepth_ft': 17.3, u'Vessel': u'CDE - Altair', u'Time': u'17:22:10', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b796b'), u'StaticDraft': 2.0}
+{u'loc': [-78.48195, 33.8884], u'WLDepth_ft': 16.8, u'Vessel': u'C7C - Altair', u'Time': u'11:59:25', u'Date': u'2013-04-14', u'_id': ObjectId('54433669ddcb8703024b7970'), u'StaticDraft': 2.0}
+{u'loc': [-78.48181, 33.8884], u'WLDepth_ft': 16.9, u'Vessel': u'CDE - Altair', u'Time': u'17:22:12', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b7971'), u'StaticDraft': 2.0}
+{u'loc': [-78.48205, 33.88842], u'WLDepth_ft': 19.3, u'Vessel': u'C7C - Altair', u'Time': u'12:32:59', u'Date': u'2012-05-21', u'_id': ObjectId('54433669ddcb8703024b7979'), u'StaticDraft': 2.0}
+{u'loc': [-78.48187, 33.88842], u'WLDepth_ft': 16.9, u'Vessel': u'C7C - Altair', u'Time': u'11:59:27', u'Date': u'2013-04-14', u'_id': ObjectId('54433669ddcb8703024b797a'), u'StaticDraft': 2.0}
+{u'loc': [-78.48177, 33.88842], u'WLDepth_ft': 16.2, u'Vessel': u'C7C - Altair', u'Time': u'11:59:29', u'Date': u'2013-04-14', u'_id': ObjectId('54433669ddcb8703024b797b'), u'StaticDraft': 2.0}
+{u'loc': [-78.48171, 33.88842], u'WLDepth_ft': 17.3, u'Vessel': u'CDE - Altair', u'Time': u'17:22:14', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b797c'), u'StaticDraft': 2.0}
+{u'loc': [-78.48195, 33.88843], u'WLDepth_ft': 18.8, u'Vessel': u'C7C - Altair', u'Time': u'12:33:01', u'Date': u'2012-05-21', u'_id': ObjectId('54433669ddcb8703024b7981'), u'StaticDraft': 2.0}
+{u'loc': [-78.48167, 33.88843], u'WLDepth_ft': 16.6, u'Vessel': u'C7C - Altair', u'Time': u'11:59:31', u'Date': u'2013-04-14', u'_id': ObjectId('54433669ddcb8703024b7982'), u'StaticDraft': 2.0}
+{u'loc': [-78.48162, 33.88843], u'WLDepth_ft': 17.2, u'Vessel': u'CDE - Altair', u'Time': u'17:22:16', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b7983'), u'StaticDraft': 2.0}
+{u'loc': [-78.48153, 33.88844], u'WLDepth_ft': 17.4, u'Vessel': u'CDE - Altair', u'Time': u'17:22:18', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b7986'), u'StaticDraft': 2.0}
+{u'loc': [-78.48185, 33.88845], u'WLDepth_ft': 19.3, u'Vessel': u'C7C - Altair', u'Time': u'12:33:03', u'Date': u'2012-05-21', u'_id': ObjectId('54433669ddcb8703024b7989'), u'StaticDraft': 2.0}
+{u'loc': [-78.48158, 33.88845], u'WLDepth_ft': 16.8, u'Vessel': u'C7C - Altair', u'Time': u'11:59:33', u'Date': u'2013-04-14', u'_id': ObjectId('54433669ddcb8703024b798a'), u'StaticDraft': 2.0}
+{u'loc': [-78.48144, 33.88845], u'WLDepth_ft': 16.8, u'Vessel': u'CDE - Altair', u'Time': u'17:22:20', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b798b'), u'StaticDraft': 2.0}
+{u'loc': [-78.48135, 33.88846], u'WLDepth_ft': 17.1, u'Vessel': u'CDE - Altair', u'Time': u'17:22:22', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b798e'), u'StaticDraft': 2.0}
+{u'loc': [-78.48175, 33.88847], u'WLDepth_ft': 19.5, u'Vessel': u'C7C - Altair', u'Time': u'12:33:05', u'Date': u'2012-05-21', u'_id': ObjectId('54433669ddcb8703024b7992'), u'StaticDraft': 2.0}
+{u'loc': [-78.48148, 33.88847], u'WLDepth_ft': 16.4, u'Vessel': u'C7C - Altair', u'Time': u'11:59:35', u'Date': u'2013-04-14', u'_id': ObjectId('54433669ddcb8703024b7993'), u'StaticDraft': 2.0}
+{u'loc': [-78.48138, 33.88847], u'WLDepth_ft': 16.2, u'Vessel': u'C7C - Altair', u'Time': u'11:59:37', u'Date': u'2013-04-14', u'_id': ObjectId('54433669ddcb8703024b7994'), u'StaticDraft': 2.0}
+-78.454549
+33.8925632
+>>>>>>>>>>>>>>>
+{u'loc': [-78.46139, 33.89134], u'WLDepth_ft': 16.3, u'Vessel': u'CDE - Altair', u'Time': u'17:30:42', u'Date': u'2014-05-23', u'_id': ObjectId('5443366addcb8703024b80e4'), u'StaticDraft': 2.0}
+{u'loc': [-78.4613, 33.89136], u'WLDepth_ft': 17.0, u'Vessel': u'CDE - Altair', u'Time': u'17:30:44', u'Date': u'2014-05-23', u'_id': ObjectId('5443366addcb8703024b80f0'), u'StaticDraft': 2.0}
+{u'loc': [-78.46122, 33.89137], u'WLDepth_ft': 16.1, u'Vessel': u'CDE - Altair', u'Time': u'17:30:46', u'Date': u'2014-05-23', u'_id': ObjectId('5443366addcb8703024b80f2'), u'StaticDraft': 2.0}
+{u'loc': [-78.46113, 33.89139], u'WLDepth_ft': 16.5, u'Vessel': u'CDE - Altair', u'Time': u'17:30:48', u'Date': u'2014-05-23', u'_id': ObjectId('5443366addcb8703024b80fa'), u'StaticDraft': 2.0}
+{u'loc': [-78.46105, 33.89141], u'WLDepth_ft': 16.1, u'Vessel': u'CDE - Altair', u'Time': u'17:30:50', u'Date': u'2014-05-23', u'_id': ObjectId('5443366addcb8703024b8100'), u'StaticDraft': 2.0}
+{u'loc': [-78.46097, 33.89143], u'WLDepth_ft': 16.1, u'Vessel': u'CDE - Altair', u'Time': u'17:30:52', u'Date': u'2014-05-23', u'_id': ObjectId('5443366addcb8703024b8108'), u'StaticDraft': 2.0}
+{u'loc': [-78.46142, 33.89145], u'WLDepth_ft': 11.9, u'Vessel': u'1A1 - Marina Life', u'Time': u'12:49:26', u'Date': u'2013-06-17', u'_id': ObjectId('5443366addcb8703024b810d'), u'StaticDraft': 0.0}
+{u'loc': [-78.46089, 33.89145], u'WLDepth_ft': 15.9, u'Vessel': u'CDE - Altair', u'Time': u'17:30:54', u'Date': u'2014-05-23', u'_id': ObjectId('5443366addcb8703024b810e'), u'StaticDraft': 2.0}
+{u'loc': [-78.4608, 33.89147], u'WLDepth_ft': 16.5, u'Vessel': u'CDE - Altair', u'Time': u'17:30:56', u'Date': u'2014-05-23', u'_id': ObjectId('5443366addcb8703024b8118'), u'StaticDraft': 2.0}
+{u'loc': [-78.4613, 33.89148], u'WLDepth_ft': 11.9, u'Vessel': u'1A1 - Marina Life', u'Time': u'12:49:29', u'Date': u'2013-06-17', u'_id': ObjectId('5443366addcb8703024b811b'), u'StaticDraft': 0.0}
+{u'loc': [-78.46123, 33.89148], u'WLDepth_ft': 12.0, u'Vessel': u'1A1 - Marina Life', u'Time': u'12:49:31', u'Date': u'2013-06-17', u'_id': ObjectId('5443366addcb8703024b811c'), u'StaticDraft': 0.0}
+{u'loc': [-78.46072, 33.89149], u'WLDepth_ft': 16.1, u'Vessel': u'CDE - Altair', u'Time': u'17:30:58', u'Date': u'2014-05-23', u'_id': ObjectId('5443366addcb8703024b8121'), u'StaticDraft': 2.0}
+{u'loc': [-78.46146, 33.8915], u'WLDepth_ft': 13.4, u'Vessel': u'CDE - Altair', u'Time': u'21:32:56', u'Date': u'2013-11-07', u'_id': ObjectId('5443366addcb8703024b8125'), u'StaticDraft': 2.0}
+{u'loc': [-78.46064, 33.89151], u'WLDepth_ft': 16.0, u'Vessel': u'CDE - Altair', u'Time': u'17:31:00', u'Date': u'2014-05-23', u'_id': ObjectId('5443366addcb8703024b8127'), u'StaticDraft': 2.0}
+{u'loc': [-78.46147, 33.89152], u'WLDepth_ft': 17.4, u'Vessel': u'C7C - Altair', u'Time': u'15:55:33', u'Date': u'2011-11-11', u'_id': ObjectId('5443366addcb8703024b812b'), u'StaticDraft': 2.0}
+{u'loc': [-78.4614, 33.89152], u'WLDepth_ft': 19.1, u'Vessel': u'C7C - Altair', u'Time': u'13:21:10', u'Date': u'2012-11-02', u'_id': ObjectId('5443366addcb8703024b812c'), u'StaticDraft': 2.0}
+{u'loc': [-78.46137, 33.89152], u'WLDepth_ft': 13.8, u'Vessel': u'CDE - Altair', u'Time': u'21:32:54', u'Date': u'2013-11-07', u'_id': ObjectId('5443366addcb8703024b812d'), u'StaticDraft': 2.0}
+{u'loc': [-78.46122, 33.89152], u'WLDepth_ft': 16.1, u'Vessel': u'C7C - Altair', u'Time': u'12:07:47', u'Date': u'2013-04-14', u'_id': ObjectId('5443366addcb8703024b812e'), u'StaticDraft': 2.0}
+{u'loc': [-78.46115, 33.89152], u'WLDepth_ft': 12.0, u'Vessel': u'1A1 - Marina Life', u'Time': u'12:49:33', u'Date': u'2013-06-17', u'_id': ObjectId('5443366addcb8703024b812f'), u'StaticDraft': 0.0}
+{u'loc': [-78.4613, 33.89153], u'WLDepth_ft': 18.9, u'Vessel': u'C7C - Altair', u'Time': u'13:21:08', u'Date': u'2012-11-02', u'_id': ObjectId('5443366addcb8703024b8132'), u'StaticDraft': 2.0}
+-78.4442531
+33.8947593
+>>>>>>>>>>>>>>>
+{u'loc': [-78.45109, 33.89346], u'WLDepth_ft': 17.7, u'Vessel': u'CDE - Altair', u'Time': u'17:34:48', u'Date': u'2014-05-23', u'_id': ObjectId('5443366bddcb8703024b86b1'), u'StaticDraft': 2.0}
+{u'loc': [-78.45113, 33.89348], u'WLDepth_ft': 18.9, u'Vessel': u'C7C - Altair', u'Time': u'12:44:33', u'Date': u'2012-05-21', u'_id': ObjectId('5443366bddcb8703024b86cc'), u'StaticDraft': 2.0}
+{u'loc': [-78.451, 33.89348], u'WLDepth_ft': 17.5, u'Vessel': u'CDE - Altair', u'Time': u'17:34:50', u'Date': u'2014-05-23', u'_id': ObjectId('5443366bddcb8703024b86cd'), u'StaticDraft': 2.0}
+{u'loc': [-78.45113, 33.8935], u'WLDepth_ft': 16.6, u'Vessel': u'C7C - Altair', u'Time': u'12:11:38', u'Date': u'2013-04-14', u'_id': ObjectId('5443366bddcb8703024b86dd'), u'StaticDraft': 2.0}
+{u'loc': [-78.45107, 33.8935], u'WLDepth_ft': 17.9, u'Vessel': u'C7C - Chez Nous', u'Time': u'14:37:02', u'Date': u'2010-10-25', u'_id': ObjectId('5443366bddcb8703024b86de'), u'StaticDraft': 1.3}
+{u'loc': [-78.45103, 33.8935], u'WLDepth_ft': 19.4, u'Vessel': u'C7C - Altair', u'Time': u'12:44:35', u'Date': u'2012-05-21', u'_id': ObjectId('5443366bddcb8703024b86df'), u'StaticDraft': 2.0}
+{u'loc': [-78.45092, 33.8935], u'WLDepth_ft': 17.8, u'Vessel': u'CDE - Altair', u'Time': u'17:34:52', u'Date': u'2014-05-23', u'_id': ObjectId('5443366bddcb8703024b86e0'), u'StaticDraft': 2.0}
+{u'loc': [-78.45084, 33.89351], u'WLDepth_ft': 17.6, u'Vessel': u'CDE - Altair', u'Time': u'17:34:54', u'Date': u'2014-05-23', u'_id': ObjectId('5443366bddcb8703024b86ea'), u'StaticDraft': 2.0}
+{u'loc': [-78.45109, 33.89352], u'WLDepth_ft': 14.3, u'Vessel': u'CDE - Altair', u'Time': u'21:29:10', u'Date': u'2013-11-07', u'_id': ObjectId('5443366bddcb8703024b86f4'), u'StaticDraft': 2.0}
+{u'loc': [-78.45105, 33.89352], u'WLDepth_ft': 17.1, u'Vessel': u'C7C - Altair', u'Time': u'12:11:40', u'Date': u'2013-04-14', u'_id': ObjectId('5443366bddcb8703024b86f5'), u'StaticDraft': 2.0}
+{u'loc': [-78.45099, 33.89352], u'WLDepth_ft': 18.0, u'Vessel': u'C7C - Chez Nous', u'Time': u'14:37:00', u'Date': u'2010-10-25', u'_id': ObjectId('5443366bddcb8703024b86f6'), u'StaticDraft': 1.3}
+{u'loc': [-78.45093, 33.89352], u'WLDepth_ft': 18.9, u'Vessel': u'C7C - Altair', u'Time': u'12:44:37', u'Date': u'2012-05-21', u'_id': ObjectId('5443366bddcb8703024b86f7'), u'StaticDraft': 2.0}
+{u'loc': [-78.45095, 33.89353], u'WLDepth_ft': 16.9, u'Vessel': u'C7C - Altair', u'Time': u'12:11:42', u'Date': u'2013-04-14', u'_id': ObjectId('5443366bddcb8703024b8700'), u'StaticDraft': 2.0}
+{u'loc': [-78.45083, 33.89353], u'WLDepth_ft': 19.7, u'Vessel': u'C7C - Altair', u'Time': u'12:44:39', u'Date': u'2012-05-21', u'_id': ObjectId('5443366bddcb8703024b8701'), u'StaticDraft': 2.0}
+{u'loc': [-78.45076, 33.89353], u'WLDepth_ft': 17.8, u'Vessel': u'CDE - Altair', u'Time': u'17:34:56', u'Date': u'2014-05-23', u'_id': ObjectId('5443366bddcb8703024b8702'), u'StaticDraft': 2.0}
+{u'loc': [-78.45091, 33.89354], u'WLDepth_ft': 17.9, u'Vessel': u'C7C - Chez Nous', u'Time': u'14:36:58', u'Date': u'2010-10-25', u'_id': ObjectId('5443366bddcb8703024b8706'), u'StaticDraft': 1.3}
+{u'loc': [-78.451, 33.89355], u'WLDepth_ft': 14.5, u'Vessel': u'CDE - Altair', u'Time': u'21:29:08', u'Date': u'2013-11-07', u'_id': ObjectId('5443366bddcb8703024b8711'), u'StaticDraft': 2.0}
+{u'loc': [-78.45087, 33.89355], u'WLDepth_ft': 17.0, u'Vessel': u'C7C - Altair', u'Time': u'12:11:44', u'Date': u'2013-04-14', u'_id': ObjectId('5443366bddcb8703024b8712'), u'StaticDraft': 2.0}
+{u'loc': [-78.45084, 33.89355], u'WLDepth_ft': 17.9, u'Vessel': u'C7C - Chez Nous', u'Time': u'14:36:56', u'Date': u'2010-10-25', u'_id': ObjectId('5443366bddcb8703024b8713'), u'StaticDraft': 1.3}
+{u'loc': [-78.45073, 33.89355], u'WLDepth_ft': 18.9, u'Vessel': u'C7C - Altair', u'Time': u'12:44:41', u'Date': u'2012-05-21', u'_id': ObjectId('5443366bddcb8703024b8714'), u'StaticDraft': 2.0}
+-78.4675222
+33.8903922
+>>>>>>>>>>>>>>>
+{u'loc': [-78.47437, 33.88925], u'WLDepth_ft': 19.3, u'Vessel': u'C7C - Altair', u'Time': u'12:35:37', u'Date': u'2012-05-21', u'_id': ObjectId('54433669ddcb8703024b7b8a'), u'StaticDraft': 2.0}
+{u'loc': [-78.4744, 33.88926], u'WLDepth_ft': 16.5, u'Vessel': u'CDE - Altair', u'Time': u'17:24:54', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b7b8f'), u'StaticDraft': 2.0}
+{u'loc': [-78.47432, 33.88926], u'WLDepth_ft': 17.0, u'Vessel': u'CDE - Altair', u'Time': u'17:24:56', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b7b90'), u'StaticDraft': 2.0}
+{u'loc': [-78.47424, 33.88926], u'WLDepth_ft': 16.5, u'Vessel': u'CDE - Altair', u'Time': u'17:24:58', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b7b91'), u'StaticDraft': 2.0}
+{u'loc': [-78.47417, 33.88926], u'WLDepth_ft': 16.5, u'Vessel': u'CDE - Altair', u'Time': u'17:25:00', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b7b92'), u'StaticDraft': 2.0}
+{u'loc': [-78.4741, 33.88926], u'WLDepth_ft': 16.8, u'Vessel': u'CDE - Altair', u'Time': u'17:25:02', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b7b93'), u'StaticDraft': 2.0}
+{u'loc': [-78.47428, 33.88927], u'WLDepth_ft': 18.9, u'Vessel': u'C7C - Altair', u'Time': u'12:35:39', u'Date': u'2012-05-21', u'_id': ObjectId('54433669ddcb8703024b7b9b'), u'StaticDraft': 2.0}
+{u'loc': [-78.47422, 33.88927], u'WLDepth_ft': 19.4, u'Vessel': u'C7C - Altair', u'Time': u'12:35:41', u'Date': u'2012-05-21', u'_id': ObjectId('54433669ddcb8703024b7b9c'), u'StaticDraft': 2.0}
+{u'loc': [-78.47403, 33.88927], u'WLDepth_ft': 16.6, u'Vessel': u'CDE - Altair', u'Time': u'17:25:04', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b7b9d'), u'StaticDraft': 2.0}
+{u'loc': [-78.47396, 33.88927], u'WLDepth_ft': 16.2, u'Vessel': u'CDE - Altair', u'Time': u'17:25:06', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b7b9e'), u'StaticDraft': 2.0}
+{u'loc': [-78.4739, 33.88927], u'WLDepth_ft': 17.0, u'Vessel': u'CDE - Altair', u'Time': u'17:25:08', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b7b9f'), u'StaticDraft': 2.0}
+{u'loc': [-78.47413, 33.88928], u'WLDepth_ft': 19.5, u'Vessel': u'C7C - Altair', u'Time': u'12:35:43', u'Date': u'2012-05-21', u'_id': ObjectId('54433669ddcb8703024b7baa'), u'StaticDraft': 2.0}
+{u'loc': [-78.47407, 33.88928], u'WLDepth_ft': 19.6, u'Vessel': u'C7C - Altair', u'Time': u'12:35:45', u'Date': u'2012-05-21', u'_id': ObjectId('54433669ddcb8703024b7bab'), u'StaticDraft': 2.0}
+{u'loc': [-78.47398, 33.88928], u'WLDepth_ft': 19.5, u'Vessel': u'C7C - Altair', u'Time': u'12:35:47', u'Date': u'2012-05-21', u'_id': ObjectId('54433669ddcb8703024b7bac'), u'StaticDraft': 2.0}
+{u'loc': [-78.47383, 33.88928], u'WLDepth_ft': 16.2, u'Vessel': u'CDE - Altair', u'Time': u'17:25:10', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b7bad'), u'StaticDraft': 2.0}
+{u'loc': [-78.47377, 33.88928], u'WLDepth_ft': 16.0, u'Vessel': u'CDE - Altair', u'Time': u'17:25:12', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b7bae'), u'StaticDraft': 2.0}
+{u'loc': [-78.47371, 33.88928], u'WLDepth_ft': 16.2, u'Vessel': u'CDE - Altair', u'Time': u'17:25:14', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b7baf'), u'StaticDraft': 2.0}
+{u'loc': [-78.47365, 33.88928], u'WLDepth_ft': 16.1, u'Vessel': u'CDE - Altair', u'Time': u'17:25:16', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b7bb0'), u'StaticDraft': 2.0}
+{u'loc': [-78.47358, 33.88928], u'WLDepth_ft': 15.2, u'Vessel': u'CDE - Altair', u'Time': u'17:25:18', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b7bb1'), u'StaticDraft': 2.0}
+{u'loc': [-78.47352, 33.88929], u'WLDepth_ft': 16.1, u'Vessel': u'CDE - Altair', u'Time': u'17:25:20', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b7bb4'), u'StaticDraft': 2.0}
+-78.4266468
+33.8980127
+>>>>>>>>>>>>>>>
+{u'loc': [-78.42969, 33.89171], u'WLDepth_ft': 11.3, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:47:22', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b8192'), u'StaticDraft': 1.0}
+{u'loc': [-78.42971, 33.89172], u'WLDepth_ft': 11.3, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:49:54', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b819b'), u'StaticDraft': 1.0}
+{u'loc': [-78.42969, 33.89172], u'WLDepth_ft': 11.2, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:47:21', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b819c'), u'StaticDraft': 1.0}
+{u'loc': [-78.42972, 33.89174], u'WLDepth_ft': 11.4, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:49:55', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b81a6'), u'StaticDraft': 1.0}
+{u'loc': [-78.4297, 33.89174], u'WLDepth_ft': 11.1, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:47:20', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b81a7'), u'StaticDraft': 1.0}
+{u'loc': [-78.42972, 33.89175], u'WLDepth_ft': 11.1, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:49:56', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b81ac'), u'StaticDraft': 1.0}
+{u'loc': [-78.42973, 33.89176], u'WLDepth_ft': 11.4, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:49:57', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b81b0'), u'StaticDraft': 1.0}
+{u'loc': [-78.42971, 33.89176], u'WLDepth_ft': 11.3, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:47:19', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b81b1'), u'StaticDraft': 1.0}
+{u'loc': [-78.42973, 33.89178], u'WLDepth_ft': 11.4, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:49:58', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b81bd'), u'StaticDraft': 1.0}
+{u'loc': [-78.42971, 33.89178], u'WLDepth_ft': 11.2, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:47:18', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b81be'), u'StaticDraft': 1.0}
+{u'loc': [-78.42974, 33.89179], u'WLDepth_ft': 11.0, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:49:59', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b81c2'), u'StaticDraft': 1.0}
+{u'loc': [-78.42972, 33.89179], u'WLDepth_ft': 11.0, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:47:17', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b81c3'), u'StaticDraft': 1.0}
+{u'loc': [-78.42974, 33.89181], u'WLDepth_ft': 11.0, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:50:00', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b81cd'), u'StaticDraft': 1.0}
+{u'loc': [-78.42973, 33.89181], u'WLDepth_ft': 11.0, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:47:16', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b81ce'), u'StaticDraft': 1.0}
+{u'loc': [-78.42975, 33.89182], u'WLDepth_ft': 11.0, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:50:01', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b81d5'), u'StaticDraft': 1.0}
+{u'loc': [-78.42974, 33.89182], u'WLDepth_ft': 10.9, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:47:15', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b81d6'), u'StaticDraft': 1.0}
+{u'loc': [-78.42975, 33.89184], u'WLDepth_ft': 10.9, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:50:02', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b81df'), u'StaticDraft': 1.0}
+{u'loc': [-78.42974, 33.89184], u'WLDepth_ft': 11.1, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:47:14', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b81e0'), u'StaticDraft': 1.0}
+{u'loc': [-78.42976, 33.89185], u'WLDepth_ft': 11.0, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:50:03', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b81e9'), u'StaticDraft': 1.0}
+{u'loc': [-78.42975, 33.89185], u'WLDepth_ft': 11.0, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:47:13', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b81ea'), u'StaticDraft': 1.0}
+-78.4307914
+33.8967753
+>>>>>>>>>>>>>>>
+{u'loc': [-78.42939, 33.8907], u'WLDepth_ft': 10.7, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:48:40', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b7f7e'), u'StaticDraft': 1.0}
+{u'loc': [-78.42938, 33.8907], u'WLDepth_ft': 10.5, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:48:39', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b7f7f'), u'StaticDraft': 1.0}
+{u'loc': [-78.42938, 33.8907], u'WLDepth_ft': 10.8, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:48:38', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b7f80'), u'StaticDraft': 1.0}
+{u'loc': [-78.42938, 33.8907], u'WLDepth_ft': 11.0, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:48:37', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b7f81'), u'StaticDraft': 1.0}
+{u'loc': [-78.42938, 33.8907], u'WLDepth_ft': 11.1, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:48:34', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b7f82'), u'StaticDraft': 1.0}
+{u'loc': [-78.42937, 33.8907], u'WLDepth_ft': 11.4, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:48:35', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b7f83'), u'StaticDraft': 1.0}
+{u'loc': [-78.42937, 33.8907], u'WLDepth_ft': 11.7, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:48:36', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b7f84'), u'StaticDraft': 1.0}
+{u'loc': [-78.42939, 33.89071], u'WLDepth_ft': 10.0, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:48:41', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b7f86'), u'StaticDraft': 1.0}
+{u'loc': [-78.42938, 33.89071], u'WLDepth_ft': 10.8, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:48:33', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b7f87'), u'StaticDraft': 1.0}
+{u'loc': [-78.4294, 33.89072], u'WLDepth_ft': 10.3, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:48:42', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b7f8f'), u'StaticDraft': 1.0}
+{u'loc': [-78.42939, 33.89072], u'WLDepth_ft': 10.5, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:48:32', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b7f90'), u'StaticDraft': 1.0}
+{u'loc': [-78.42941, 33.89073], u'WLDepth_ft': 10.2, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:48:30', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b7f97'), u'StaticDraft': 1.0}
+{u'loc': [-78.4294, 33.89073], u'WLDepth_ft': 10.3, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:48:43', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b7f98'), u'StaticDraft': 1.0}
+{u'loc': [-78.4294, 33.89073], u'WLDepth_ft': 10.8, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:48:31', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b7f99'), u'StaticDraft': 1.0}
+{u'loc': [-78.42942, 33.89074], u'WLDepth_ft': 10.3, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:48:27', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b7f9b'), u'StaticDraft': 1.0}
+{u'loc': [-78.42942, 33.89074], u'WLDepth_ft': 10.3, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:48:28', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b7f9c'), u'StaticDraft': 1.0}
+{u'loc': [-78.42941, 33.89074], u'WLDepth_ft': 10.3, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:48:29', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b7f9d'), u'StaticDraft': 1.0}
+{u'loc': [-78.4294, 33.89074], u'WLDepth_ft': 9.4, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:48:44', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b7f9e'), u'StaticDraft': 1.0}
+{u'loc': [-78.42942, 33.89075], u'WLDepth_ft': 10.3, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:48:26', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b7fa5'), u'StaticDraft': 1.0}
+{u'loc': [-78.42941, 33.89075], u'WLDepth_ft': 10.2, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:48:25', u'Date': u'2011-07-01', u'_id': ObjectId('5443366addcb8703024b7fa6'), u'StaticDraft': 1.0}
+-78.4610792
+33.89126
+>>>>>>>>>>>>>>>
+{u'loc': [-78.46792, 33.89003], u'WLDepth_ft': 15.6, u'Vessel': u'CDE - Altair', u'Time': u'17:28:08', u'Date': u'2014-05-23', u'_id': ObjectId('5443366addcb8703024b7e42'), u'StaticDraft': 2.0}
+{u'loc': [-78.46783, 33.89004], u'WLDepth_ft': 16.0, u'Vessel': u'CDE - Altair', u'Time': u'17:28:10', u'Date': u'2014-05-23', u'_id': ObjectId('5443366addcb8703024b7e45'), u'StaticDraft': 2.0}
+{u'loc': [-78.46774, 33.89006], u'WLDepth_ft': 16.6, u'Vessel': u'CDE - Altair', u'Time': u'17:28:12', u'Date': u'2014-05-23', u'_id': ObjectId('5443366addcb8703024b7e4e'), u'StaticDraft': 2.0}
+{u'loc': [-78.46795, 33.89008], u'WLDepth_ft': 19.6, u'Vessel': u'C7C - Altair', u'Time': u'12:38:21', u'Date': u'2012-05-21', u'_id': ObjectId('5443366addcb8703024b7e5c'), u'StaticDraft': 2.0}
+{u'loc': [-78.46765, 33.89008], u'WLDepth_ft': 15.9, u'Vessel': u'CDE - Altair', u'Time': u'17:28:14', u'Date': u'2014-05-23', u'_id': ObjectId('5443366addcb8703024b7e5d'), u'StaticDraft': 2.0}
+{u'loc': [-78.46757, 33.89009], u'WLDepth_ft': 15.9, u'Vessel': u'CDE - Altair', u'Time': u'17:28:16', u'Date': u'2014-05-23', u'_id': ObjectId('5443366addcb8703024b7e5f'), u'StaticDraft': 2.0}
+{u'loc': [-78.46787, 33.8901], u'WLDepth_ft': 18.0, u'Vessel': u'C7C - Altair', u'Time': u'12:38:23', u'Date': u'2012-05-21', u'_id': ObjectId('5443366addcb8703024b7e67'), u'StaticDraft': 2.0}
+{u'loc': [-78.46748, 33.89011], u'WLDepth_ft': 16.1, u'Vessel': u'CDE - Altair', u'Time': u'17:28:18', u'Date': u'2014-05-23', u'_id': ObjectId('5443366addcb8703024b7e69'), u'StaticDraft': 2.0}
+{u'loc': [-78.46797, 33.89012], u'WLDepth_ft': 12.0, u'Vessel': u'1A1 - Marina Life', u'Time': u'12:46:31', u'Date': u'2013-06-17', u'_id': ObjectId('5443366addcb8703024b7e6f'), u'StaticDraft': 0.0}
+{u'loc': [-78.46777, 33.89012], u'WLDepth_ft': 19.7, u'Vessel': u'C7C - Altair', u'Time': u'12:38:25', u'Date': u'2012-05-21', u'_id': ObjectId('5443366addcb8703024b7e70'), u'StaticDraft': 2.0}
+{u'loc': [-78.4674, 33.89012], u'WLDepth_ft': 15.9, u'Vessel': u'CDE - Altair', u'Time': u'17:28:20', u'Date': u'2014-05-23', u'_id': ObjectId('5443366addcb8703024b7e71'), u'StaticDraft': 2.0}
+{u'loc': [-78.46795, 33.89013], u'WLDepth_ft': 16.4, u'Vessel': u'C7C - Altair', u'Time': u'12:05:11', u'Date': u'2013-04-14', u'_id': ObjectId('5443366addcb8703024b7e76'), u'StaticDraft': 2.0}
+{u'loc': [-78.46785, 33.89013], u'WLDepth_ft': 12.0, u'Vessel': u'1A1 - Marina Life', u'Time': u'12:46:34', u'Date': u'2013-06-17', u'_id': ObjectId('5443366addcb8703024b7e77'), u'StaticDraft': 0.0}
+{u'loc': [-78.46767, 33.89013], u'WLDepth_ft': 18.6, u'Vessel': u'C7C - Altair', u'Time': u'12:38:27', u'Date': u'2012-05-21', u'_id': ObjectId('5443366addcb8703024b7e78'), u'StaticDraft': 2.0}
+{u'loc': [-78.46731, 33.89014], u'WLDepth_ft': 15.3, u'Vessel': u'CDE - Altair', u'Time': u'17:28:22', u'Date': u'2014-05-23', u'_id': ObjectId('5443366addcb8703024b7e7a'), u'StaticDraft': 2.0}
+{u'loc': [-78.46787, 33.89015], u'WLDepth_ft': 16.3, u'Vessel': u'C7C - Altair', u'Time': u'12:05:13', u'Date': u'2013-04-14', u'_id': ObjectId('5443366addcb8703024b7e7f'), u'StaticDraft': 2.0}
+{u'loc': [-78.46777, 33.89015], u'WLDepth_ft': 11.9, u'Vessel': u'1A1 - Marina Life', u'Time': u'12:46:36', u'Date': u'2013-06-17', u'_id': ObjectId('5443366addcb8703024b7e80'), u'StaticDraft': 0.0}
+{u'loc': [-78.46758, 33.89015], u'WLDepth_ft': 18.9, u'Vessel': u'C7C - Altair', u'Time': u'12:38:29', u'Date': u'2012-05-21', u'_id': ObjectId('5443366addcb8703024b7e81'), u'StaticDraft': 2.0}
+{u'loc': [-78.46723, 33.89016], u'WLDepth_ft': 15.5, u'Vessel': u'CDE - Altair', u'Time': u'17:28:24', u'Date': u'2014-05-23', u'_id': ObjectId('5443366addcb8703024b7e83'), u'StaticDraft': 2.0}
+{u'loc': [-78.46778, 33.89017], u'WLDepth_ft': 16.9, u'Vessel': u'C7C - Altair', u'Time': u'12:05:15', u'Date': u'2013-04-14', u'_id': ObjectId('5443366addcb8703024b7e87'), u'StaticDraft': 2.0}
+-78.4023649
+33.9034217
+>>>>>>>>>>>>>>>
+{u'loc': [-78.40856, 33.90186], u'WLDepth_ft': 6.6, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:17:56', u'Date': u'2011-06-29', u'_id': ObjectId('54433670ddcb8703024bafaf'), u'StaticDraft': 1.0}
+{u'loc': [-78.40847, 33.90188], u'WLDepth_ft': 6.8, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:17:57', u'Date': u'2011-06-29', u'_id': ObjectId('54433670ddcb8703024bafbb'), u'StaticDraft': 1.0}
+{u'loc': [-78.40837, 33.90191], u'WLDepth_ft': 6.7, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:17:58', u'Date': u'2011-06-29', u'_id': ObjectId('54433670ddcb8703024bafc5'), u'StaticDraft': 1.0}
+{u'loc': [-78.40828, 33.90194], u'WLDepth_ft': 6.8, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:17:59', u'Date': u'2011-06-29', u'_id': ObjectId('54433670ddcb8703024bafd3'), u'StaticDraft': 1.0}
+{u'loc': [-78.40819, 33.90197], u'WLDepth_ft': 7.0, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:18:00', u'Date': u'2011-06-29', u'_id': ObjectId('54433670ddcb8703024bafe2'), u'StaticDraft': 1.0}
+{u'loc': [-78.40919, 33.90198], u'WLDepth_ft': 21.5, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'23:05:16', u'Date': u'2011-06-29', u'_id': ObjectId('54433670ddcb8703024bafe9'), u'StaticDraft': 1.0}
+{u'loc': [-78.4081, 33.902], u'WLDepth_ft': 7.5, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:18:01', u'Date': u'2011-06-29', u'_id': ObjectId('54433670ddcb8703024baff1'), u'StaticDraft': 1.0}
+{u'loc': [-78.40905, 33.90202], u'WLDepth_ft': 21.5, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'23:05:15', u'Date': u'2011-06-29', u'_id': ObjectId('54433670ddcb8703024baffa'), u'StaticDraft': 1.0}
+{u'loc': [-78.40915, 33.90203], u'WLDepth_ft': 23.3, u'Vessel': u'C7C - Altair', u'Time': u'13:00:08', u'Date': u'2012-05-21', u'_id': ObjectId('54433670ddcb8703024bb001'), u'StaticDraft': 2.0}
+{u'loc': [-78.408, 33.90203], u'WLDepth_ft': 8.2, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:18:02', u'Date': u'2011-06-29', u'_id': ObjectId('54433670ddcb8703024bb002'), u'StaticDraft': 1.0}
+{u'loc': [-78.40891, 33.90204], u'WLDepth_ft': 20.9, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'23:05:14', u'Date': u'2011-06-29', u'_id': ObjectId('54433670ddcb8703024bb006'), u'StaticDraft': 1.0}
+{u'loc': [-78.40917, 33.90205], u'WLDepth_ft': 21.9, u'Vessel': u'C7C - Altair', u'Time': u'12:28:55', u'Date': u'2013-04-14', u'_id': ObjectId('54433670ddcb8703024bb00a'), u'StaticDraft': 2.0}
+{u'loc': [-78.40917, 33.90206], u'WLDepth_ft': 21.6, u'Vessel': u'C7C - Chez Nous', u'Time': u'14:18:56', u'Date': u'2010-10-25', u'_id': ObjectId('54433670ddcb8703024bb00c'), u'StaticDraft': 1.3}
+{u'loc': [-78.40905, 33.90207], u'WLDepth_ft': 22.9, u'Vessel': u'C7C - Altair', u'Time': u'13:00:10', u'Date': u'2012-05-21', u'_id': ObjectId('54433670ddcb8703024bb011'), u'StaticDraft': 2.0}
+{u'loc': [-78.4079, 33.90207], u'WLDepth_ft': 8.7, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:18:03', u'Date': u'2011-06-29', u'_id': ObjectId('54433670ddcb8703024bb012'), u'StaticDraft': 1.0}
+{u'loc': [-78.4091, 33.90208], u'WLDepth_ft': 21.4, u'Vessel': u'C7C - Chez Nous', u'Time': u'14:18:54', u'Date': u'2010-10-25', u'_id': ObjectId('54433670ddcb8703024bb016'), u'StaticDraft': 1.3}
+{u'loc': [-78.40908, 33.90208], u'WLDepth_ft': 21.8, u'Vessel': u'C7C - Altair', u'Time': u'12:28:57', u'Date': u'2013-04-14', u'_id': ObjectId('54433670ddcb8703024bb017'), u'StaticDraft': 2.0}
+{u'loc': [-78.40897, 33.90208], u'WLDepth_ft': 23.4, u'Vessel': u'C7C - Altair', u'Time': u'13:00:12', u'Date': u'2012-05-21', u'_id': ObjectId('54433670ddcb8703024bb018'), u'StaticDraft': 2.0}
+{u'loc': [-78.40878, 33.90208], u'WLDepth_ft': 20.2, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'23:05:13', u'Date': u'2011-06-29', u'_id': ObjectId('54433670ddcb8703024bb019'), u'StaticDraft': 1.0}
+{u'loc': [-78.40902, 33.9021], u'WLDepth_ft': 21.2, u'Vessel': u'C7C - Chez Nous', u'Time': u'14:18:52', u'Date': u'2010-10-25', u'_id': ObjectId('54433670ddcb8703024bb020'), u'StaticDraft': 1.3}
+-78.4179419
+33.8996179
+>>>>>>>>>>>>>>>
+{u'loc': [-78.42014, 33.89301], u'WLDepth_ft': 10.5, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:22:57', u'Date': u'2011-07-01', u'_id': ObjectId('5443366bddcb8703024b84e2'), u'StaticDraft': 1.0}
+{u'loc': [-78.42014, 33.89301], u'WLDepth_ft': 10.8, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:22:59', u'Date': u'2011-07-01', u'_id': ObjectId('5443366bddcb8703024b84e3'), u'StaticDraft': 1.0}
+{u'loc': [-78.42015, 33.89302], u'WLDepth_ft': 10.7, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:23:01', u'Date': u'2011-07-01', u'_id': ObjectId('5443366bddcb8703024b84f1'), u'StaticDraft': 1.0}
+{u'loc': [-78.42015, 33.89302], u'WLDepth_ft': 10.8, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:23:00', u'Date': u'2011-07-01', u'_id': ObjectId('5443366bddcb8703024b84f2'), u'StaticDraft': 1.0}
+{u'loc': [-78.42014, 33.89302], u'WLDepth_ft': 10.7, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:22:55', u'Date': u'2011-07-01', u'_id': ObjectId('5443366bddcb8703024b84f3'), u'StaticDraft': 1.0}
+{u'loc': [-78.42014, 33.89302], u'WLDepth_ft': 10.7, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:22:56', u'Date': u'2011-07-01', u'_id': ObjectId('5443366bddcb8703024b84f4'), u'StaticDraft': 1.0}
+{u'loc': [-78.42015, 33.89303], u'WLDepth_ft': 10.6, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:22:54', u'Date': u'2011-07-01', u'_id': ObjectId('5443366bddcb8703024b84fd'), u'StaticDraft': 1.0}
+{u'loc': [-78.42015, 33.89303], u'WLDepth_ft': 10.9, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:23:02', u'Date': u'2011-07-01', u'_id': ObjectId('5443366bddcb8703024b84fe'), u'StaticDraft': 1.0}
+{u'loc': [-78.42015, 33.89303], u'WLDepth_ft': 11.1, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:22:53', u'Date': u'2011-07-01', u'_id': ObjectId('5443366bddcb8703024b84ff'), u'StaticDraft': 1.0}
+{u'loc': [-78.42015, 33.89304], u'WLDepth_ft': 10.8, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:23:03', u'Date': u'2011-07-01', u'_id': ObjectId('5443366bddcb8703024b8508'), u'StaticDraft': 1.0}
+{u'loc': [-78.42017, 33.89305], u'WLDepth_ft': 10.2, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:22:50', u'Date': u'2011-07-01', u'_id': ObjectId('5443366bddcb8703024b8511'), u'StaticDraft': 1.0}
+{u'loc': [-78.42015, 33.89305], u'WLDepth_ft': 10.8, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:23:04', u'Date': u'2011-07-01', u'_id': ObjectId('5443366bddcb8703024b8512'), u'StaticDraft': 1.0}
+{u'loc': [-78.42018, 33.89306], u'WLDepth_ft': 10.2, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:22:47', u'Date': u'2011-07-01', u'_id': ObjectId('5443366bddcb8703024b8517'), u'StaticDraft': 1.0}
+{u'loc': [-78.42018, 33.89306], u'WLDepth_ft': 10.2, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:22:48', u'Date': u'2011-07-01', u'_id': ObjectId('5443366bddcb8703024b8518'), u'StaticDraft': 1.0}
+{u'loc': [-78.42018, 33.89306], u'WLDepth_ft': 10.2, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:22:49', u'Date': u'2011-07-01', u'_id': ObjectId('5443366bddcb8703024b8519'), u'StaticDraft': 1.0}
+{u'loc': [-78.42015, 33.89306], u'WLDepth_ft': 10.9, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:23:05', u'Date': u'2011-07-01', u'_id': ObjectId('5443366bddcb8703024b851a'), u'StaticDraft': 1.0}
+{u'loc': [-78.42018, 33.89307], u'WLDepth_ft': 10.2, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:22:46', u'Date': u'2011-07-01', u'_id': ObjectId('5443366bddcb8703024b8526'), u'StaticDraft': 1.0}
+{u'loc': [-78.42017, 33.89307], u'WLDepth_ft': 10.1, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:22:45', u'Date': u'2011-07-01', u'_id': ObjectId('5443366bddcb8703024b8527'), u'StaticDraft': 1.0}
+{u'loc': [-78.42016, 33.89307], u'WLDepth_ft': 10.4, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:23:06', u'Date': u'2011-07-01', u'_id': ObjectId('5443366bddcb8703024b8528'), u'StaticDraft': 1.0}
+{u'loc': [-78.42017, 33.89308], u'WLDepth_ft': 10.4, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'00:22:44', u'Date': u'2011-07-01', u'_id': ObjectId('5443366bddcb8703024b8535'), u'StaticDraft': 1.0}
+-78.3892569
+33.9045972
+>>>>>>>>>>>>>>>
+{u'loc': [-78.3962, 33.90384], u'WLDepth_ft': 20.4, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:19:36', u'Date': u'2011-06-29', u'_id': ObjectId('54433671ddcb8703024bb399'), u'StaticDraft': 1.0}
+{u'loc': [-78.39606, 33.90385], u'WLDepth_ft': 21.0, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:19:37', u'Date': u'2011-06-29', u'_id': ObjectId('54433671ddcb8703024bb3a6'), u'StaticDraft': 1.0}
+{u'loc': [-78.39593, 33.90386], u'WLDepth_ft': 21.1, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:19:38', u'Date': u'2011-06-29', u'_id': ObjectId('54433671ddcb8703024bb3ac'), u'StaticDraft': 1.0}
+{u'loc': [-78.39388, 33.90386], u'WLDepth_ft': 13.8, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'23:02:43', u'Date': u'2011-06-29', u'_id': ObjectId('54433671ddcb8703024bb3ad'), u'StaticDraft': 1.0}
+{u'loc': [-78.39579, 33.90387], u'WLDepth_ft': 20.5, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:19:39', u'Date': u'2011-06-29', u'_id': ObjectId('54433671ddcb8703024bb3b7'), u'StaticDraft': 1.0}
+{u'loc': [-78.39393, 33.90387], u'WLDepth_ft': 16.9, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'23:02:46', u'Date': u'2011-06-29', u'_id': ObjectId('54433671ddcb8703024bb3b8'), u'StaticDraft': 1.0}
+{u'loc': [-78.39391, 33.90387], u'WLDepth_ft': 15.8, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'23:02:45', u'Date': u'2011-06-29', u'_id': ObjectId('54433671ddcb8703024bb3b9'), u'StaticDraft': 1.0}
+{u'loc': [-78.3939, 33.90387], u'WLDepth_ft': 14.9, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'23:02:44', u'Date': u'2011-06-29', u'_id': ObjectId('54433671ddcb8703024bb3ba'), u'StaticDraft': 1.0}
+{u'loc': [-78.39386, 33.90387], u'WLDepth_ft': 13.6, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'23:02:42', u'Date': u'2011-06-29', u'_id': ObjectId('54433671ddcb8703024bb3bb'), u'StaticDraft': 1.0}
+{u'loc': [-78.39385, 33.90387], u'WLDepth_ft': 14.1, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'23:02:41', u'Date': u'2011-06-29', u'_id': ObjectId('54433671ddcb8703024bb3bc'), u'StaticDraft': 1.0}
+{u'loc': [-78.39383, 33.90387], u'WLDepth_ft': 14.6, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'23:02:40', u'Date': u'2011-06-29', u'_id': ObjectId('54433671ddcb8703024bb3bd'), u'StaticDraft': 1.0}
+{u'loc': [-78.39565, 33.90388], u'WLDepth_ft': 21.5, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:19:40', u'Date': u'2011-06-29', u'_id': ObjectId('54433671ddcb8703024bb3c9'), u'StaticDraft': 1.0}
+{u'loc': [-78.39395, 33.90388], u'WLDepth_ft': 17.3, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'23:02:47', u'Date': u'2011-06-29', u'_id': ObjectId('54433671ddcb8703024bb3ca'), u'StaticDraft': 1.0}
+{u'loc': [-78.39382, 33.90388], u'WLDepth_ft': 15.1, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'23:02:39', u'Date': u'2011-06-29', u'_id': ObjectId('54433671ddcb8703024bb3cb'), u'StaticDraft': 1.0}
+{u'loc': [-78.39551, 33.90389], u'WLDepth_ft': 20.7, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:19:41', u'Date': u'2011-06-29', u'_id': ObjectId('54433671ddcb8703024bb3d2'), u'StaticDraft': 1.0}
+{u'loc': [-78.39396, 33.90389], u'WLDepth_ft': 16.9, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'23:02:48', u'Date': u'2011-06-29', u'_id': ObjectId('54433671ddcb8703024bb3d3'), u'StaticDraft': 1.0}
+{u'loc': [-78.3938, 33.90389], u'WLDepth_ft': 15.7, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'23:02:38', u'Date': u'2011-06-29', u'_id': ObjectId('54433671ddcb8703024bb3d4'), u'StaticDraft': 1.0}
+{u'loc': [-78.39538, 33.9039], u'WLDepth_ft': 21.4, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:19:42', u'Date': u'2011-06-29', u'_id': ObjectId('54433671ddcb8703024bb3e6'), u'StaticDraft': 1.0}
+{u'loc': [-78.39398, 33.9039], u'WLDepth_ft': 16.6, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'23:02:49', u'Date': u'2011-06-29', u'_id': ObjectId('54433671ddcb8703024bb3e7'), u'StaticDraft': 1.0}
+{u'loc': [-78.39379, 33.9039], u'WLDepth_ft': 16.5, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'23:02:37', u'Date': u'2011-06-29', u'_id': ObjectId('54433671ddcb8703024bb3e8'), u'StaticDraft': 1.0}
+-78.4909717
+33.8863287
+>>>>>>>>>>>>>>>
+{u'loc': [-78.49783, 33.88493], u'WLDepth_ft': 17.9, u'Vessel': u'C7C - Altair', u'Time': u'12:27:32', u'Date': u'2012-05-21', u'_id': ObjectId('54433668ddcb8703024b74ad'), u'StaticDraft': 2.0}
+{u'loc': [-78.49778, 33.88493], u'WLDepth_ft': 12.1, u'Vessel': u'1A1 - Marina Life', u'Time': u'12:32:42', u'Date': u'2013-06-17', u'_id': ObjectId('54433668ddcb8703024b74ae'), u'StaticDraft': 0.0}
+{u'loc': [-78.4974, 33.88493], u'WLDepth_ft': 17.6, u'Vessel': u'C7C - Altair', u'Time': u'13:34:17', u'Date': u'2012-11-02', u'_id': ObjectId('54433668ddcb8703024b74af'), u'StaticDraft': 2.0}
+{u'loc': [-78.4978, 33.88494], u'WLDepth_ft': 16.1, u'Vessel': u'CDE - Altair', u'Time': u'17:16:24', u'Date': u'2014-05-23', u'_id': ObjectId('54433668ddcb8703024b74b1'), u'StaticDraft': 2.0}
+{u'loc': [-78.49767, 33.88495], u'WLDepth_ft': 12.2, u'Vessel': u'1A1 - Marina Life', u'Time': u'12:32:46', u'Date': u'2013-06-17', u'_id': ObjectId('54433668ddcb8703024b74b4'), u'StaticDraft': 0.0}
+{u'loc': [-78.49732, 33.88495], u'WLDepth_ft': 18.7, u'Vessel': u'C7C - Altair', u'Time': u'13:34:15', u'Date': u'2012-11-02', u'_id': ObjectId('54433668ddcb8703024b74b5'), u'StaticDraft': 2.0}
+{u'loc': [-78.49778, 33.88497], u'WLDepth_ft': 17.0, u'Vessel': u'C7C - Altair', u'Time': u'16:09:36', u'Date': u'2011-11-11', u'_id': ObjectId('54433668ddcb8703024b74b8'), u'StaticDraft': 2.0}
+{u'loc': [-78.49775, 33.88497], u'WLDepth_ft': 17.8, u'Vessel': u'C7C - Altair', u'Time': u'12:27:35', u'Date': u'2012-05-21', u'_id': ObjectId('54433668ddcb8703024b74b9'), u'StaticDraft': 2.0}
+{u'loc': [-78.4977, 33.88497], u'WLDepth_ft': 16.5, u'Vessel': u'CDE - Altair', u'Time': u'17:16:26', u'Date': u'2014-05-23', u'_id': ObjectId('54433668ddcb8703024b74ba'), u'StaticDraft': 2.0}
+{u'loc': [-78.4976, 33.88497], u'WLDepth_ft': 12.2, u'Vessel': u'1A1 - Marina Life', u'Time': u'12:32:47', u'Date': u'2013-06-17', u'_id': ObjectId('54433668ddcb8703024b74bb'), u'StaticDraft': 0.0}
+{u'loc': [-78.49784, 33.88498], u'WLDepth_ft': 13.6, u'Vessel': u'CDE - Altair', u'Time': u'21:46:18', u'Date': u'2013-11-07', u'_id': ObjectId('54433668ddcb8703024b74bc'), u'StaticDraft': 2.0}
+{u'loc': [-78.49765, 33.88498], u'WLDepth_ft': 17.8, u'Vessel': u'C7C - Altair', u'Time': u'12:27:37', u'Date': u'2012-05-21', u'_id': ObjectId('54433668ddcb8703024b74bd'), u'StaticDraft': 2.0}
+{u'loc': [-78.49722, 33.88498], u'WLDepth_ft': 18.8, u'Vessel': u'C7C - Altair', u'Time': u'13:34:13', u'Date': u'2012-11-02', u'_id': ObjectId('54433668ddcb8703024b74be'), u'StaticDraft': 2.0}
+{u'loc': [-78.49779, 33.88499], u'WLDepth_ft': 16.4, u'Vessel': u'C7C - Chez Nous', u'Time': u'14:56:54', u'Date': u'2010-10-25', u'_id': ObjectId('54433668ddcb8703024b74bf'), u'StaticDraft': 1.3}
+{u'loc': [-78.49761, 33.88499], u'WLDepth_ft': 17.2, u'Vessel': u'CDE - Altair', u'Time': u'17:16:28', u'Date': u'2014-05-23', u'_id': ObjectId('54433668ddcb8703024b74c0'), u'StaticDraft': 2.0}
+{u'loc': [-78.49771, 33.885], u'WLDepth_ft': 16.6, u'Vessel': u'C7C - Chez Nous', u'Time': u'14:56:52', u'Date': u'2010-10-25', u'_id': ObjectId('54433668ddcb8703024b74c1'), u'StaticDraft': 1.3}
+{u'loc': [-78.4977, 33.885], u'WLDepth_ft': 17.1, u'Vessel': u'C7C - Altair', u'Time': u'16:09:34', u'Date': u'2011-11-11', u'_id': ObjectId('54433668ddcb8703024b74c2'), u'StaticDraft': 2.0}
+{u'loc': [-78.49753, 33.885], u'WLDepth_ft': 12.1, u'Vessel': u'1A1 - Marina Life', u'Time': u'12:32:50', u'Date': u'2013-06-17', u'_id': ObjectId('54433668ddcb8703024b74c3'), u'StaticDraft': 0.0}
+{u'loc': [-78.49713, 33.885], u'WLDepth_ft': 18.6, u'Vessel': u'C7C - Altair', u'Time': u'13:34:11', u'Date': u'2012-11-02', u'_id': ObjectId('54433668ddcb8703024b74c4'), u'StaticDraft': 2.0}
+{u'loc': [-78.49774, 33.88501], u'WLDepth_ft': 12.9, u'Vessel': u'CDE - Altair', u'Time': u'21:46:16', u'Date': u'2013-11-07', u'_id': ObjectId('54433668ddcb8703024b74c5'), u'StaticDraft': 2.0}
+-78.3158554
+33.9154688
+>>>>>>>>>>>>>>>
+{u'loc': [-78.3228, 33.91503], u'WLDepth_ft': 16.0, u'Vessel': u'C7C - Altair', u'Time': u'15:01:30', u'Date': u'2011-11-11', u'_id': ObjectId('54433675ddcb8703024bd9d7'), u'StaticDraft': 2.0}
+{u'loc': [-78.32272, 33.91505], u'WLDepth_ft': 15.7, u'Vessel': u'C7C - Altair', u'Time': u'15:01:28', u'Date': u'2011-11-11', u'_id': ObjectId('54433675ddcb8703024bd9ea'), u'StaticDraft': 2.0}
+{u'loc': [-78.32263, 33.91505], u'WLDepth_ft': 15.4, u'Vessel': u'C7C - Altair', u'Time': u'15:01:26', u'Date': u'2011-11-11', u'_id': ObjectId('54433675ddcb8703024bd9eb'), u'StaticDraft': 2.0}
+{u'loc': [-78.32257, 33.91505], u'WLDepth_ft': 15.3, u'Vessel': u'C7C - Altair', u'Time': u'15:01:24', u'Date': u'2011-11-11', u'_id': ObjectId('54433675ddcb8703024bd9ec'), u'StaticDraft': 2.0}
+{u'loc': [-78.3225, 33.91507], u'WLDepth_ft': 14.9, u'Vessel': u'C7C - Altair', u'Time': u'15:01:22', u'Date': u'2011-11-11', u'_id': ObjectId('54433675ddcb8703024bda01'), u'StaticDraft': 2.0}
+{u'loc': [-78.32242, 33.91507], u'WLDepth_ft': 14.7, u'Vessel': u'C7C - Altair', u'Time': u'15:01:20', u'Date': u'2011-11-11', u'_id': ObjectId('54433675ddcb8703024bda02'), u'StaticDraft': 2.0}
+{u'loc': [-78.32235, 33.91508], u'WLDepth_ft': 15.1, u'Vessel': u'C7C - Altair', u'Time': u'15:01:18', u'Date': u'2011-11-11', u'_id': ObjectId('54433675ddcb8703024bda0e'), u'StaticDraft': 2.0}
+{u'loc': [-78.32228, 33.91508], u'WLDepth_ft': 15.1, u'Vessel': u'C7C - Altair', u'Time': u'15:01:16', u'Date': u'2011-11-11', u'_id': ObjectId('54433675ddcb8703024bda0f'), u'StaticDraft': 2.0}
+{u'loc': [-78.32222, 33.9151], u'WLDepth_ft': 15.1, u'Vessel': u'C7C - Altair', u'Time': u'15:01:14', u'Date': u'2011-11-11', u'_id': ObjectId('54433675ddcb8703024bda23'), u'StaticDraft': 2.0}
+{u'loc': [-78.32215, 33.9151], u'WLDepth_ft': 15.3, u'Vessel': u'C7C - Altair', u'Time': u'15:01:12', u'Date': u'2011-11-11', u'_id': ObjectId('54433675ddcb8703024bda24'), u'StaticDraft': 2.0}
+{u'loc': [-78.32208, 33.91512], u'WLDepth_ft': 16.4, u'Vessel': u'C7C - Altair', u'Time': u'15:01:10', u'Date': u'2011-11-11', u'_id': ObjectId('54433675ddcb8703024bda38'), u'StaticDraft': 2.0}
+{u'loc': [-78.32282, 33.91513], u'WLDepth_ft': 13.4, u'Vessel': u'C47 - Chez Nous', u'Time': u'17:29:12', u'Date': u'2011-09-26', u'_id': ObjectId('54433675ddcb8703024bda41'), u'StaticDraft': 1.3}
+{u'loc': [-78.32278, 33.91513], u'WLDepth_ft': 19.4, u'Vessel': u'C7C - Altair', u'Time': u'13:31:28', u'Date': u'2012-05-21', u'_id': ObjectId('54433675ddcb8703024bda42'), u'StaticDraft': 2.0}
+{u'loc': [-78.32268, 33.91513], u'WLDepth_ft': 20.2, u'Vessel': u'C7C - Altair', u'Time': u'13:31:30', u'Date': u'2012-05-21', u'_id': ObjectId('54433675ddcb8703024bda43'), u'StaticDraft': 2.0}
+{u'loc': [-78.32202, 33.91513], u'WLDepth_ft': 16.9, u'Vessel': u'C7C - Altair', u'Time': u'15:01:08', u'Date': u'2011-11-11', u'_id': ObjectId('54433675ddcb8703024bda44'), u'StaticDraft': 2.0}
+{u'loc': [-78.32195, 33.91513], u'WLDepth_ft': 17.0, u'Vessel': u'C7C - Altair', u'Time': u'15:01:06', u'Date': u'2011-11-11', u'_id': ObjectId('54433675ddcb8703024bda45'), u'StaticDraft': 2.0}
+{u'loc': [-78.32278, 33.91514], u'WLDepth_ft': 18.9, u'Vessel': u'CDE - Altair', u'Time': u'18:27:40', u'Date': u'2014-05-23', u'_id': ObjectId('54433675ddcb8703024bda47'), u'StaticDraft': 2.0}
+{u'loc': [-78.32274, 33.91514], u'WLDepth_ft': 13.1, u'Vessel': u'C47 - Chez Nous', u'Time': u'17:29:10', u'Date': u'2011-09-26', u'_id': ObjectId('54433675ddcb8703024bda48'), u'StaticDraft': 1.3}
+{u'loc': [-78.32269, 33.91514], u'WLDepth_ft': 19.0, u'Vessel': u'CDE - Altair', u'Time': u'18:27:42', u'Date': u'2014-05-23', u'_id': ObjectId('54433675ddcb8703024bda49'), u'StaticDraft': 2.0}
+{u'loc': [-78.32266, 33.91514], u'WLDepth_ft': 13.4, u'Vessel': u'C47 - Chez Nous', u'Time': u'17:29:08', u'Date': u'2011-09-26', u'_id': ObjectId('54433675ddcb8703024bda4a'), u'StaticDraft': 1.3}
+-78.3230053
+33.9149642
+>>>>>>>>>>>>>>>
+{u'loc': [-78.32997, 33.91451], u'WLDepth_ft': 15.5, u'Vessel': u'CDE - Altair', u'Time': u'20:42:46', u'Date': u'2013-11-07', u'_id': ObjectId('54433675ddcb8703024bd71a'), u'StaticDraft': 2.0}
+{u'loc': [-78.32987, 33.91452], u'WLDepth_ft': 15.3, u'Vessel': u'CDE - Altair', u'Time': u'20:42:44', u'Date': u'2013-11-07', u'_id': ObjectId('54433675ddcb8703024bd72b'), u'StaticDraft': 2.0}
+{u'loc': [-78.32977, 33.91453], u'WLDepth_ft': 15.1, u'Vessel': u'CDE - Altair', u'Time': u'20:42:42', u'Date': u'2013-11-07', u'_id': ObjectId('54433675ddcb8703024bd73b'), u'StaticDraft': 2.0}
+{u'loc': [-78.32967, 33.91454], u'WLDepth_ft': 15.7, u'Vessel': u'CDE - Altair', u'Time': u'20:42:40', u'Date': u'2013-11-07', u'_id': ObjectId('54433675ddcb8703024bd741'), u'StaticDraft': 2.0}
+{u'loc': [-78.32993, 33.91455], u'WLDepth_ft': 14.0, u'Vessel': u'1A1 - Marina Life', u'Time': u'13:52:29', u'Date': u'2013-06-17', u'_id': ObjectId('54433675ddcb8703024bd751'), u'StaticDraft': 0.0}
+{u'loc': [-78.32957, 33.91455], u'WLDepth_ft': 16.0, u'Vessel': u'CDE - Altair', u'Time': u'20:42:38', u'Date': u'2013-11-07', u'_id': ObjectId('54433675ddcb8703024bd752'), u'StaticDraft': 2.0}
+{u'loc': [-78.32947, 33.91456], u'WLDepth_ft': 15.4, u'Vessel': u'CDE - Altair', u'Time': u'20:42:36', u'Date': u'2013-11-07', u'_id': ObjectId('54433675ddcb8703024bd758'), u'StaticDraft': 2.0}
+{u'loc': [-78.3299, 33.91457], u'WLDepth_ft': 20.6, u'Vessel': u'C7C - Altair', u'Time': u'13:29:04', u'Date': u'2012-05-21', u'_id': ObjectId('54433675ddcb8703024bd767'), u'StaticDraft': 2.0}
+{u'loc': [-78.32987, 33.91457], u'WLDepth_ft': 13.8, u'Vessel': u'1A1 - Marina Life', u'Time': u'13:52:31', u'Date': u'2013-06-17', u'_id': ObjectId('54433675ddcb8703024bd768'), u'StaticDraft': 0.0}
+{u'loc': [-78.3298, 33.91457], u'WLDepth_ft': 14.0, u'Vessel': u'1A1 - Marina Life', u'Time': u'13:52:32', u'Date': u'2013-06-17', u'_id': ObjectId('54433675ddcb8703024bd769'), u'StaticDraft': 0.0}
+{u'loc': [-78.3298, 33.91457], u'WLDepth_ft': 19.9, u'Vessel': u'C7C - Altair', u'Time': u'13:29:06', u'Date': u'2012-05-21', u'_id': ObjectId('54433675ddcb8703024bd76a'), u'StaticDraft': 2.0}
+{u'loc': [-78.32973, 33.91457], u'WLDepth_ft': 13.9, u'Vessel': u'1A1 - Marina Life', u'Time': u'13:52:35', u'Date': u'2013-06-17', u'_id': ObjectId('54433675ddcb8703024bd76b'), u'StaticDraft': 0.0}
+{u'loc': [-78.32967, 33.91457], u'WLDepth_ft': 13.5, u'Vessel': u'1A1 - Marina Life', u'Time': u'13:52:37', u'Date': u'2013-06-17', u'_id': ObjectId('54433675ddcb8703024bd76c'), u'StaticDraft': 0.0}
+{u'loc': [-78.32937, 33.91457], u'WLDepth_ft': 15.8, u'Vessel': u'CDE - Altair', u'Time': u'20:42:34', u'Date': u'2013-11-07', u'_id': ObjectId('54433675ddcb8703024bd76d'), u'StaticDraft': 2.0}
+{u'loc': [-78.32996, 33.91458], u'WLDepth_ft': 19.3, u'Vessel': u'CDE - Altair', u'Time': u'18:24:58', u'Date': u'2014-05-23', u'_id': ObjectId('54433675ddcb8703024bd77a'), u'StaticDraft': 2.0}
+{u'loc': [-78.32989, 33.91458], u'WLDepth_ft': 18.7, u'Vessel': u'CDE - Altair', u'Time': u'18:25:00', u'Date': u'2014-05-23', u'_id': ObjectId('54433675ddcb8703024bd77b'), u'StaticDraft': 2.0}
+{u'loc': [-78.3297, 33.91458], u'WLDepth_ft': 19.5, u'Vessel': u'C7C - Altair', u'Time': u'13:29:08', u'Date': u'2012-05-21', u'_id': ObjectId('54433675ddcb8703024bd77c'), u'StaticDraft': 2.0}
+{u'loc': [-78.3296, 33.91458], u'WLDepth_ft': 20.2, u'Vessel': u'C7C - Altair', u'Time': u'13:29:10', u'Date': u'2012-05-21', u'_id': ObjectId('54433675ddcb8703024bd77d'), u'StaticDraft': 2.0}
+{u'loc': [-78.32957, 33.91458], u'WLDepth_ft': 13.8, u'Vessel': u'1A1 - Marina Life', u'Time': u'13:52:40', u'Date': u'2013-06-17', u'_id': ObjectId('54433675ddcb8703024bd77e'), u'StaticDraft': 0.0}
+{u'loc': [-78.32948, 33.91458], u'WLDepth_ft': 14.4, u'Vessel': u'1A1 - Marina Life', u'Time': u'13:52:42', u'Date': u'2013-06-17', u'_id': ObjectId('54433675ddcb8703024bd77f'), u'StaticDraft': 0.0}
+-78.3697934
+33.9116507
+>>>>>>>>>>>>>>>
+{u'loc': [-78.36318, 33.90943], u'WLDepth_ft': 21.8, u'Vessel': u'C7C - Altair', u'Time': u'13:17:31', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc367'), u'StaticDraft': 2.0}
+{u'loc': [-78.36327, 33.90947], u'WLDepth_ft': 21.0, u'Vessel': u'C7C - Altair', u'Time': u'13:17:29', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc38e'), u'StaticDraft': 2.0}
+{u'loc': [-78.36322, 33.90947], u'WLDepth_ft': 21.1, u'Vessel': u'C7C - Altair', u'Time': u'12:46:14', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc38f'), u'StaticDraft': 2.0}
+{u'loc': [-78.36317, 33.90948], u'WLDepth_ft': 14.0, u'Vessel': u'1A1 - Marina Life', u'Time': u'13:36:57', u'Date': u'2013-06-17', u'_id': ObjectId('54433672ddcb8703024bc39f'), u'StaticDraft': 0.0}
+{u'loc': [-78.36337, 33.9095], u'WLDepth_ft': 21.0, u'Vessel': u'C7C - Altair', u'Time': u'13:17:27', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc3b4'), u'StaticDraft': 2.0}
+{u'loc': [-78.36332, 33.9095], u'WLDepth_ft': 21.1, u'Vessel': u'C7C - Altair', u'Time': u'12:46:16', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc3b5'), u'StaticDraft': 2.0}
+{u'loc': [-78.36314, 33.9095], u'WLDepth_ft': 16.9, u'Vessel': u'CDE - Altair', u'Time': u'20:54:18', u'Date': u'2013-11-07', u'_id': ObjectId('54433672ddcb8703024bc3b6'), u'StaticDraft': 2.0}
+{u'loc': [-78.36321, 33.90951], u'WLDepth_ft': 13.2, u'Vessel': u'C47 - Chez Nous', u'Time': u'17:46:34', u'Date': u'2011-09-26', u'_id': ObjectId('54433672ddcb8703024bc3c1'), u'StaticDraft': 1.3}
+{u'loc': [-78.3634, 33.90952], u'WLDepth_ft': 21.3, u'Vessel': u'C7C - Altair', u'Time': u'12:46:18', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc3c9'), u'StaticDraft': 2.0}
+{u'loc': [-78.36323, 33.90952], u'WLDepth_ft': 13.9, u'Vessel': u'1A1 - Marina Life', u'Time': u'13:36:56', u'Date': u'2013-06-17', u'_id': ObjectId('54433672ddcb8703024bc3ca'), u'StaticDraft': 0.0}
+{u'loc': [-78.36323, 33.90952], u'WLDepth_ft': 18.9, u'Vessel': u'CDE - Altair', u'Time': u'18:12:46', u'Date': u'2014-05-23', u'_id': ObjectId('54433672ddcb8703024bc3cb'), u'StaticDraft': 2.0}
+{u'loc': [-78.36345, 33.90953], u'WLDepth_ft': 21.4, u'Vessel': u'C7C - Altair', u'Time': u'13:17:25', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc3d9'), u'StaticDraft': 2.0}
+{u'loc': [-78.3633, 33.90953], u'WLDepth_ft': 14.3, u'Vessel': u'1A1 - Marina Life', u'Time': u'13:36:54', u'Date': u'2013-06-17', u'_id': ObjectId('54433672ddcb8703024bc3da'), u'StaticDraft': 0.0}
+{u'loc': [-78.36329, 33.90953], u'WLDepth_ft': 13.5, u'Vessel': u'C47 - Chez Nous', u'Time': u'17:46:36', u'Date': u'2011-09-26', u'_id': ObjectId('54433672ddcb8703024bc3db'), u'StaticDraft': 1.3}
+{u'loc': [-78.36324, 33.90953], u'WLDepth_ft': 16.7, u'Vessel': u'CDE - Altair', u'Time': u'20:54:20', u'Date': u'2013-11-07', u'_id': ObjectId('54433672ddcb8703024bc3dc'), u'StaticDraft': 2.0}
+{u'loc': [-78.36332, 33.90954], u'WLDepth_ft': 18.9, u'Vessel': u'CDE - Altair', u'Time': u'18:12:44', u'Date': u'2014-05-23', u'_id': ObjectId('54433672ddcb8703024bc3e8'), u'StaticDraft': 2.0}
+{u'loc': [-78.3635, 33.90955], u'WLDepth_ft': 21.2, u'Vessel': u'C7C - Altair', u'Time': u'12:46:20', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc3ed'), u'StaticDraft': 2.0}
+{u'loc': [-78.36337, 33.90955], u'WLDepth_ft': 13.4, u'Vessel': u'C47 - Chez Nous', u'Time': u'17:46:38', u'Date': u'2011-09-26', u'_id': ObjectId('54433672ddcb8703024bc3ee'), u'StaticDraft': 1.3}
+{u'loc': [-78.3632, 33.90955], u'WLDepth_ft': 19.0, u'Vessel': u'C7C - Altair', u'Time': u'15:15:39', u'Date': u'2011-11-11', u'_id': ObjectId('54433672ddcb8703024bc3ef'), u'StaticDraft': 2.0}
+{u'loc': [-78.36312, 33.90955], u'WLDepth_ft': 14.7, u'Vessel': u'C7C - Altair', u'Time': u'12:47:34', u'Date': u'2013-04-14', u'_id': ObjectId('54433672ddcb8703024bc3f0'), u'StaticDraft': 2.0}
+-78.2901891
+33.9159568
+>>>>>>>>>>>>>>>
+{u'loc': [-78.28818, 33.91608], u'WLDepth_ft': 19.4, u'Vessel': u'C7C - Altair', u'Time': u'13:43:31', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdf71'), u'StaticDraft': 2.0}
+{u'loc': [-78.28808, 33.91608], u'WLDepth_ft': 19.4, u'Vessel': u'C7C - Altair', u'Time': u'13:43:33', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdf72'), u'StaticDraft': 2.0}
+{u'loc': [-78.28798, 33.91608], u'WLDepth_ft': 18.7, u'Vessel': u'C7C - Altair', u'Time': u'13:43:35', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdf73'), u'StaticDraft': 2.0}
+{u'loc': [-78.28788, 33.91608], u'WLDepth_ft': 18.9, u'Vessel': u'C7C - Altair', u'Time': u'13:43:37', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdf74'), u'StaticDraft': 2.0}
+{u'loc': [-78.2878, 33.91608], u'WLDepth_ft': 19.9, u'Vessel': u'C7C - Altair', u'Time': u'13:43:39', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdf75'), u'StaticDraft': 2.0}
+{u'loc': [-78.2877, 33.91608], u'WLDepth_ft': 19.5, u'Vessel': u'C7C - Altair', u'Time': u'13:43:41', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdf76'), u'StaticDraft': 2.0}
+{u'loc': [-78.2876, 33.91608], u'WLDepth_ft': 19.7, u'Vessel': u'C7C - Altair', u'Time': u'13:43:43', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdf77'), u'StaticDraft': 2.0}
+{u'loc': [-78.2875, 33.91608], u'WLDepth_ft': 19.5, u'Vessel': u'C7C - Altair', u'Time': u'13:43:45', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdf78'), u'StaticDraft': 2.0}
+{u'loc': [-78.2874, 33.91608], u'WLDepth_ft': 19.7, u'Vessel': u'C7C - Altair', u'Time': u'13:43:47', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdf79'), u'StaticDraft': 2.0}
+{u'loc': [-78.28732, 33.91608], u'WLDepth_ft': 19.5, u'Vessel': u'C7C - Altair', u'Time': u'13:43:49', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdf7a'), u'StaticDraft': 2.0}
+{u'loc': [-78.28722, 33.91608], u'WLDepth_ft': 18.9, u'Vessel': u'C7C - Altair', u'Time': u'13:43:51', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdf7b'), u'StaticDraft': 2.0}
+{u'loc': [-78.28712, 33.91608], u'WLDepth_ft': 19.3, u'Vessel': u'C7C - Altair', u'Time': u'13:43:53', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdf7c'), u'StaticDraft': 2.0}
+{u'loc': [-78.28702, 33.91608], u'WLDepth_ft': 19.2, u'Vessel': u'C7C - Altair', u'Time': u'13:43:55', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdf7d'), u'StaticDraft': 2.0}
+{u'loc': [-78.28692, 33.91608], u'WLDepth_ft': 19.3, u'Vessel': u'C7C - Altair', u'Time': u'13:43:57', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdf7e'), u'StaticDraft': 2.0}
+{u'loc': [-78.28915, 33.9161], u'WLDepth_ft': 19.2, u'Vessel': u'C7C - Altair', u'Time': u'13:43:11', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdfc1'), u'StaticDraft': 2.0}
+{u'loc': [-78.28905, 33.9161], u'WLDepth_ft': 18.7, u'Vessel': u'C7C - Altair', u'Time': u'13:43:13', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdfc2'), u'StaticDraft': 2.0}
+{u'loc': [-78.28895, 33.9161], u'WLDepth_ft': 19.3, u'Vessel': u'C7C - Altair', u'Time': u'13:43:15', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdfc3'), u'StaticDraft': 2.0}
+{u'loc': [-78.28885, 33.9161], u'WLDepth_ft': 19.3, u'Vessel': u'C7C - Altair', u'Time': u'13:43:17', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdfc4'), u'StaticDraft': 2.0}
+{u'loc': [-78.28875, 33.9161], u'WLDepth_ft': 19.0, u'Vessel': u'C7C - Altair', u'Time': u'13:43:19', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdfc5'), u'StaticDraft': 2.0}
+{u'loc': [-78.28867, 33.9161], u'WLDepth_ft': 19.8, u'Vessel': u'C7C - Altair', u'Time': u'13:43:21', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdfc6'), u'StaticDraft': 2.0}
+-78.2803824
+33.9159731
+>>>>>>>>>>>>>>>
+{u'loc': [-78.27662, 33.91605], u'WLDepth_ft': 21.2, u'Vessel': u'C7C - Altair', u'Time': u'13:47:33', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdee9'), u'StaticDraft': 2.0}
+{u'loc': [-78.27652, 33.91605], u'WLDepth_ft': 21.1, u'Vessel': u'C7C - Altair', u'Time': u'13:47:35', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdeea'), u'StaticDraft': 2.0}
+{u'loc': [-78.27642, 33.91605], u'WLDepth_ft': 20.8, u'Vessel': u'C7C - Altair', u'Time': u'13:47:37', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdeeb'), u'StaticDraft': 2.0}
+{u'loc': [-78.27632, 33.91605], u'WLDepth_ft': 19.7, u'Vessel': u'C7C - Altair', u'Time': u'13:47:39', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdeec'), u'StaticDraft': 2.0}
+{u'loc': [-78.27622, 33.91605], u'WLDepth_ft': 19.8, u'Vessel': u'C7C - Altair', u'Time': u'13:47:41', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdeed'), u'StaticDraft': 2.0}
+{u'loc': [-78.2761, 33.91605], u'WLDepth_ft': 21.1, u'Vessel': u'C7C - Altair', u'Time': u'13:47:43', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdeee'), u'StaticDraft': 2.0}
+{u'loc': [-78.276, 33.91605], u'WLDepth_ft': 19.9, u'Vessel': u'C7C - Altair', u'Time': u'13:47:45', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdeef'), u'StaticDraft': 2.0}
+{u'loc': [-78.2759, 33.91605], u'WLDepth_ft': 19.3, u'Vessel': u'C7C - Altair', u'Time': u'13:47:47', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdef0'), u'StaticDraft': 2.0}
+{u'loc': [-78.2758, 33.91605], u'WLDepth_ft': 19.8, u'Vessel': u'C7C - Altair', u'Time': u'13:47:49', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdef1'), u'StaticDraft': 2.0}
+{u'loc': [-78.2757, 33.91605], u'WLDepth_ft': 20.1, u'Vessel': u'C7C - Altair', u'Time': u'13:47:51', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdef2'), u'StaticDraft': 2.0}
+{u'loc': [-78.2756, 33.91605], u'WLDepth_ft': 19.7, u'Vessel': u'C7C - Altair', u'Time': u'13:47:53', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdef3'), u'StaticDraft': 2.0}
+{u'loc': [-78.2755, 33.91605], u'WLDepth_ft': 19.8, u'Vessel': u'C7C - Altair', u'Time': u'13:47:55', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdef4'), u'StaticDraft': 2.0}
+{u'loc': [-78.2754, 33.91605], u'WLDepth_ft': 19.5, u'Vessel': u'C7C - Altair', u'Time': u'13:47:57', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdef5'), u'StaticDraft': 2.0}
+{u'loc': [-78.2753, 33.91605], u'WLDepth_ft': 19.6, u'Vessel': u'C7C - Altair', u'Time': u'13:47:59', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdef6'), u'StaticDraft': 2.0}
+{u'loc': [-78.2752, 33.91605], u'WLDepth_ft': 20.3, u'Vessel': u'C7C - Altair', u'Time': u'13:48:01', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdef7'), u'StaticDraft': 2.0}
+{u'loc': [-78.2751, 33.91605], u'WLDepth_ft': 19.3, u'Vessel': u'C7C - Altair', u'Time': u'13:48:03', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdef8'), u'StaticDraft': 2.0}
+{u'loc': [-78.275, 33.91605], u'WLDepth_ft': 20.1, u'Vessel': u'C7C - Altair', u'Time': u'13:48:05', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdef9'), u'StaticDraft': 2.0}
+{u'loc': [-78.2749, 33.91605], u'WLDepth_ft': 19.7, u'Vessel': u'C7C - Altair', u'Time': u'13:48:07', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdefa'), u'StaticDraft': 2.0}
+{u'loc': [-78.2748, 33.91605], u'WLDepth_ft': 20.2, u'Vessel': u'C7C - Altair', u'Time': u'13:48:09', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdefb'), u'StaticDraft': 2.0}
+{u'loc': [-78.2747, 33.91605], u'WLDepth_ft': 19.9, u'Vessel': u'C7C - Altair', u'Time': u'13:48:11', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdefc'), u'StaticDraft': 2.0}
+-78.2703755
+33.9159977
+>>>>>>>>>>>>>>>
+{u'loc': [-78.27195, 33.91603], u'WLDepth_ft': 20.2, u'Vessel': u'C7C - Altair', u'Time': u'13:49:13', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdebe'), u'StaticDraft': 2.0}
+{u'loc': [-78.27187, 33.91603], u'WLDepth_ft': 20.0, u'Vessel': u'C7C - Altair', u'Time': u'13:49:15', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdebf'), u'StaticDraft': 2.0}
+{u'loc': [-78.27178, 33.91603], u'WLDepth_ft': 20.2, u'Vessel': u'C7C - Altair', u'Time': u'13:49:17', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdec0'), u'StaticDraft': 2.0}
+{u'loc': [-78.27172, 33.91603], u'WLDepth_ft': 19.9, u'Vessel': u'C7C - Altair', u'Time': u'13:49:19', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdec1'), u'StaticDraft': 2.0}
+{u'loc': [-78.27163, 33.91603], u'WLDepth_ft': 19.8, u'Vessel': u'C7C - Altair', u'Time': u'13:49:21', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdec2'), u'StaticDraft': 2.0}
+{u'loc': [-78.27157, 33.91603], u'WLDepth_ft': 19.8, u'Vessel': u'C7C - Altair', u'Time': u'13:49:23', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdec3'), u'StaticDraft': 2.0}
+{u'loc': [-78.27148, 33.91603], u'WLDepth_ft': 19.7, u'Vessel': u'C7C - Altair', u'Time': u'13:49:25', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdec4'), u'StaticDraft': 2.0}
+{u'loc': [-78.2714, 33.91603], u'WLDepth_ft': 20.0, u'Vessel': u'C7C - Altair', u'Time': u'13:49:27', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdec5'), u'StaticDraft': 2.0}
+{u'loc': [-78.27133, 33.91603], u'WLDepth_ft': 19.9, u'Vessel': u'C7C - Altair', u'Time': u'13:49:29', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdec6'), u'StaticDraft': 2.0}
+{u'loc': [-78.27125, 33.91603], u'WLDepth_ft': 20.4, u'Vessel': u'C7C - Altair', u'Time': u'13:49:31', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdec7'), u'StaticDraft': 2.0}
+{u'loc': [-78.27118, 33.91603], u'WLDepth_ft': 20.9, u'Vessel': u'C7C - Altair', u'Time': u'13:49:33', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdec8'), u'StaticDraft': 2.0}
+{u'loc': [-78.2711, 33.91603], u'WLDepth_ft': 20.3, u'Vessel': u'C7C - Altair', u'Time': u'13:49:35', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdec9'), u'StaticDraft': 2.0}
+{u'loc': [-78.27662, 33.91605], u'WLDepth_ft': 21.2, u'Vessel': u'C7C - Altair', u'Time': u'13:47:33', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdee9'), u'StaticDraft': 2.0}
+{u'loc': [-78.27652, 33.91605], u'WLDepth_ft': 21.1, u'Vessel': u'C7C - Altair', u'Time': u'13:47:35', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdeea'), u'StaticDraft': 2.0}
+{u'loc': [-78.27642, 33.91605], u'WLDepth_ft': 20.8, u'Vessel': u'C7C - Altair', u'Time': u'13:47:37', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdeeb'), u'StaticDraft': 2.0}
+{u'loc': [-78.27632, 33.91605], u'WLDepth_ft': 19.7, u'Vessel': u'C7C - Altair', u'Time': u'13:47:39', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdeec'), u'StaticDraft': 2.0}
+{u'loc': [-78.27622, 33.91605], u'WLDepth_ft': 19.8, u'Vessel': u'C7C - Altair', u'Time': u'13:47:41', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdeed'), u'StaticDraft': 2.0}
+{u'loc': [-78.2761, 33.91605], u'WLDepth_ft': 21.1, u'Vessel': u'C7C - Altair', u'Time': u'13:47:43', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdeee'), u'StaticDraft': 2.0}
+{u'loc': [-78.276, 33.91605], u'WLDepth_ft': 19.9, u'Vessel': u'C7C - Altair', u'Time': u'13:47:45', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdeef'), u'StaticDraft': 2.0}
+{u'loc': [-78.2759, 33.91605], u'WLDepth_ft': 19.3, u'Vessel': u'C7C - Altair', u'Time': u'13:47:47', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdef0'), u'StaticDraft': 2.0}
+-78.3758635
+33.9134695
+>>>>>>>>>>>>>>>
+{u'loc': [-78.38145, 33.90933], u'WLDepth_ft': 22.8, u'Vessel': u'C7C - Altair', u'Time': u'13:10:13', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2fb'), u'StaticDraft': 2.0}
+{u'loc': [-78.38138, 33.90938], u'WLDepth_ft': 22.8, u'Vessel': u'C7C - Altair', u'Time': u'13:10:15', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc31c'), u'StaticDraft': 2.0}
+{u'loc': [-78.38158, 33.90943], u'WLDepth_ft': 22.7, u'Vessel': u'C7C - Altair', u'Time': u'12:54:22', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc366'), u'StaticDraft': 2.0}
+{u'loc': [-78.38132, 33.90945], u'WLDepth_ft': 22.6, u'Vessel': u'C7C - Altair', u'Time': u'13:10:17', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc37b'), u'StaticDraft': 2.0}
+{u'loc': [-78.38152, 33.90946], u'WLDepth_ft': 15.4, u'Vessel': u'C47 - Chez Nous', u'Time': u'17:54:30', u'Date': u'2011-09-26', u'_id': ObjectId('54433672ddcb8703024bc388'), u'StaticDraft': 1.3}
+{u'loc': [-78.38157, 33.90948], u'WLDepth_ft': 18.8, u'Vessel': u'1A1 - Marina Life', u'Time': u'13:27:27', u'Date': u'2013-06-17', u'_id': ObjectId('54433672ddcb8703024bc39d'), u'StaticDraft': 0.0}
+{u'loc': [-78.38153, 33.90948], u'WLDepth_ft': 22.8, u'Vessel': u'C7C - Altair', u'Time': u'12:54:20', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc39e'), u'StaticDraft': 2.0}
+{u'loc': [-78.38123, 33.9095], u'WLDepth_ft': 22.5, u'Vessel': u'C7C - Altair', u'Time': u'13:10:19', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc3b3'), u'StaticDraft': 2.0}
+{u'loc': [-78.38155, 33.90951], u'WLDepth_ft': 23.8, u'Vessel': u'CDE - Altair', u'Time': u'18:06:28', u'Date': u'2014-05-23', u'_id': ObjectId('54433672ddcb8703024bc3c0'), u'StaticDraft': 2.0}
+{u'loc': [-78.38153, 33.90952], u'WLDepth_ft': 20.7, u'Vessel': u'C7C - Altair', u'Time': u'15:21:55', u'Date': u'2011-11-11', u'_id': ObjectId('54433672ddcb8703024bc3c7'), u'StaticDraft': 2.0}
+{u'loc': [-78.38145, 33.90952], u'WLDepth_ft': 15.3, u'Vessel': u'C47 - Chez Nous', u'Time': u'17:54:28', u'Date': u'2011-09-26', u'_id': ObjectId('54433672ddcb8703024bc3c8'), u'StaticDraft': 1.3}
+{u'loc': [-78.38162, 33.90953], u'WLDepth_ft': 20.8, u'Vessel': u'C7C - Altair', u'Time': u'12:40:31', u'Date': u'2013-04-14', u'_id': ObjectId('54433672ddcb8703024bc3d6'), u'StaticDraft': 2.0}
+{u'loc': [-78.38152, 33.90953], u'WLDepth_ft': 18.3, u'Vessel': u'1A1 - Marina Life', u'Time': u'13:27:29', u'Date': u'2013-06-17', u'_id': ObjectId('54433672ddcb8703024bc3d7'), u'StaticDraft': 0.0}
+{u'loc': [-78.38147, 33.90953], u'WLDepth_ft': 22.7, u'Vessel': u'C7C - Altair', u'Time': u'12:54:18', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc3d8'), u'StaticDraft': 2.0}
+{u'loc': [-78.38163, 33.90954], u'WLDepth_ft': 20.2, u'Vessel': u'CDE - Altair', u'Time': u'21:01:56', u'Date': u'2013-11-07', u'_id': ObjectId('54433672ddcb8703024bc3e7'), u'StaticDraft': 2.0}
+{u'loc': [-78.38117, 33.90955], u'WLDepth_ft': 21.9, u'Vessel': u'C7C - Altair', u'Time': u'13:10:21', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc3ec'), u'StaticDraft': 2.0}
+{u'loc': [-78.38147, 33.90957], u'WLDepth_ft': 18.0, u'Vessel': u'1A1 - Marina Life', u'Time': u'13:27:31', u'Date': u'2013-06-17', u'_id': ObjectId('54433672ddcb8703024bc3fe'), u'StaticDraft': 0.0}
+{u'loc': [-78.38146, 33.90957], u'WLDepth_ft': 23.8, u'Vessel': u'CDE - Altair', u'Time': u'18:06:30', u'Date': u'2014-05-23', u'_id': ObjectId('54433672ddcb8703024bc3ff'), u'StaticDraft': 2.0}
+{u'loc': [-78.38138, 33.90957], u'WLDepth_ft': 15.4, u'Vessel': u'C47 - Chez Nous', u'Time': u'17:54:26', u'Date': u'2011-09-26', u'_id': ObjectId('54433672ddcb8703024bc400'), u'StaticDraft': 1.3}
+{u'loc': [-78.38142, 33.90958], u'WLDepth_ft': 23.6, u'Vessel': u'C7C - Altair', u'Time': u'12:54:16', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc40c'), u'StaticDraft': 2.0}
+-78.4856702
+33.8877083
+>>>>>>>>>>>>>>>
+{u'loc': [-78.49245, 33.8862], u'WLDepth_ft': 12.0, u'Vessel': u'1A1 - Marina Life', u'Time': u'12:35:07', u'Date': u'2013-06-17', u'_id': ObjectId('54433669ddcb8703024b764d'), u'StaticDraft': 0.0}
+{u'loc': [-78.49238, 33.88623], u'WLDepth_ft': 12.3, u'Vessel': u'1A1 - Marina Life', u'Time': u'12:35:09', u'Date': u'2013-06-17', u'_id': ObjectId('54433669ddcb8703024b7657'), u'StaticDraft': 0.0}
+{u'loc': [-78.49248, 33.88625], u'WLDepth_ft': 19.2, u'Vessel': u'C7C - Altair', u'Time': u'13:32:29', u'Date': u'2012-11-02', u'_id': ObjectId('54433669ddcb8703024b765a'), u'StaticDraft': 2.0}
+{u'loc': [-78.49227, 33.88625], u'WLDepth_ft': 11.8, u'Vessel': u'1A1 - Marina Life', u'Time': u'12:35:12', u'Date': u'2013-06-17', u'_id': ObjectId('54433669ddcb8703024b765b'), u'StaticDraft': 0.0}
+{u'loc': [-78.49242, 33.88626], u'WLDepth_ft': 16.5, u'Vessel': u'CDE - Altair', u'Time': u'17:18:20', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b765d'), u'StaticDraft': 2.0}
+{u'loc': [-78.4924, 33.88627], u'WLDepth_ft': 19.8, u'Vessel': u'C7C - Altair', u'Time': u'13:32:27', u'Date': u'2012-11-02', u'_id': ObjectId('54433669ddcb8703024b7661'), u'StaticDraft': 2.0}
+{u'loc': [-78.4922, 33.88627], u'WLDepth_ft': 11.8, u'Vessel': u'1A1 - Marina Life', u'Time': u'12:35:14', u'Date': u'2013-06-17', u'_id': ObjectId('54433669ddcb8703024b7662'), u'StaticDraft': 0.0}
+{u'loc': [-78.49233, 33.88628], u'WLDepth_ft': 16.6, u'Vessel': u'CDE - Altair', u'Time': u'17:18:22', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b7666'), u'StaticDraft': 2.0}
+{u'loc': [-78.49212, 33.88628], u'WLDepth_ft': 12.1, u'Vessel': u'1A1 - Marina Life', u'Time': u'12:35:16', u'Date': u'2013-06-17', u'_id': ObjectId('54433669ddcb8703024b7667'), u'StaticDraft': 0.0}
+{u'loc': [-78.49245, 33.8863], u'WLDepth_ft': 15.6, u'Vessel': u'C7C - Altair', u'Time': u'11:55:39', u'Date': u'2013-04-14', u'_id': ObjectId('54433669ddcb8703024b766a'), u'StaticDraft': 2.0}
+{u'loc': [-78.4923, 33.8863], u'WLDepth_ft': 20.0, u'Vessel': u'C7C - Altair', u'Time': u'13:32:25', u'Date': u'2012-11-02', u'_id': ObjectId('54433669ddcb8703024b766b'), u'StaticDraft': 2.0}
+{u'loc': [-78.49224, 33.8863], u'WLDepth_ft': 16.8, u'Vessel': u'CDE - Altair', u'Time': u'17:18:24', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b766c'), u'StaticDraft': 2.0}
+{u'loc': [-78.49205, 33.8863], u'WLDepth_ft': 11.6, u'Vessel': u'1A1 - Marina Life', u'Time': u'12:35:18', u'Date': u'2013-06-17', u'_id': ObjectId('54433669ddcb8703024b766d'), u'StaticDraft': 0.0}
+{u'loc': [-78.49253, 33.88632], u'WLDepth_ft': 16.8, u'Vessel': u'C7C - Altair', u'Time': u'12:29:23', u'Date': u'2012-05-21', u'_id': ObjectId('54433669ddcb8703024b766e'), u'StaticDraft': 2.0}
+{u'loc': [-78.49252, 33.88632], u'WLDepth_ft': 13.2, u'Vessel': u'CDE - Altair', u'Time': u'21:44:24', u'Date': u'2013-11-07', u'_id': ObjectId('54433669ddcb8703024b766f'), u'StaticDraft': 2.0}
+{u'loc': [-78.49246, 33.88632], u'WLDepth_ft': 17.0, u'Vessel': u'C7C - Chez Nous', u'Time': u'14:54:42', u'Date': u'2010-10-25', u'_id': ObjectId('54433669ddcb8703024b7670'), u'StaticDraft': 1.3}
+{u'loc': [-78.49222, 33.88632], u'WLDepth_ft': 19.2, u'Vessel': u'C7C - Altair', u'Time': u'13:32:23', u'Date': u'2012-11-02', u'_id': ObjectId('54433669ddcb8703024b7671'), u'StaticDraft': 2.0}
+{u'loc': [-78.49215, 33.88632], u'WLDepth_ft': 16.4, u'Vessel': u'CDE - Altair', u'Time': u'17:18:26', u'Date': u'2014-05-23', u'_id': ObjectId('54433669ddcb8703024b7672'), u'StaticDraft': 2.0}
+{u'loc': [-78.49197, 33.88632], u'WLDepth_ft': 11.7, u'Vessel': u'1A1 - Marina Life', u'Time': u'12:35:20', u'Date': u'2013-06-17', u'_id': ObjectId('54433669ddcb8703024b7673'), u'StaticDraft': 0.0}
+{u'loc': [-78.49243, 33.88633], u'WLDepth_ft': 16.6, u'Vessel': u'C7C - Altair', u'Time': u'12:29:25', u'Date': u'2012-05-21', u'_id': ObjectId('54433669ddcb8703024b7674'), u'StaticDraft': 2.0}
+-78.373706
+33.9129134
+>>>>>>>>>>>>>>>
+{u'loc': [-78.38012, 33.91035], u'WLDepth_ft': 21.5, u'Vessel': u'C7C - Altair', u'Time': u'13:10:49', u'Date': u'2012-05-21', u'_id': ObjectId('54433673ddcb8703024bc6cd'), u'StaticDraft': 2.0}
+{u'loc': [-78.38005, 33.9104], u'WLDepth_ft': 21.5, u'Vessel': u'C7C - Altair', u'Time': u'13:10:51', u'Date': u'2012-05-21', u'_id': ObjectId('54433673ddcb8703024bc6f8'), u'StaticDraft': 2.0}
+{u'loc': [-78.38019, 33.91044], u'WLDepth_ft': 15.2, u'Vessel': u'C47 - Chez Nous', u'Time': u'17:53:52', u'Date': u'2011-09-26', u'_id': ObjectId('54433673ddcb8703024bc723'), u'StaticDraft': 1.3}
+{u'loc': [-78.37997, 33.91045], u'WLDepth_ft': 21.4, u'Vessel': u'C7C - Altair', u'Time': u'13:10:53', u'Date': u'2012-05-21', u'_id': ObjectId('54433673ddcb8703024bc729'), u'StaticDraft': 2.0}
+{u'loc': [-78.38017, 33.91046], u'WLDepth_ft': 22.6, u'Vessel': u'CDE - Altair', u'Time': u'18:06:58', u'Date': u'2014-05-23', u'_id': ObjectId('54433673ddcb8703024bc735'), u'StaticDraft': 2.0}
+{u'loc': [-78.38012, 33.91048], u'WLDepth_ft': 14.8, u'Vessel': u'C47 - Chez Nous', u'Time': u'17:53:50', u'Date': u'2011-09-26', u'_id': ObjectId('54433673ddcb8703024bc749'), u'StaticDraft': 1.3}
+{u'loc': [-78.38026, 33.91049], u'WLDepth_ft': 21.1, u'Vessel': u'C7C - Chez Nous', u'Time': u'14:05:36', u'Date': u'2010-10-25', u'_id': ObjectId('54433673ddcb8703024bc754'), u'StaticDraft': 1.3}
+{u'loc': [-78.38028, 33.91052], u'WLDepth_ft': 21.0, u'Vessel': u'C7C - Altair', u'Time': u'15:21:27', u'Date': u'2011-11-11', u'_id': ObjectId('54433673ddcb8703024bc768'), u'StaticDraft': 2.0}
+{u'loc': [-78.38023, 33.91052], u'WLDepth_ft': 16.7, u'Vessel': u'1A1 - Marina Life', u'Time': u'13:28:16', u'Date': u'2013-06-17', u'_id': ObjectId('54433673ddcb8703024bc769'), u'StaticDraft': 0.0}
+{u'loc': [-78.38007, 33.91052], u'WLDepth_ft': 22.5, u'Vessel': u'CDE - Altair', u'Time': u'18:07:00', u'Date': u'2014-05-23', u'_id': ObjectId('54433673ddcb8703024bc76a'), u'StaticDraft': 2.0}
+{u'loc': [-78.3799, 33.91052], u'WLDepth_ft': 21.2, u'Vessel': u'C7C - Altair', u'Time': u'13:10:55', u'Date': u'2012-05-21', u'_id': ObjectId('54433673ddcb8703024bc76b'), u'StaticDraft': 2.0}
+{u'loc': [-78.38019, 33.91053], u'WLDepth_ft': 20.5, u'Vessel': u'C7C - Chez Nous', u'Time': u'14:05:34', u'Date': u'2010-10-25', u'_id': ObjectId('54433673ddcb8703024bc776'), u'StaticDraft': 1.3}
+{u'loc': [-78.38005, 33.91054], u'WLDepth_ft': 14.9, u'Vessel': u'C47 - Chez Nous', u'Time': u'17:53:48', u'Date': u'2011-09-26', u'_id': ObjectId('54433673ddcb8703024bc783'), u'StaticDraft': 1.3}
+{u'loc': [-78.38028, 33.91057], u'WLDepth_ft': 22.6, u'Vessel': u'C7C - Altair', u'Time': u'12:53:38', u'Date': u'2012-11-02', u'_id': ObjectId('54433673ddcb8703024bc797'), u'StaticDraft': 2.0}
+{u'loc': [-78.38015, 33.91057], u'WLDepth_ft': 16.7, u'Vessel': u'1A1 - Marina Life', u'Time': u'13:28:19', u'Date': u'2013-06-17', u'_id': ObjectId('54433673ddcb8703024bc798'), u'StaticDraft': 0.0}
+{u'loc': [-78.38013, 33.91057], u'WLDepth_ft': 21.1, u'Vessel': u'C7C - Chez Nous', u'Time': u'14:05:32', u'Date': u'2010-10-25', u'_id': ObjectId('54433673ddcb8703024bc799'), u'StaticDraft': 1.3}
+{u'loc': [-78.37982, 33.91057], u'WLDepth_ft': 21.6, u'Vessel': u'C7C - Altair', u'Time': u'13:10:57', u'Date': u'2012-05-21', u'_id': ObjectId('54433673ddcb8703024bc79a'), u'StaticDraft': 2.0}
+{u'loc': [-78.38028, 33.91058], u'WLDepth_ft': 21.2, u'Vessel': u'C7C - Altair', u'Time': u'12:41:06', u'Date': u'2013-04-14', u'_id': ObjectId('54433673ddcb8703024bc7a1'), u'StaticDraft': 2.0}
+{u'loc': [-78.38018, 33.91058], u'WLDepth_ft': 21.4, u'Vessel': u'C7C - Altair', u'Time': u'15:21:25', u'Date': u'2011-11-11', u'_id': ObjectId('54433673ddcb8703024bc7a2'), u'StaticDraft': 2.0}
+{u'loc': [-78.37998, 33.91058], u'WLDepth_ft': 22.2, u'Vessel': u'CDE - Altair', u'Time': u'18:07:02', u'Date': u'2014-05-23', u'_id': ObjectId('54433673ddcb8703024bc7a3'), u'StaticDraft': 2.0}
+-78.3657081
+33.9101289
+>>>>>>>>>>>>>>>
+{u'loc': [-78.36218, 33.90927], u'WLDepth_ft': 20.5, u'Vessel': u'C7C - Altair', u'Time': u'12:45:52', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2db'), u'StaticDraft': 2.0}
+{u'loc': [-78.36252, 33.90928], u'WLDepth_ft': 21.1, u'Vessel': u'C7C - Altair', u'Time': u'13:17:45', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2e0'), u'StaticDraft': 2.0}
+{u'loc': [-78.36243, 33.90928], u'WLDepth_ft': 21.0, u'Vessel': u'C7C - Altair', u'Time': u'13:17:47', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2e1'), u'StaticDraft': 2.0}
+{u'loc': [-78.36238, 33.90928], u'WLDepth_ft': 20.8, u'Vessel': u'C7C - Altair', u'Time': u'12:45:56', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2e2'), u'StaticDraft': 2.0}
+{u'loc': [-78.36233, 33.90928], u'WLDepth_ft': 21.4, u'Vessel': u'C7C - Altair', u'Time': u'13:17:49', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2e3'), u'StaticDraft': 2.0}
+{u'loc': [-78.36228, 33.90928], u'WLDepth_ft': 20.6, u'Vessel': u'C7C - Altair', u'Time': u'12:45:54', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2e4'), u'StaticDraft': 2.0}
+{u'loc': [-78.36223, 33.90928], u'WLDepth_ft': 21.0, u'Vessel': u'C7C - Altair', u'Time': u'13:17:51', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2e5'), u'StaticDraft': 2.0}
+{u'loc': [-78.3621, 33.90928], u'WLDepth_ft': 20.2, u'Vessel': u'C7C - Altair', u'Time': u'12:45:50', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2e6'), u'StaticDraft': 2.0}
+{u'loc': [-78.362, 33.90928], u'WLDepth_ft': 19.4, u'Vessel': u'C7C - Altair', u'Time': u'12:45:48', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2e7'), u'StaticDraft': 2.0}
+{u'loc': [-78.3619, 33.90928], u'WLDepth_ft': 18.9, u'Vessel': u'C7C - Altair', u'Time': u'12:45:46', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2e8'), u'StaticDraft': 2.0}
+{u'loc': [-78.36262, 33.9093], u'WLDepth_ft': 21.2, u'Vessel': u'C7C - Altair', u'Time': u'13:17:43', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2eb'), u'StaticDraft': 2.0}
+{u'loc': [-78.36248, 33.9093], u'WLDepth_ft': 21.4, u'Vessel': u'C7C - Altair', u'Time': u'12:45:58', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2ec'), u'StaticDraft': 2.0}
+{u'loc': [-78.36213, 33.9093], u'WLDepth_ft': 21.1, u'Vessel': u'C7C - Altair', u'Time': u'13:17:53', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2ed'), u'StaticDraft': 2.0}
+{u'loc': [-78.36182, 33.9093], u'WLDepth_ft': 19.2, u'Vessel': u'C7C - Altair', u'Time': u'12:45:44', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2ee'), u'StaticDraft': 2.0}
+{u'loc': [-78.36172, 33.9093], u'WLDepth_ft': 18.7, u'Vessel': u'C7C - Altair', u'Time': u'12:45:42', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2ef'), u'StaticDraft': 2.0}
+{u'loc': [-78.36272, 33.90932], u'WLDepth_ft': 21.8, u'Vessel': u'C7C - Altair', u'Time': u'13:17:41', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2f3'), u'StaticDraft': 2.0}
+{u'loc': [-78.36258, 33.90932], u'WLDepth_ft': 21.5, u'Vessel': u'C7C - Altair', u'Time': u'12:46:00', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2f4'), u'StaticDraft': 2.0}
+{u'loc': [-78.36203, 33.90932], u'WLDepth_ft': 21.3, u'Vessel': u'C7C - Altair', u'Time': u'13:17:55', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2f5'), u'StaticDraft': 2.0}
+{u'loc': [-78.36162, 33.90932], u'WLDepth_ft': 18.9, u'Vessel': u'C7C - Altair', u'Time': u'12:45:40', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2f6'), u'StaticDraft': 2.0}
+{u'loc': [-78.36282, 33.90933], u'WLDepth_ft': 21.2, u'Vessel': u'C7C - Altair', u'Time': u'13:17:39', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2fc'), u'StaticDraft': 2.0}
+-78.2616922
+33.9179799
+>>>>>>>>>>>>>>>
+{u'loc': [-78.26852, 33.91648], u'WLDepth_ft': 22.0, u'Vessel': u'CDE - Altair', u'Time': u'18:48:18', u'Date': u'2014-05-23', u'_id': ObjectId('54433678ddcb8703024befd4'), u'StaticDraft': 2.0}
+{u'loc': [-78.26846, 33.9165], u'WLDepth_ft': 21.9, u'Vessel': u'CDE - Altair', u'Time': u'18:48:20', u'Date': u'2014-05-23', u'_id': ObjectId('54433678ddcb8703024befde'), u'StaticDraft': 2.0}
+{u'loc': [-78.26841, 33.91651], u'WLDepth_ft': 23.0, u'Vessel': u'CDE - Altair', u'Time': u'18:48:22', u'Date': u'2014-05-23', u'_id': ObjectId('54433678ddcb8703024befe1'), u'StaticDraft': 2.0}
+{u'loc': [-78.26848, 33.91652], u'WLDepth_ft': 21.2, u'Vessel': u'C7C - Altair', u'Time': u'13:50:55', u'Date': u'2012-05-21', u'_id': ObjectId('54433678ddcb8703024befe8'), u'StaticDraft': 2.0}
+{u'loc': [-78.26835, 33.91652], u'WLDepth_ft': 22.2, u'Vessel': u'CDE - Altair', u'Time': u'18:48:24', u'Date': u'2014-05-23', u'_id': ObjectId('54433678ddcb8703024befe9'), u'StaticDraft': 2.0}
+{u'loc': [-78.26852, 33.91653], u'WLDepth_ft': 21.2, u'Vessel': u'C7C - Altair', u'Time': u'13:24:02', u'Date': u'2013-04-14', u'_id': ObjectId('54433678ddcb8703024befef'), u'StaticDraft': 2.0}
+{u'loc': [-78.26843, 33.91653], u'WLDepth_ft': 22.1, u'Vessel': u'C7C - Altair', u'Time': u'13:50:57', u'Date': u'2012-05-21', u'_id': ObjectId('54433678ddcb8703024beff0'), u'StaticDraft': 2.0}
+{u'loc': [-78.26852, 33.91654], u'WLDepth_ft': 20.7, u'Vessel': u'C7C - Chez Nous', u'Time': u'13:19:20', u'Date': u'2010-10-25', u'_id': ObjectId('54433678ddcb8703024beff2'), u'StaticDraft': 1.3}
+{u'loc': [-78.26829, 33.91654], u'WLDepth_ft': 22.2, u'Vessel': u'CDE - Altair', u'Time': u'18:48:26', u'Date': u'2014-05-23', u'_id': ObjectId('54433678ddcb8703024beff3'), u'StaticDraft': 2.0}
+{u'loc': [-78.26845, 33.91655], u'WLDepth_ft': 21.2, u'Vessel': u'C7C - Altair', u'Time': u'13:24:04', u'Date': u'2013-04-14', u'_id': ObjectId('54433678ddcb8703024beff7'), u'StaticDraft': 2.0}
+{u'loc': [-78.26837, 33.91655], u'WLDepth_ft': 21.7, u'Vessel': u'C7C - Altair', u'Time': u'13:50:59', u'Date': u'2012-05-21', u'_id': ObjectId('54433678ddcb8703024beff8'), u'StaticDraft': 2.0}
+{u'loc': [-78.26824, 33.91655], u'WLDepth_ft': 22.1, u'Vessel': u'CDE - Altair', u'Time': u'18:48:28', u'Date': u'2014-05-23', u'_id': ObjectId('54433678ddcb8703024beff9'), u'StaticDraft': 2.0}
+{u'loc': [-78.26853, 33.91656], u'WLDepth_ft': 15.9, u'Vessel': u'C47 - Chez Nous', u'Time': u'17:04:56', u'Date': u'2011-09-26', u'_id': ObjectId('54433678ddcb8703024beffb'), u'StaticDraft': 1.3}
+{u'loc': [-78.26853, 33.91657], u'WLDepth_ft': 19.6, u'Vessel': u'CDE - Altair', u'Time': u'20:19:22', u'Date': u'2013-11-07', u'_id': ObjectId('54433678ddcb8703024beffe'), u'StaticDraft': 2.0}
+{u'loc': [-78.26844, 33.91657], u'WLDepth_ft': 20.9, u'Vessel': u'C7C - Chez Nous', u'Time': u'13:19:18', u'Date': u'2010-10-25', u'_id': ObjectId('54433678ddcb8703024befff'), u'StaticDraft': 1.3}
+{u'loc': [-78.26838, 33.91657], u'WLDepth_ft': 21.5, u'Vessel': u'C7C - Altair', u'Time': u'13:24:06', u'Date': u'2013-04-14', u'_id': ObjectId('54433678ddcb8703024bf000'), u'StaticDraft': 2.0}
+{u'loc': [-78.2683, 33.91657], u'WLDepth_ft': 22.1, u'Vessel': u'C7C - Altair', u'Time': u'13:51:01', u'Date': u'2012-05-21', u'_id': ObjectId('54433678ddcb8703024bf001'), u'StaticDraft': 2.0}
+{u'loc': [-78.26818, 33.91657], u'WLDepth_ft': 21.8, u'Vessel': u'CDE - Altair', u'Time': u'18:48:30', u'Date': u'2014-05-23', u'_id': ObjectId('54433678ddcb8703024bf002'), u'StaticDraft': 2.0}
+{u'loc': [-78.26847, 33.91658], u'WLDepth_ft': 15.9, u'Vessel': u'C47 - Chez Nous', u'Time': u'17:04:54', u'Date': u'2011-09-26', u'_id': ObjectId('54433678ddcb8703024bf005'), u'StaticDraft': 1.3}
+{u'loc': [-78.26847, 33.91658], u'WLDepth_ft': 19.2, u'Vessel': u'CDE - Altair', u'Time': u'20:19:20', u'Date': u'2013-11-07', u'_id': ObjectId('54433678ddcb8703024bf006'), u'StaticDraft': 2.0}
+-78.3952401
+33.9043029
+>>>>>>>>>>>>>>>
+{u'loc': [-78.40218, 33.90368], u'WLDepth_ft': 19.6, u'Vessel': u'C7C - Altair', u'Time': u'13:02:35', u'Date': u'2012-05-21', u'_id': ObjectId('54433670ddcb8703024bb32c'), u'StaticDraft': 2.0}
+{u'loc': [-78.4022, 33.9037], u'WLDepth_ft': 18.1, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:18:52', u'Date': u'2011-06-29', u'_id': ObjectId('54433670ddcb8703024bb335'), u'StaticDraft': 1.0}
+{u'loc': [-78.4021, 33.90372], u'WLDepth_ft': 19.2, u'Vessel': u'C7C - Altair', u'Time': u'13:02:37', u'Date': u'2012-05-21', u'_id': ObjectId('54433670ddcb8703024bb33e'), u'StaticDraft': 2.0}
+{u'loc': [-78.40207, 33.90372], u'WLDepth_ft': 17.4, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:18:53', u'Date': u'2011-06-29', u'_id': ObjectId('54433670ddcb8703024bb33f'), u'StaticDraft': 1.0}
+{u'loc': [-78.40217, 33.90373], u'WLDepth_ft': 18.1, u'Vessel': u'C7C - Altair', u'Time': u'12:31:49', u'Date': u'2013-04-14', u'_id': ObjectId('54433670ddcb8703024bb346'), u'StaticDraft': 2.0}
+{u'loc': [-78.40208, 33.90375], u'WLDepth_ft': 19.1, u'Vessel': u'C7C - Altair', u'Time': u'12:31:51', u'Date': u'2013-04-14', u'_id': ObjectId('54433670ddcb8703024bb34e'), u'StaticDraft': 2.0}
+{u'loc': [-78.402, 33.90375], u'WLDepth_ft': 20.4, u'Vessel': u'C7C - Altair', u'Time': u'13:02:39', u'Date': u'2012-05-21', u'_id': ObjectId('54433670ddcb8703024bb34f'), u'StaticDraft': 2.0}
+{u'loc': [-78.40193, 33.90375], u'WLDepth_ft': 17.1, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:18:54', u'Date': u'2011-06-29', u'_id': ObjectId('54433670ddcb8703024bb350'), u'StaticDraft': 1.0}
+{u'loc': [-78.40213, 33.90377], u'WLDepth_ft': 19.9, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'23:04:24', u'Date': u'2011-06-29', u'_id': ObjectId('54433670ddcb8703024bb355'), u'StaticDraft': 1.0}
+{u'loc': [-78.402, 33.90377], u'WLDepth_ft': 18.7, u'Vessel': u'C7C - Altair', u'Time': u'12:31:53', u'Date': u'2013-04-14', u'_id': ObjectId('54433670ddcb8703024bb356'), u'StaticDraft': 2.0}
+{u'loc': [-78.40192, 33.90377], u'WLDepth_ft': 20.1, u'Vessel': u'C7C - Altair', u'Time': u'13:02:41', u'Date': u'2012-05-21', u'_id': ObjectId('54433670ddcb8703024bb357'), u'StaticDraft': 2.0}
+{u'loc': [-78.4019, 33.90377], u'WLDepth_ft': 19.1, u'Vessel': u'C7C - Altair', u'Time': u'12:31:55', u'Date': u'2013-04-14', u'_id': ObjectId('54433670ddcb8703024bb358'), u'StaticDraft': 2.0}
+{u'loc': [-78.4018, 33.90377], u'WLDepth_ft': 17.5, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:18:55', u'Date': u'2011-06-29', u'_id': ObjectId('54433670ddcb8703024bb359'), u'StaticDraft': 1.0}
+{u'loc': [-78.40221, 33.90378], u'WLDepth_ft': 21.0, u'Vessel': u'CDE - Altair', u'Time': u'17:56:44', u'Date': u'2014-05-23', u'_id': ObjectId('54433670ddcb8703024bb35f'), u'StaticDraft': 2.0}
+{u'loc': [-78.40183, 33.90378], u'WLDepth_ft': 17.4, u'Vessel': u'C7C - Altair', u'Time': u'12:31:57', u'Date': u'2013-04-14', u'_id': ObjectId('54433670ddcb8703024bb360'), u'StaticDraft': 2.0}
+{u'loc': [-78.40214, 33.90379], u'WLDepth_ft': 21.1, u'Vessel': u'CDE - Altair', u'Time': u'17:56:46', u'Date': u'2014-05-23', u'_id': ObjectId('54433670ddcb8703024bb362'), u'StaticDraft': 2.0}
+{u'loc': [-78.40166, 33.90379], u'WLDepth_ft': 16.7, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:18:56', u'Date': u'2011-06-29', u'_id': ObjectId('54433670ddcb8703024bb363'), u'StaticDraft': 1.0}
+{u'loc': [-78.3984, 33.90379], u'WLDepth_ft': 16.8, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:19:20', u'Date': u'2011-06-29', u'_id': ObjectId('54433670ddcb8703024bb364'), u'StaticDraft': 1.0}
+{u'loc': [-78.39826, 33.90379], u'WLDepth_ft': 17.8, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:19:21', u'Date': u'2011-06-29', u'_id': ObjectId('54433670ddcb8703024bb365'), u'StaticDraft': 1.0}
+{u'loc': [-78.39812, 33.90379], u'WLDepth_ft': 18.2, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:19:22', u'Date': u'2011-06-29', u'_id': ObjectId('54433670ddcb8703024bb366'), u'StaticDraft': 1.0}
+-78.4105266
+33.9015287
+>>>>>>>>>>>>>>>
+{u'loc': [-78.41733, 33.89992], u'WLDepth_ft': 20.2, u'Vessel': u'C7C - Altair', u'Time': u'12:57:14', u'Date': u'2012-05-21', u'_id': ObjectId('5443366fddcb8703024bac01'), u'StaticDraft': 2.0}
+{u'loc': [-78.41734, 33.89993], u'WLDepth_ft': 15.1, u'Vessel': u'CDE - Altair', u'Time': u'21:16:58', u'Date': u'2013-11-07', u'_id': ObjectId('5443366fddcb8703024bac08'), u'StaticDraft': 2.0}
+{u'loc': [-78.41734, 33.89994], u'WLDepth_ft': 20.2, u'Vessel': u'CDE - Altair', u'Time': u'17:49:34', u'Date': u'2014-05-23', u'_id': ObjectId('5443366fddcb8703024bac0b'), u'StaticDraft': 2.0}
+{u'loc': [-78.41725, 33.89995], u'WLDepth_ft': 15.4, u'Vessel': u'CDE - Altair', u'Time': u'21:16:56', u'Date': u'2013-11-07', u'_id': ObjectId('5443366fddcb8703024bac0f'), u'StaticDraft': 2.0}
+{u'loc': [-78.41723, 33.89995], u'WLDepth_ft': 20.2, u'Vessel': u'C7C - Altair', u'Time': u'12:57:16', u'Date': u'2012-05-21', u'_id': ObjectId('5443366fddcb8703024bac10'), u'StaticDraft': 2.0}
+{u'loc': [-78.41727, 33.89996], u'WLDepth_ft': 20.0, u'Vessel': u'CDE - Altair', u'Time': u'17:49:36', u'Date': u'2014-05-23', u'_id': ObjectId('5443366fddcb8703024bac12'), u'StaticDraft': 2.0}
+{u'loc': [-78.41717, 33.89997], u'WLDepth_ft': 15.7, u'Vessel': u'CDE - Altair', u'Time': u'21:16:54', u'Date': u'2013-11-07', u'_id': ObjectId('5443366fddcb8703024bac19'), u'StaticDraft': 2.0}
+{u'loc': [-78.41713, 33.89997], u'WLDepth_ft': 19.9, u'Vessel': u'C7C - Altair', u'Time': u'12:57:18', u'Date': u'2012-05-21', u'_id': ObjectId('5443366fddcb8703024bac1a'), u'StaticDraft': 2.0}
+{u'loc': [-78.4173, 33.89998], u'WLDepth_ft': 18.8, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:16:48', u'Date': u'2011-06-29', u'_id': ObjectId('5443366fddcb8703024bac1f'), u'StaticDraft': 1.0}
+{u'loc': [-78.41719, 33.89998], u'WLDepth_ft': 19.2, u'Vessel': u'CDE - Altair', u'Time': u'17:49:38', u'Date': u'2014-05-23', u'_id': ObjectId('5443366fddcb8703024bac20'), u'StaticDraft': 2.0}
+{u'loc': [-78.41708, 33.89999], u'WLDepth_ft': 15.9, u'Vessel': u'CDE - Altair', u'Time': u'21:16:52', u'Date': u'2013-11-07', u'_id': ObjectId('5443366fddcb8703024bac22'), u'StaticDraft': 2.0}
+{u'loc': [-78.41712, 33.9], u'WLDepth_ft': 19.0, u'Vessel': u'CDE - Altair', u'Time': u'17:49:40', u'Date': u'2014-05-23', u'_id': ObjectId('5443366fddcb8703024bac27'), u'StaticDraft': 2.0}
+{u'loc': [-78.41705, 33.9], u'WLDepth_ft': 19.5, u'Vessel': u'C7C - Altair', u'Time': u'12:57:20', u'Date': u'2012-05-21', u'_id': ObjectId('5443366fddcb8703024bac28'), u'StaticDraft': 2.0}
+{u'loc': [-78.41732, 33.90001], u'WLDepth_ft': 20.2, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'23:06:16', u'Date': u'2011-06-29', u'_id': ObjectId('5443366fddcb8703024bac2a'), u'StaticDraft': 1.0}
+{u'loc': [-78.41716, 33.90001], u'WLDepth_ft': 18.7, u'Vessel': u'CDE - Flying Point Marina', u'Time': u'22:16:49', u'Date': u'2011-06-29', u'_id': ObjectId('5443366fddcb8703024bac2b'), u'StaticDraft': 1.0}
+{u'loc': [-78.41699, 33.90001], u'WLDepth_ft': 14.7, u'Vessel': u'CDE - Altair', u'Time': u'21:16:50', u'Date': u'2013-11-07', u'_id': ObjectId('5443366fddcb8703024bac2c'), u'StaticDraft': 2.0}
+{u'loc': [-78.41705, 33.90002], u'WLDepth_ft': 19.8, u'Vessel': u'CDE - Altair', u'Time': u'17:49:42', u'Date': u'2014-05-23', u'_id': ObjectId('5443366fddcb8703024bac32'), u'StaticDraft': 2.0}
+{u'loc': [-78.41695, 33.90002], u'WLDepth_ft': 19.6, u'Vessel': u'C7C - Altair', u'Time': u'12:57:22', u'Date': u'2012-05-21', u'_id': ObjectId('5443366fddcb8703024bac33'), u'StaticDraft': 2.0}
+{u'loc': [-78.41732, 33.90003], u'WLDepth_ft': 18.8, u'Vessel': u'C7C - Altair', u'Time': u'12:25:29', u'Date': u'2013-04-14', u'_id': ObjectId('5443366fddcb8703024bac37'), u'StaticDraft': 2.0}
+{u'loc': [-78.41691, 33.90003], u'WLDepth_ft': 15.6, u'Vessel': u'CDE - Altair', u'Time': u'21:16:48', u'Date': u'2013-11-07', u'_id': ObjectId('5443366fddcb8703024bac38'), u'StaticDraft': 2.0}
+-78.501073
+33.8837585
+>>>>>>>>>>>>>>>
+{u'loc': [-78.50787, 33.88227], u'WLDepth_ft': 18.2, u'Vessel': u'CDE - Altair', u'Time': u'17:12:48', u'Date': u'2014-05-23', u'_id': ObjectId('54433668ddcb8703024b70f5'), u'StaticDraft': 2.0}
+{u'loc': [-78.50777, 33.8823], u'WLDepth_ft': 17.9, u'Vessel': u'CDE - Altair', u'Time': u'17:12:50', u'Date': u'2014-05-23', u'_id': ObjectId('54433668ddcb8703024b70ff'), u'StaticDraft': 2.0}
+{u'loc': [-78.50768, 33.88232], u'WLDepth_ft': 18.1, u'Vessel': u'CDE - Altair', u'Time': u'17:12:52', u'Date': u'2014-05-23', u'_id': ObjectId('54433668ddcb8703024b7107'), u'StaticDraft': 2.0}
+{u'loc': [-78.5079, 33.88233], u'WLDepth_ft': 18.9, u'Vessel': u'C7C - Chez Nous', u'Time': u'15:02:34', u'Date': u'2010-10-25', u'_id': ObjectId('54433668ddcb8703024b7109'), u'StaticDraft': 1.3}
+{u'loc': [-78.50783, 33.88233], u'WLDepth_ft': 19.3, u'Vessel': u'C7C - Altair', u'Time': u'12:24:08', u'Date': u'2012-05-21', u'_id': ObjectId('54433668ddcb8703024b710a'), u'StaticDraft': 2.0}
+{u'loc': [-78.50785, 33.88234], u'WLDepth_ft': 18.9, u'Vessel': u'C7C - Chez Nous', u'Time': u'15:02:32', u'Date': u'2010-10-25', u'_id': ObjectId('54433668ddcb8703024b710c'), u'StaticDraft': 1.3}
+{u'loc': [-78.5079, 33.88235], u'WLDepth_ft': 18.0, u'Vessel': u'C7C - Altair', u'Time': u'16:13:18', u'Date': u'2011-11-11', u'_id': ObjectId('54433668ddcb8703024b710f'), u'StaticDraft': 2.0}
+{u'loc': [-78.5078, 33.88235], u'WLDepth_ft': 19.0, u'Vessel': u'C7C - Chez Nous', u'Time': u'15:02:30', u'Date': u'2010-10-25', u'_id': ObjectId('54433668ddcb8703024b7110'), u'StaticDraft': 1.3}
+{u'loc': [-78.50773, 33.88235], u'WLDepth_ft': 19.7, u'Vessel': u'C7C - Altair', u'Time': u'12:24:10', u'Date': u'2012-05-21', u'_id': ObjectId('54433668ddcb8703024b7111'), u'StaticDraft': 2.0}
+{u'loc': [-78.50758, 33.88235], u'WLDepth_ft': 17.7, u'Vessel': u'CDE - Altair', u'Time': u'17:12:54', u'Date': u'2014-05-23', u'_id': ObjectId('54433668ddcb8703024b7112'), u'StaticDraft': 2.0}
+{u'loc': [-78.50782, 33.88237], u'WLDepth_ft': 17.7, u'Vessel': u'C7C - Altair', u'Time': u'16:13:16', u'Date': u'2011-11-11', u'_id': ObjectId('54433668ddcb8703024b7117'), u'StaticDraft': 2.0}
+{u'loc': [-78.50774, 33.88237], u'WLDepth_ft': 18.7, u'Vessel': u'C7C - Chez Nous', u'Time': u'15:02:28', u'Date': u'2010-10-25', u'_id': ObjectId('54433668ddcb8703024b7118'), u'StaticDraft': 1.3}
+{u'loc': [-78.50749, 33.88237], u'WLDepth_ft': 17.8, u'Vessel': u'CDE - Altair', u'Time': u'17:12:56', u'Date': u'2014-05-23', u'_id': ObjectId('54433668ddcb8703024b7119'), u'StaticDraft': 2.0}
+{u'loc': [-78.50772, 33.88238], u'WLDepth_ft': 18.1, u'Vessel': u'C7C - Altair', u'Time': u'16:13:14', u'Date': u'2011-11-11', u'_id': ObjectId('54433668ddcb8703024b711b'), u'StaticDraft': 2.0}
+{u'loc': [-78.5077, 33.88238], u'WLDepth_ft': 18.7, u'Vessel': u'C7C - Chez Nous', u'Time': u'15:02:26', u'Date': u'2010-10-25', u'_id': ObjectId('54433668ddcb8703024b711c'), u'StaticDraft': 1.3}
+{u'loc': [-78.50763, 33.88238], u'WLDepth_ft': 19.3, u'Vessel': u'C7C - Altair', u'Time': u'12:24:12', u'Date': u'2012-05-21', u'_id': ObjectId('54433668ddcb8703024b711d'), u'StaticDraft': 2.0}
+{u'loc': [-78.50766, 33.88239], u'WLDepth_ft': 19.0, u'Vessel': u'C7C - Chez Nous', u'Time': u'15:02:24', u'Date': u'2010-10-25', u'_id': ObjectId('54433668ddcb8703024b711e'), u'StaticDraft': 1.3}
+{u'loc': [-78.50792, 33.8824], u'WLDepth_ft': 14.5, u'Vessel': u'CDE - Altair', u'Time': u'21:49:40', u'Date': u'2013-11-07', u'_id': ObjectId('54433668ddcb8703024b7122'), u'StaticDraft': 2.0}
+{u'loc': [-78.50762, 33.8824], u'WLDepth_ft': 18.5, u'Vessel': u'C7C - Chez Nous', u'Time': u'15:02:22', u'Date': u'2010-10-25', u'_id': ObjectId('54433668ddcb8703024b7123'), u'StaticDraft': 1.3}
+{u'loc': [-78.50759, 33.8824], u'WLDepth_ft': 18.7, u'Vessel': u'C7C - Chez Nous', u'Time': u'15:02:20', u'Date': u'2010-10-25', u'_id': ObjectId('54433668ddcb8703024b7124'), u'StaticDraft': 1.3}
+-78.3806829
+33.9105765
+>>>>>>>>>>>>>>>
+{u'loc': [-78.38588, 33.906], u'WLDepth_ft': 21.7, u'Vessel': u'CDE - Altair', u'Time': u'18:04:28', u'Date': u'2014-05-23', u'_id': ObjectId('54433672ddcb8703024bc08d'), u'StaticDraft': 2.0}
+{u'loc': [-78.38595, 33.90602], u'WLDepth_ft': 18.2, u'Vessel': u'C7C - Altair', u'Time': u'13:08:13', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc08f'), u'StaticDraft': 2.0}
+{u'loc': [-78.386, 33.90603], u'WLDepth_ft': 15.0, u'Vessel': u'C7C - Altair', u'Time': u'12:56:24', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc092'), u'StaticDraft': 2.0}
+{u'loc': [-78.38583, 33.90605], u'WLDepth_ft': 20.9, u'Vessel': u'CDE - Altair', u'Time': u'18:04:30', u'Date': u'2014-05-23', u'_id': ObjectId('54433672ddcb8703024bc096'), u'StaticDraft': 2.0}
+{u'loc': [-78.38587, 33.90607], u'WLDepth_ft': 18.0, u'Vessel': u'C7C - Altair', u'Time': u'13:08:15', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc099'), u'StaticDraft': 2.0}
+{u'loc': [-78.38603, 33.90608], u'WLDepth_ft': 14.5, u'Vessel': u'C7C - Altair', u'Time': u'15:23:55', u'Date': u'2011-11-11', u'_id': ObjectId('54433672ddcb8703024bc09b'), u'StaticDraft': 2.0}
+{u'loc': [-78.38592, 33.90608], u'WLDepth_ft': 14.6, u'Vessel': u'C7C - Altair', u'Time': u'12:56:22', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc09c'), u'StaticDraft': 2.0}
+{u'loc': [-78.38605, 33.9061], u'WLDepth_ft': 13.1, u'Vessel': u'C7C - Altair', u'Time': u'12:38:23', u'Date': u'2013-04-14', u'_id': ObjectId('54433672ddcb8703024bc09f'), u'StaticDraft': 2.0}
+{u'loc': [-78.38599, 33.9061], u'WLDepth_ft': 10.5, u'Vessel': u'C47 - Chez Nous', u'Time': u'17:57:22', u'Date': u'2011-09-26', u'_id': ObjectId('54433672ddcb8703024bc0a0'), u'StaticDraft': 1.3}
+{u'loc': [-78.38577, 33.90611], u'WLDepth_ft': 23.2, u'Vessel': u'CDE - Altair', u'Time': u'18:04:32', u'Date': u'2014-05-23', u'_id': ObjectId('54433672ddcb8703024bc0a1'), u'StaticDraft': 2.0}
+{u'loc': [-78.38597, 33.90613], u'WLDepth_ft': 13.4, u'Vessel': u'C7C - Altair', u'Time': u'15:23:53', u'Date': u'2011-11-11', u'_id': ObjectId('54433672ddcb8703024bc0a5'), u'StaticDraft': 2.0}
+{u'loc': [-78.3858, 33.90613], u'WLDepth_ft': 18.6, u'Vessel': u'C7C - Altair', u'Time': u'13:08:17', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc0a6'), u'StaticDraft': 2.0}
+{u'loc': [-78.38594, 33.90614], u'WLDepth_ft': 10.7, u'Vessel': u'C47 - Chez Nous', u'Time': u'17:57:20', u'Date': u'2011-09-26', u'_id': ObjectId('54433672ddcb8703024bc0a7'), u'StaticDraft': 1.3}
+{u'loc': [-78.38598, 33.90615], u'WLDepth_ft': 13.4, u'Vessel': u'C7C - Altair', u'Time': u'12:38:25', u'Date': u'2013-04-14', u'_id': ObjectId('54433672ddcb8703024bc0a8'), u'StaticDraft': 2.0}
+{u'loc': [-78.38585, 33.90615], u'WLDepth_ft': 15.4, u'Vessel': u'C7C - Altair', u'Time': u'12:56:20', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc0a9'), u'StaticDraft': 2.0}
+{u'loc': [-78.38571, 33.90616], u'WLDepth_ft': 22.5, u'Vessel': u'CDE - Altair', u'Time': u'18:04:34', u'Date': u'2014-05-23', u'_id': ObjectId('54433672ddcb8703024bc0aa'), u'StaticDraft': 2.0}
+{u'loc': [-78.3861, 33.90617], u'WLDepth_ft': 9.9, u'Vessel': u'CDE - Altair', u'Time': u'21:04:30', u'Date': u'2013-11-07', u'_id': ObjectId('54433672ddcb8703024bc0ac'), u'StaticDraft': 2.0}
+{u'loc': [-78.38589, 33.90617], u'WLDepth_ft': 10.5, u'Vessel': u'C47 - Chez Nous', u'Time': u'17:57:18', u'Date': u'2011-09-26', u'_id': ObjectId('54433672ddcb8703024bc0ad'), u'StaticDraft': 1.3}
+{u'loc': [-78.38608, 33.90618], u'WLDepth_ft': 10.4, u'Vessel': u'1A1 - Marina Life', u'Time': u'13:24:38', u'Date': u'2013-06-17', u'_id': ObjectId('54433672ddcb8703024bc0ae'), u'StaticDraft': 0.0}
+{u'loc': [-78.38592, 33.90618], u'WLDepth_ft': 13.0, u'Vessel': u'C7C - Altair', u'Time': u'15:23:51', u'Date': u'2011-11-11', u'_id': ObjectId('54433672ddcb8703024bc0af'), u'StaticDraft': 2.0}
+-78.3622507
+33.9090534
+>>>>>>>>>>>>>>>
+{u'loc': [-78.36218, 33.90927], u'WLDepth_ft': 20.5, u'Vessel': u'C7C - Altair', u'Time': u'12:45:52', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2db'), u'StaticDraft': 2.0}
+{u'loc': [-78.36252, 33.90928], u'WLDepth_ft': 21.1, u'Vessel': u'C7C - Altair', u'Time': u'13:17:45', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2e0'), u'StaticDraft': 2.0}
+{u'loc': [-78.36243, 33.90928], u'WLDepth_ft': 21.0, u'Vessel': u'C7C - Altair', u'Time': u'13:17:47', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2e1'), u'StaticDraft': 2.0}
+{u'loc': [-78.36238, 33.90928], u'WLDepth_ft': 20.8, u'Vessel': u'C7C - Altair', u'Time': u'12:45:56', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2e2'), u'StaticDraft': 2.0}
+{u'loc': [-78.36233, 33.90928], u'WLDepth_ft': 21.4, u'Vessel': u'C7C - Altair', u'Time': u'13:17:49', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2e3'), u'StaticDraft': 2.0}
+{u'loc': [-78.36228, 33.90928], u'WLDepth_ft': 20.6, u'Vessel': u'C7C - Altair', u'Time': u'12:45:54', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2e4'), u'StaticDraft': 2.0}
+{u'loc': [-78.36223, 33.90928], u'WLDepth_ft': 21.0, u'Vessel': u'C7C - Altair', u'Time': u'13:17:51', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2e5'), u'StaticDraft': 2.0}
+{u'loc': [-78.3621, 33.90928], u'WLDepth_ft': 20.2, u'Vessel': u'C7C - Altair', u'Time': u'12:45:50', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2e6'), u'StaticDraft': 2.0}
+{u'loc': [-78.362, 33.90928], u'WLDepth_ft': 19.4, u'Vessel': u'C7C - Altair', u'Time': u'12:45:48', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2e7'), u'StaticDraft': 2.0}
+{u'loc': [-78.3619, 33.90928], u'WLDepth_ft': 18.9, u'Vessel': u'C7C - Altair', u'Time': u'12:45:46', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2e8'), u'StaticDraft': 2.0}
+{u'loc': [-78.36262, 33.9093], u'WLDepth_ft': 21.2, u'Vessel': u'C7C - Altair', u'Time': u'13:17:43', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2eb'), u'StaticDraft': 2.0}
+{u'loc': [-78.36248, 33.9093], u'WLDepth_ft': 21.4, u'Vessel': u'C7C - Altair', u'Time': u'12:45:58', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2ec'), u'StaticDraft': 2.0}
+{u'loc': [-78.36213, 33.9093], u'WLDepth_ft': 21.1, u'Vessel': u'C7C - Altair', u'Time': u'13:17:53', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2ed'), u'StaticDraft': 2.0}
+{u'loc': [-78.36182, 33.9093], u'WLDepth_ft': 19.2, u'Vessel': u'C7C - Altair', u'Time': u'12:45:44', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2ee'), u'StaticDraft': 2.0}
+{u'loc': [-78.36172, 33.9093], u'WLDepth_ft': 18.7, u'Vessel': u'C7C - Altair', u'Time': u'12:45:42', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2ef'), u'StaticDraft': 2.0}
+{u'loc': [-78.36272, 33.90932], u'WLDepth_ft': 21.8, u'Vessel': u'C7C - Altair', u'Time': u'13:17:41', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2f3'), u'StaticDraft': 2.0}
+{u'loc': [-78.36258, 33.90932], u'WLDepth_ft': 21.5, u'Vessel': u'C7C - Altair', u'Time': u'12:46:00', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2f4'), u'StaticDraft': 2.0}
+{u'loc': [-78.36203, 33.90932], u'WLDepth_ft': 21.3, u'Vessel': u'C7C - Altair', u'Time': u'13:17:55', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2f5'), u'StaticDraft': 2.0}
+{u'loc': [-78.36162, 33.90932], u'WLDepth_ft': 18.9, u'Vessel': u'C7C - Altair', u'Time': u'12:45:40', u'Date': u'2012-11-02', u'_id': ObjectId('54433672ddcb8703024bc2f6'), u'StaticDraft': 2.0}
+{u'loc': [-78.36282, 33.90933], u'WLDepth_ft': 21.2, u'Vessel': u'C7C - Altair', u'Time': u'13:17:39', u'Date': u'2012-05-21', u'_id': ObjectId('54433672ddcb8703024bc2fc'), u'StaticDraft': 2.0}
+-78.299112
+33.9159556
+>>>>>>>>>>>>>>>
+{u'loc': [-78.29385, 33.91613], u'WLDepth_ft': 19.6, u'Vessel': u'C7C - Altair', u'Time': u'13:41:33', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024be0ed'), u'StaticDraft': 2.0}
+{u'loc': [-78.29375, 33.91613], u'WLDepth_ft': 19.3, u'Vessel': u'C7C - Altair', u'Time': u'13:41:35', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024be0ee'), u'StaticDraft': 2.0}
+{u'loc': [-78.29365, 33.91613], u'WLDepth_ft': 19.5, u'Vessel': u'C7C - Altair', u'Time': u'13:41:37', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024be0ef'), u'StaticDraft': 2.0}
+{u'loc': [-78.29355, 33.91613], u'WLDepth_ft': 19.7, u'Vessel': u'C7C - Altair', u'Time': u'13:41:39', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024be0f0'), u'StaticDraft': 2.0}
+{u'loc': [-78.29345, 33.91613], u'WLDepth_ft': 19.1, u'Vessel': u'C7C - Altair', u'Time': u'13:41:41', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024be0f1'), u'StaticDraft': 2.0}
+{u'loc': [-78.29335, 33.91613], u'WLDepth_ft': 19.1, u'Vessel': u'C7C - Altair', u'Time': u'13:41:43', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024be0f2'), u'StaticDraft': 2.0}
+{u'loc': [-78.29325, 33.91613], u'WLDepth_ft': 19.2, u'Vessel': u'C7C - Altair', u'Time': u'13:41:45', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024be0f3'), u'StaticDraft': 2.0}
+{u'loc': [-78.29315, 33.91613], u'WLDepth_ft': 19.3, u'Vessel': u'C7C - Altair', u'Time': u'13:41:47', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024be0f4'), u'StaticDraft': 2.0}
+{u'loc': [-78.30008, 33.91615], u'WLDepth_ft': 18.4, u'Vessel': u'CDE - Altair', u'Time': u'18:35:38', u'Date': u'2014-05-23', u'_id': ObjectId('54433676ddcb8703024be1f9'), u'StaticDraft': 2.0}
+{u'loc': [-78.29998, 33.91615], u'WLDepth_ft': 18.3, u'Vessel': u'CDE - Altair', u'Time': u'18:35:40', u'Date': u'2014-05-23', u'_id': ObjectId('54433676ddcb8703024be1fa'), u'StaticDraft': 2.0}
+{u'loc': [-78.29989, 33.91615], u'WLDepth_ft': 18.4, u'Vessel': u'CDE - Altair', u'Time': u'18:35:42', u'Date': u'2014-05-23', u'_id': ObjectId('54433676ddcb8703024be1fb'), u'StaticDraft': 2.0}
+{u'loc': [-78.29979, 33.91615], u'WLDepth_ft': 18.6, u'Vessel': u'CDE - Altair', u'Time': u'18:35:44', u'Date': u'2014-05-23', u'_id': ObjectId('54433676ddcb8703024be1fc'), u'StaticDraft': 2.0}
+{u'loc': [-78.29598, 33.91615], u'WLDepth_ft': 19.2, u'Vessel': u'C7C - Altair', u'Time': u'13:40:51', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024be1fd'), u'StaticDraft': 2.0}
+{u'loc': [-78.29588, 33.91615], u'WLDepth_ft': 18.6, u'Vessel': u'C7C - Altair', u'Time': u'13:40:53', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024be1fe'), u'StaticDraft': 2.0}
+{u'loc': [-78.29578, 33.91615], u'WLDepth_ft': 18.8, u'Vessel': u'C7C - Altair', u'Time': u'13:40:55', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024be1ff'), u'StaticDraft': 2.0}
+{u'loc': [-78.29568, 33.91615], u'WLDepth_ft': 18.8, u'Vessel': u'C7C - Altair', u'Time': u'13:40:57', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024be200'), u'StaticDraft': 2.0}
+{u'loc': [-78.29558, 33.91615], u'WLDepth_ft': 18.9, u'Vessel': u'C7C - Altair', u'Time': u'13:40:59', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024be201'), u'StaticDraft': 2.0}
+{u'loc': [-78.29548, 33.91615], u'WLDepth_ft': 18.9, u'Vessel': u'C7C - Altair', u'Time': u'13:41:01', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024be202'), u'StaticDraft': 2.0}
+{u'loc': [-78.29537, 33.91615], u'WLDepth_ft': 18.8, u'Vessel': u'C7C - Altair', u'Time': u'13:41:03', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024be203'), u'StaticDraft': 2.0}
+{u'loc': [-78.29527, 33.91615], u'WLDepth_ft': 19.1, u'Vessel': u'C7C - Altair', u'Time': u'13:41:05', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024be204'), u'StaticDraft': 2.0}
+-78.3082576
+33.9159792
+>>>>>>>>>>>>>>>
+{u'loc': [-78.3152, 33.91567], u'WLDepth_ft': 16.1, u'Vessel': u'C7C - Altair', u'Time': u'14:58:34', u'Date': u'2011-11-11', u'_id': ObjectId('54433676ddcb8703024bdcdd'), u'StaticDraft': 2.0}
+{u'loc': [-78.31525, 33.91568], u'WLDepth_ft': 18.5, u'Vessel': u'C7C - Altair', u'Time': u'13:34:00', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdcf0'), u'StaticDraft': 2.0}
+{u'loc': [-78.3151, 33.91568], u'WLDepth_ft': 16.2, u'Vessel': u'C7C - Altair', u'Time': u'14:58:32', u'Date': u'2011-11-11', u'_id': ObjectId('54433676ddcb8703024bdcf1'), u'StaticDraft': 2.0}
+{u'loc': [-78.31502, 33.91568], u'WLDepth_ft': 16.3, u'Vessel': u'C7C - Altair', u'Time': u'14:58:30', u'Date': u'2011-11-11', u'_id': ObjectId('54433676ddcb8703024bdcf2'), u'StaticDraft': 2.0}
+{u'loc': [-78.31492, 33.91568], u'WLDepth_ft': 16.3, u'Vessel': u'C7C - Altair', u'Time': u'14:58:28', u'Date': u'2011-11-11', u'_id': ObjectId('54433676ddcb8703024bdcf3'), u'StaticDraft': 2.0}
+{u'loc': [-78.31515, 33.9157], u'WLDepth_ft': 18.1, u'Vessel': u'C7C - Altair', u'Time': u'13:34:02', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdd05'), u'StaticDraft': 2.0}
+{u'loc': [-78.31507, 33.9157], u'WLDepth_ft': 18.1, u'Vessel': u'C7C - Altair', u'Time': u'13:34:04', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdd06'), u'StaticDraft': 2.0}
+{u'loc': [-78.31483, 33.9157], u'WLDepth_ft': 16.1, u'Vessel': u'C7C - Altair', u'Time': u'14:58:26', u'Date': u'2011-11-11', u'_id': ObjectId('54433676ddcb8703024bdd07'), u'StaticDraft': 2.0}
+{u'loc': [-78.31475, 33.9157], u'WLDepth_ft': 16.4, u'Vessel': u'C7C - Altair', u'Time': u'14:58:24', u'Date': u'2011-11-11', u'_id': ObjectId('54433676ddcb8703024bdd08'), u'StaticDraft': 2.0}
+{u'loc': [-78.31497, 33.91572], u'WLDepth_ft': 18.3, u'Vessel': u'C7C - Altair', u'Time': u'13:34:06', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdd1e'), u'StaticDraft': 2.0}
+{u'loc': [-78.31487, 33.91572], u'WLDepth_ft': 18.4, u'Vessel': u'C7C - Altair', u'Time': u'13:34:08', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdd1f'), u'StaticDraft': 2.0}
+{u'loc': [-78.31465, 33.91572], u'WLDepth_ft': 16.6, u'Vessel': u'C7C - Altair', u'Time': u'14:58:22', u'Date': u'2011-11-11', u'_id': ObjectId('54433676ddcb8703024bdd20'), u'StaticDraft': 2.0}
+{u'loc': [-78.31457, 33.91572], u'WLDepth_ft': 16.4, u'Vessel': u'C7C - Altair', u'Time': u'14:58:20', u'Date': u'2011-11-11', u'_id': ObjectId('54433676ddcb8703024bdd21'), u'StaticDraft': 2.0}
+{u'loc': [-78.31523, 33.91573], u'WLDepth_ft': 15.6, u'Vessel': u'CDE - Altair', u'Time': u'20:37:46', u'Date': u'2013-11-07', u'_id': ObjectId('54433676ddcb8703024bdd2d'), u'StaticDraft': 2.0}
+{u'loc': [-78.31522, 33.91573], u'WLDepth_ft': 18.5, u'Vessel': u'CDE - Altair', u'Time': u'18:30:16', u'Date': u'2014-05-23', u'_id': ObjectId('54433676ddcb8703024bdd2e'), u'StaticDraft': 2.0}
+{u'loc': [-78.31477, 33.91573], u'WLDepth_ft': 18.0, u'Vessel': u'C7C - Altair', u'Time': u'13:34:10', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdd2f'), u'StaticDraft': 2.0}
+{u'loc': [-78.31467, 33.91573], u'WLDepth_ft': 18.5, u'Vessel': u'C7C - Altair', u'Time': u'13:34:12', u'Date': u'2012-05-21', u'_id': ObjectId('54433676ddcb8703024bdd30'), u'StaticDraft': 2.0}
+{u'loc': [-78.31448, 33.91573], u'WLDepth_ft': 16.2, u'Vessel': u'C7C - Altair', u'Time': u'14:58:18', u'Date': u'2011-11-11', u'_id': ObjectId('54433676ddcb8703024bdd31'), u'StaticDraft': 2.0}
+{u'loc': [-78.31438, 33.91573], u'WLDepth_ft': 16.4, u'Vessel': u'C7C - Altair', u'Time': u'14:58:16', u'Date': u'2011-11-11', u'_id': ObjectId('54433676ddcb8703024bdd32'), u'StaticDraft': 2.0}
+{u'loc': [-78.31514, 33.91574], u'WLDepth_ft': 16.5, u'Vessel': u'CDE - Altair', u'Time': u'20:37:44', u'Date': u'2013-11-07', u'_id': ObjectId('54433676ddcb8703024bdd37'), u'StaticDraft': 2.0}

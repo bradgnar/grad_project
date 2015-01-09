@@ -29,7 +29,7 @@ node_modules
 
 #Ignore ENC_ROOT anything
 ENC_ROOT/*
-ENC_ROOT
+ENC_ROOT*
 
-#ignore front end components, install them using bower
-ICW_MagentaLine/public/components/*
+#ignore data files in the work to be cleaned
+work_to_be_cleaned/*

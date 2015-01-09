@@ -1,0 +1,12 @@
+{
+  "name": "grad_project2",
+  "version": "0.0.1",
+  "description": "a grad project yo",
+  "author": "Radley Mith",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "mongoose": "~3.8.19"
+  },
+  "devDependencies": {}
+}
