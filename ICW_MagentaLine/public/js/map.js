@@ -4,8 +4,7 @@ function initialize() {
       zoom: 10,
       mapTypeId: google.maps.MapTypeId.SATELLITE
     };
-    var map = new google.maps.Map(document.getElementById('map-canvas'),
-        mapOptions);
+    var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 }
 
 //you can do a media query with the CSS to get this effect
