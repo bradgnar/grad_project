@@ -33,3 +33,7 @@ ENC_ROOT*
 
 #ignore data files in the work to be cleaned
 work_to_be_cleaned/*
+
+
+#ignore front end components, install them using bower
+ICW_MagentaLine/public/components/*
