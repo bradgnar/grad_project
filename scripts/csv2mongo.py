@@ -28,16 +28,17 @@ def main(argv):
 	print 'path is ' + os.path.expanduser('~'+argv[1])
 	print 'file dir ' + os.path.dirname(os.path.realpath(__file__))
 	print 'cwd dir ' + os.getcwd()
-	os.chdir(os.path.expanduser('~'+argv[1]))
+	os.chdir(os.path.expanduser('~'))
 	print 'cwd dir ' + os.getcwd()
 
 	# '/Users/bradleysmith/workspace/grad_project/data/DB_5_Brad_Towson.csv'
 	# os.path.expanduser('~' + argv[1])
-	# with open('/Users/bradleysmith/workspace/grad_project/data/DB_5_Brad_Towson.csv', 'rb') as csvfile:
-	#     csvreader = csv.reader(csvfile, delimiter=',')
-	#     for row in csvreader:
-	# 		obj = createSoundingObj(row)
-	# 		db.proto_sounds.insert(obj)
+	with open(os.path.expanduser('~' + argv[1]), 'rb') as csvfile:
+	    csvreader = csv.reader(csvfile, delimiter=',')
+	    for row in csvreader:
+	    	print row
+	    	obj = createSoundingObj(row)
+	    	db.proto_sounds.insert(obj)
 
 if __name__ == "__main__":
 	main(sys.argv)
