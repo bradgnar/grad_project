@@ -17,14 +17,26 @@ version and as the scripts get better the tutorial [should] get better.
 -------------------------------------------------------------------------------
 Now comes the fun time - running custom scripts
 
-####Get the data in there
-You are going to need to email survice engineering for the data files.  Once you have them you will need to install [pymongo](http://api.mongodb.org/python/2.0.1/installation.html)
+#Get the data in there
+Before you do anything install [pymongo](http://api.mongodb.org/python/2.0.1/installation.html)
 
-####Buoys
+####Buoys - The ENC data files
+You are going to need to email survice engineering for a zip of the ENC data
+files or a file that has broken them down into either KML or csv format
+depending on your needs
+
 run 'python csv2mongo.py /the/path/to/your/file'
 
-####Putting in your csv
+####Putting in your csv/data
+-------------------------------------------------------------------------------
+The soundings that you have should be in a csv format with the following columns:
+`longitude, latitude, WLDepth_ft, Date, Time, StaticDraft, Vessel`
+In order to move that data into your db, you will need to run
+`python csv2mongo.py /filepath/of/csv dbName collectionName`
+This is a simple script and there are no checks to make sure that you have
+entered the correct information, so be careful
 
-`python csv2mongo.py filepath/of/csv`
+
+
 
 
