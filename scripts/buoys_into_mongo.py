@@ -1,3 +1,5 @@
+#!/usr/bin/python
+import sys
 import csv
 from pymongo import MongoClient, GEO2D
 from datetime import datetime
