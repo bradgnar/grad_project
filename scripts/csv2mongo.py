@@ -30,7 +30,6 @@ def main(argv):
 	with open(os.path.expanduser('~' + argv[1]), 'rb') as csvfile:
 	    csvreader = csv.reader(csvfile, delimiter=',')
 	    for row in csvreader:
-	    	print row
 	    	obj = createSoundingObj(row)
 	    	db[argv[3]].insert(obj)
 
