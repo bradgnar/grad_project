@@ -1,7 +1,8 @@
 #!/usr/bin/python
 import sys
+import os
 import csv
-from pymongo import MongoClient, GEO2D
+from pymongo import MongoClient, GEOSPHERE
 from datetime import datetime
 
 client = MongoClient('localhost', 27017)
@@ -9,7 +10,8 @@ userPath = os.path.expanduser('~')
 
 def instantiateCollection (argv):
     db = client[argv[2]]
-    collection = db[argv[3]].drop()
+    collection = db[argv[3]]
+    collection.drop()
     collection.create_index([("loc", GEOSPHERE)])
     return collection
 
