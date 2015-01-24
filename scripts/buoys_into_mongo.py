@@ -22,18 +22,24 @@ def createSoundingObj (row, index):
 		}
 
 def readCsv2Mongo (filePath, collection):
+    pointDic = {}
     with open(filePath, 'rb') as csvfile:
         csvreader = csv.reader(csvfile, delimiter=',')
         index = 0
+        totIndex = 0
         for row in csvreader:
             obj = createSoundingObj(row, index)
-            index = index + 1
-            collection.insert(obj)
+            if(tuple(obj.get("loc")) not in pointDic):
+                pointDic[tuple(obj.get("loc"))] = obj.get("point_number")
+                index = index + 1
+                collection.insert(obj)
 
 
 def main (argv):
+    print userPath
     os.chdir(userPath)
     filePath = userPath + argv[1]
+    print filePath
     collection = instantiateCollection(argv)
     readCsv2Mongo(filePath, collection)
 
