@@ -5,20 +5,26 @@ function initialize() {
       mapTypeId: google.maps.MapTypeId.SATELLITE
     };
     var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+    alert('dsfawf')
+
+    google.maps.event.addListener(map, 'zoom_changed', function () {
+        var bounds = map.getBounds(),
+            maxLat = bounds.getNorthEast().lat(),
+            minLong = bounds.getNorthEast().lng(),
+            minLat = bounds.getSouthWest().lat(),
+            maxLong = bounds.getSouthWest().lng(),
+            boundsArray = [
+                {name: 'maxLat', value: maxLat},
+                {name: 'minLong', value: minLong},
+                {name: 'minLat', value: minLat},
+                {name: 'maxLong', value: maxLong}
+            ]
+            paramString = $.param(boundsArray);
+       // console.log('/markers' + paramString)
+        alert('/markers' + paramString)
+    });
 }
 
-//you can do a media query with the CSS to get this effect
-//no need for the JS
-// function detectBrowser() {
-//     var useragent = navigator.userAgent;
-//     var mapdiv = document.getElementById("map-canvas");
 
-//     if (useragent.indexOf('iPhone') != -1 || useragent.indexOf('Android') != -1 ) {
-//         mapdiv.style.width = '100%';
-//         mapdiv.style.height = '100%';
-//     } else {
-//         mapdiv.style.width = '600px';
-//         mapdiv.style.height = '800px';
-//     }
-// }
 google.maps.event.addDomListener(window, 'load', initialize);

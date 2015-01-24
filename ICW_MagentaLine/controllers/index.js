@@ -1,7 +1,8 @@
 'use strict';
 
 
-// var mapController = require('.');
+var BuoyController = require('./buoys'),
+    SoundingController = require('./soundings');
 
 
 module.exports = function (router) {
@@ -12,5 +13,9 @@ module.exports = function (router) {
         res.render('map', {});
 
     });
+
+    // router.get('/markers', function (req, res) {
+    //     //BuoyController.getMarkers
+    // });
 
 };
