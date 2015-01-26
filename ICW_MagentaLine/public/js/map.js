@@ -10,24 +10,25 @@ function initialize() {
 
     google.maps.event.addListener(map, 'zoom_changed', function () {
         var bounds = map.getBounds(),
-            maxLat = bounds.getNorthEast().lat(),
-            minLong = bounds.getNorthEast().lng(),
-            minLat = bounds.getSouthWest().lat(),
-            maxLong = bounds.getSouthWest().lng(),
-            bounds = {
-                'maxLat': maxLat,
-                'minLong': minLong,
-                'minLat': minLat,
-                'maxLong': maxLong
-            },
-            paramString = $.param(boundsArray);
-       // console.log('/markers' + paramString)
-        //alert('/markers' + paramString)
-        $.ajax('/markers', bounds)
+            upperRightLat = bounds.getNorthEast().lat(),
+            upperRightLong = bounds.getNorthEast().lng(),
+            bottomLeftLat = bounds.getSouthWest().lat(),
+            bottomLeftLong = bounds.getSouthWest().lng(),
+            twoPointBounds = {
+                bottomLeft: [bottomLeftLong, bottomLeftLat],
+                upperRight: [upperRightLong, upperRightLat]
+            };
+
+            console.log('>>>>>>>>>>>>2 point Bounds')
+            console.log(JSON.stringify(twoPointBounds))
+
+        $.ajax('markers', twoPointBounds)
             .then(function (response) {
+                console.log('>>>>>>>>response')
                 console.log(response)
             },
             function (error) {
+                console.log('.>>>>>>>>>>>>>errrrrrr')
                 console.log(error)
             })
     });
