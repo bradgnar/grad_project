@@ -3,7 +3,9 @@
 var http = require('http'),
     express = require('express'),
     kraken = require('kraken-js'),
-    db = require('./lib/mongodb');
+    db = require('./lib/mongodb'),
+    nconf = require('nconf'),
+    path = require('path');
 
 
 var options, app, server;
@@ -18,6 +20,8 @@ options = {
          * Add any additional config setup or overrides here. `config` is an initialized
          * `confit` (https://github.com/krakenjs/confit/) configuration object.
          */
+
+        nconf.use('file', { file: path.join(__dirname, 'config/config.json') });
         db.config(nconf.get('databaseConfig'));
         next(null, config);
     }

@@ -1,10 +1,12 @@
-// var mongoose = require('mongoose');
-// mongoose.connect('mongodb://localhost/icw');
+var mongoose = require('mongoose'),
+	db = mongoose.connection,
+	Schema = mongoose.Schema,
+	buoySchema = new Schema({
+		loc: { 
+			type: [Number],
+			index: '2dsphere'
+		},
+		pointNumber: Number
+	}),
+	Buoy = mongoose.model('Buoy', buoySchema);
 
-// var db = mongoose.connection;
-
-// db.on('error', console.error.bind(console, 'connection error:'));
-// mongoose.connection.on('disconnected', connect);
-// db.once('open', function (callback) {
-//   // yay!
-// });

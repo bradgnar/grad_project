@@ -25,15 +25,17 @@
         }
     },
 
+    "databaseConfig": {
+        "connectionString": "mongodb://localhost/icw"
+    },
+
 
     "i18n": {
         "contentPath": "path:./locales",
         "fallback": "en-US"
     },
 
-    "databaseConfig": {
-        "connectionString": "mongodb://localhost/icw"
-    },
+    
 
 
 

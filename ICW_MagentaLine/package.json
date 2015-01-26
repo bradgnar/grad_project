@@ -18,7 +18,8 @@
     "kraken-js": "^1.0.1",
     "less": "^1.7.5",
     "localizr": "^0.1.0",
-    "mongoose": "~3.8.22"
+    "mongoose": "~3.8.22",
+    "nconf": "git://github.com/flatiron/nconf"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
