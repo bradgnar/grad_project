@@ -1,5 +1,6 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,600,400');
 @import url('http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,700,300');
+/* line 5, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/intro */
 #intro {
   background: url(images/icw_sunset.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -7,9 +8,11 @@
   -o-background-size: cover;
   background-size: cover;
 }
+/* line 14, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/intro */
 #intro #intro-header #title {
   color: #ffffff;
 }
+/* line 23, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/intro */
 #intro .navbar .navbar-item-containers a:link,
 #intro .navbar .navbar-item-containers a:hover,
 #intro .navbar .navbar-item-containers a:visited,

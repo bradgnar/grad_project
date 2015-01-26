@@ -14,15 +14,22 @@ function initialize() {
             minLong = bounds.getNorthEast().lng(),
             minLat = bounds.getSouthWest().lat(),
             maxLong = bounds.getSouthWest().lng(),
-            boundsArray = [
-                {name: 'maxLat', value: maxLat},
-                {name: 'minLong', value: minLong},
-                {name: 'minLat', value: minLat},
-                {name: 'maxLong', value: maxLong}
-            ]
+            bounds = {
+                'maxLat': maxLat,
+                'minLong': minLong,
+                'minLat': minLat,
+                'maxLong': maxLong
+            },
             paramString = $.param(boundsArray);
        // console.log('/markers' + paramString)
-        alert('/markers' + paramString)
+        //alert('/markers' + paramString)
+        $.ajax('/markers', bounds)
+            .then(function (response) {
+                console.log(response)
+            },
+            function (error) {
+                console.log(error)
+            })
     });
 }
 

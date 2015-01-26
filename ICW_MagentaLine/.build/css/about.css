@@ -1,8 +1,10 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,600,400');
 @import url('http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,700,300');
+/* line 5, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/about */
 #about {
   border-bottom: 4px solid #000000;
 }
+/* line 8, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/about */
 #about #about-content {
   position: relative;
   left: 15%;

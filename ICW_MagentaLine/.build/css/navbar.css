@@ -1,9 +1,11 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,600,400');
 @import url('http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,700,300');
+/* line 5, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/navbar */
 .header {
   position: relative;
   height: 9%;
 }
+/* line 9, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/navbar */
 .header h1 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-weight: 300;
@@ -14,6 +16,7 @@
   color: #000000;
   display: inline;
 }
+/* line 20, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/navbar */
 .header .navbar {
   float: right;
   display: inline-flex;
@@ -25,9 +28,11 @@
   color: #000000;
   margin-top: 1.5%;
 }
+/* line 31, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/navbar */
 .header .navbar .navbar-item-containers {
   width: 20%;
 }
+/* line 34, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/navbar */
 .header .navbar .navbar-item-containers a:link,
 .header .navbar .navbar-item-containers a:hover,
 .header .navbar .navbar-item-containers a:visited,

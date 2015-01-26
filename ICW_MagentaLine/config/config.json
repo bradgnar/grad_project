@@ -31,6 +31,10 @@
         "fallback": "en-US"
     },
 
+    "databaseConfig": {
+        "connectionString": "mongodb://localhost/icw"
+    },
+
 
 
     "middleware": {

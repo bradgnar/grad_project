@@ -1,8 +1,9 @@
 'use strict';
 
-var http = require('http');
-var express = require('express');
-var kraken = require('kraken-js');
+var http = require('http'),
+    express = require('express'),
+    kraken = require('kraken-js'),
+    db = require('./lib/mongodb');
 
 
 var options, app, server;
@@ -17,6 +18,7 @@ options = {
          * Add any additional config setup or overrides here. `config` is an initialized
          * `confit` (https://github.com/krakenjs/confit/) configuration object.
          */
+        db.config(nconf.get('databaseConfig'));
         next(null, config);
     }
 };

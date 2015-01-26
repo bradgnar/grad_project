@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/icw/components/bootstrap/dist/css/bootstrap.min.css"></link>
     <link rel="stylesheet" href="/icw/css/master.css"></link>
     <link rel="stylesheet" href="/icw/css/navbar.css"></link>
+    <script type="text/javascript" src="/icw/components/jquery/dist/jquery.min.js"></script>
     {+headerIncludes /}
 </head>
 <body>
