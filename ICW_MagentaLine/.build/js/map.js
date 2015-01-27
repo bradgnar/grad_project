@@ -10,36 +10,25 @@ function initialize() {
 
     google.maps.event.addListener(map, 'zoom_changed', function () {
         var bounds = map.getBounds(),
+            upperRightLat = bounds.getNorthEast().lat(),
+            upperRightLong = bounds.getNorthEast().lng(),
+            bottomLeftLat = bounds.getSouthWest().lat(),
+            bottomLeftLong = bounds.getSouthWest().lng(),
             twoPointBounds = {
-                // bottomLeft: bottomLeft,
-                // upperRight: upperRight
-            },
-            maxLat = bounds.getNorthEast().lat(),
-            minLong = bounds.getNorthEast().lng(),
-            minLat = bounds.getSouthWest().lat(),
-            maxLong = bounds.getSouthWest().lng(),
-            twoPointBounds = {
-                bottomLeft: [maxLong, minLat],
-                upperRight: [minLong, maxLat]
-            },
-            bounds = {
-                'maxLat': maxLat,
-                'minLong': minLong,
-                'minLat': minLat,
-                'maxLong': maxLong
+                bottomLeft: [bottomLeftLong, bottomLeftLat],
+                upperRight: [upperRightLong, upperRightLat]
             };
-           // paramString = $.param(boundsArray);
+
             console.log('>>>>>>>>>>>>2 point Bounds')
             console.log(JSON.stringify(twoPointBounds))
-             console.log('>>>>>>>>>>>> Bounds')
-            console.log(JSON.stringify(bounds))
-       // console.log('/markers' + paramString)
-        //alert('/markers' + paramString)
-        $.ajax('markers', twoPointBounds)
+
+        $.get('markers', twoPointBounds)
             .then(function (response) {
+                console.log('>>>>>>>>response')
                 console.log(response)
             },
             function (error) {
+                console.log('.>>>>>>>>>>>>>errrrrrr')
                 console.log(error)
             })
     });

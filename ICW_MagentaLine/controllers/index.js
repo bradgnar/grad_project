@@ -15,7 +15,11 @@ module.exports = function (router) {
 
     router.get('/markers', function (req, res, next) {
         console.log('>>>>>>>>>>>>>>>hit the route');
-        res.json(MapController.getMarkers(req, res, next));
+        console.log(req.body)
+        //console.log(req)
+        console.log(req.params)
+        MapController.getMarkers(req, res, next)
+        res.json();
     });
 
     // router.get('/markers', function (req, res) {

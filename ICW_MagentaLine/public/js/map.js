@@ -22,7 +22,7 @@ function initialize() {
             console.log('>>>>>>>>>>>>2 point Bounds')
             console.log(JSON.stringify(twoPointBounds))
 
-        $.ajax('markers', twoPointBounds)
+        $.get('markers', twoPointBounds)
             .then(function (response) {
                 console.log('>>>>>>>>response')
                 console.log(response)

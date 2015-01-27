@@ -1,13 +1,11 @@
 var mongoose = require('mongoose'),
 	db = mongoose.connection,
-	Buoy = require('../models/buoy')
+	Buoy = require('../models/buoy'),
+    q = require('q');
 
 module.exports.getMarkers = function (req, res, next) {
 
-    console.log('>>>>>>>>>>>>>>>>>>>>>>>req params')
-    console.log(req.params)
-    console.log(req.body)
-    var params = req.params,
+    var params = req.query,
         queryObj;
 
     if (params) {
@@ -25,6 +23,11 @@ module.exports.getMarkers = function (req, res, next) {
         queryObj = {};
     }
 
-    Buoy.find(queryObj).exec();
+    console.log('built query object')
+    console.log(queryObj);
+
+    Buoy.find(queryObj).exec(function (err, data) {
+        res.json(data);
+    });
 }
 

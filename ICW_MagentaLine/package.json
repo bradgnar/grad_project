@@ -19,7 +19,8 @@
     "less": "^1.7.5",
     "localizr": "^0.1.0",
     "mongoose": "~3.8.22",
-    "nconf": "file:../../../../../var/folders/72/qxzfmvp13917cr88tpb2wktm392l99/T/npm-8006-d407887c/1422300168426-0.5513813605066389/d335b5a0f511db5123414c41e9e35b708c1a781a"
+    "nconf": "file:../../../../../var/folders/72/qxzfmvp13917cr88tpb2wktm392l99/T/npm-8006-d407887c/1422300168426-0.5513813605066389/d335b5a0f511db5123414c41e9e35b708c1a781a",
+    "q": "^1.1.2"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
