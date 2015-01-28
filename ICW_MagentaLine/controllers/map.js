@@ -27,6 +27,7 @@ module.exports.getMarkers = function (req, res, next) {
     console.log(queryObj);
 
     Buoy.find(queryObj).exec(function (err, data) {
+        console.log(Object.keys(data))
         res.json(data);
     });
 }
