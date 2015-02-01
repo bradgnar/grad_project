@@ -14,16 +14,5 @@
 <body>
 
     {+body /}
-    <!--<div id="navbar">
-        <div class="navbar-item-containers">
-            <a href="#intro">Intro</a>
-        </div>
-        <div class="navbar-item-containers">
-            <a href="#content">Map</a>
-        </div>
-        <div class="navbar-item-containers">
-            <a href="#contact">Contact</a>
-        </div>
-    </div>-->
 </body>
 </html>
