@@ -27,7 +27,9 @@
             <h1>ICW Map</h1>
             {>"partials/navbar" /}
         </div>
-        <div id="map-canvas"></div>
+        <div class="scrollOff" id="map-canvas"></div>
+        {>"partials/mapControls" /}
+        <div class="clearFix"></div>
     </section>
     <section id="contact" class="screen-section">
         <div id="contact-header" class="header">

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/icw/css/navbar.css"></link>
     <script type="text/javascript" src="/icw/components/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="/icw/components/lodash/lodash.min.js"></script>
+    <script type="text/javascript" src="/icw/components/bootstrap/dist/js/bootstrap.min.js"></script>
     {+headerIncludes /}
 </head>
 <body>

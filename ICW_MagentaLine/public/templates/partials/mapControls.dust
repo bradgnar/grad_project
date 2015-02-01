@@ -1,0 +1,15 @@
+<div id="map-controls">
+    <h4 id="map-controls-title">
+        Map Controls
+    </h4>
+    <div class="control-group">
+        <input type="checkbox" id="zoom-toggle">Enable Zoom
+    <div>
+    <div class="control-group">
+        <input type="text" id="depth-finder-input" class="input-sm numbers-only">
+        <button type="button" id="depth-finder-submit" class="btn-sm btn-info">Check Depth</button>
+        <button type="button" id="depth-finder-info" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="bottom">
+            <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+        </button>
+    </div>
+</div>

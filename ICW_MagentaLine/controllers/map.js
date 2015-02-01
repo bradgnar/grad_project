@@ -1,7 +1,8 @@
 var mongoose = require('mongoose'),
 	db = mongoose.connection,
 	Buoy = require('../models/buoy'),
-    q = require('q');
+    q = require('q'),
+    Sounding = require('../models/sounding');
 
 module.exports.getMarkers = function (req, res, next) {
 
@@ -23,12 +24,36 @@ module.exports.getMarkers = function (req, res, next) {
         queryObj = {};
     }
 
-    console.log('built query object')
-    console.log(queryObj);
-
     Buoy.find(queryObj).exec(function (err, data) {
-        console.log(Object.keys(data))
         res.json(data);
     });
+}
+
+module.exports.getDepthPoints = function (req, res, next) {
+
+    var params = req.query,
+        queryObj;
+
+        console.log('>>>>>>>>>>>>>>>>>>>>>>>>>params');
+        console.log(params);
+
+    if (params) {
+        queryObj = {
+            'loc': {
+             '$geoWithin': {
+                '$box': [
+                    params.bounds.bottomLeft ,
+                    params.bounds.upperRight
+                ]
+             }
+          }
+        };
+    }
+
+    Sounding.find(queryObj)
+        .where('WLDepth_ft').lt(params.depth)
+        .exec(function (err, data) {
+            res.json(data)
+        });
 }
 

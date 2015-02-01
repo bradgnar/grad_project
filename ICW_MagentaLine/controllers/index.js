@@ -13,8 +13,6 @@ module.exports = function (router) {
 
     router.get('/markers', MapController.getMarkers);
 
-    // router.get('/markers', function (req, res) {
-    //     //BuoyController.getMarkers
-    // });
+    router.get('/depth', MapController.getDepthPoints);
 
 };

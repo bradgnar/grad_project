@@ -3,15 +3,48 @@
 @import url('http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,700,300');
 
 #content {
+    width: 100%
     position: relative;
     border-bottom: 4px solid @black;
 
     #map-canvas {
+        float: left;
         position: relative;
-        top: 15%;
-        left: 25%;
-        height: 50%;
-        width: 50%;
-        display: block;
+        margin-left: 5%;
+        height: 70%;
+        width: 65%;
+        display: inline-block;
     }
+
+    #map-controls {
+        float: left;
+        display: inline-block;
+        width: 15%;
+        margin-left: 5%;
+        height: 70%;
+        border: 4px solid @black;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 150%;
+
+        .control-group {
+            margin-left: 5%;
+            margin-top: 2%
+        }
+
+        #map-controls-title {
+            text-align: center;
+            font-weight: 300;
+            font-size: 200%;
+        }
+
+        #depth-finder-input {
+            margin-right: 5%;
+            width: 30%;
+        }
+
+    }
+}
+
+.scrollOff{
+   pointer-events: none;
 }
