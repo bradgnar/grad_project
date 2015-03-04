@@ -14,11 +14,12 @@ function initialize() {
           zoom: 10,
           mapTypeId: google.maps.MapTypeId.SATELLITE,
           zoomControl: true
-    };
+    },
+    markerArray = [],
+    heatMapLayer;
 
-
-    map = new google.maps.Map(document.getElementById('map-canvas'), notZoomable),
-        markerArray = [];
+// key=AIzaSyBJBKlAPFj3pjrVtjKOS4u-mwqpfEkt5HQ
+    map = new google.maps.Map(document.getElementById('map-canvas'), notZoomable);
 
 //Map events
     google.maps.event.addListener(map, 'zoom_changed', function () {
@@ -45,12 +46,36 @@ function initialize() {
 
         if (depth) {
             $.get('depth', params)
-                .then(updateDepthLayer, alertError);
+                .then(makeHeatMap, alertError);
         }
     }
 
-    function updateDepthLayer (data) {
-        console.log(JSON.stringify(data));
+    function makeHeatMap (response) {
+        //first remove the marker so that you can 
+        alert('here')
+        console.log(JSON.stringify(response))
+        //deleteMarkers();
+        if (heatMapLayer) {
+            removeHeatmapLayer();
+        }
+    
+        var heatMapData = _.map(response, function (val) {
+            return {
+                location: new google.maps.LatLng(val.loc[1], val.loc[0]),
+                weight: val.weight
+            };
+        });
+
+        heatMapLayer = new google.maps.visualization.HeatmapLayer({
+            data: heatMapData
+        });
+
+        heatMapLayer.setMap(map);
+    }
+
+    function removeHeatmapLayer () {
+        heatMapLayer.setMap(null);
+        heatMapLayer = null;
     }
 
 //enables zooming
@@ -133,36 +158,5 @@ function getViewportDimensions(map) {
 
     return twoPointBounds;
 }
-
-
 //initialize map
 google.maps.event.addDomListener(window, 'load', initialize);
-
-//initialize anything else that I didnt want to clutter map stuff with
-$(document).ready(function () {
-
-    //http://stackoverflow.com/questions/469357/html-text-input-allow-only-numeric-input
-    //#thanks bro
-    $('.numbers-only').keydown(function (e) {
-        // Allow: backspace, delete, tab, escape, enter and .
-        if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
-             // Allow: Ctrl+A
-            (e.keyCode == 65 && e.ctrlKey === true) ||
-             // Allow: home, end, left, right
-            (e.keyCode >= 35 && e.keyCode <= 39)) {
-                 // let it happen, don't do anything
-                 return;
-        }
-        // Ensure that it is a number and stop the keypress
-        if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
-            e.preventDefault();
-        }
-    });
-
-    $('#depth-finder-info').popover({
-        html: true,
-        content: 'Use this to check the channel to see if there are any places where your boat cannot pass, this should be the <strong>minimum depth</strong> necessary for your boat to travel safely.'
-    });
-
-
-})

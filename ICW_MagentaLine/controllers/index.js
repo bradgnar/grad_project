@@ -13,6 +13,6 @@ module.exports = function (router) {
 
     router.get('/markers', MapController.getMarkers);
 
-    router.get('/depth', MapController.getDepthPoints);
+    router.get('/depth', MapController.getDepthPointsForHeat);
 
 };

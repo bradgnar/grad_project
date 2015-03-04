@@ -4,8 +4,10 @@
     <link rel="stylesheet" href="/icw/css/map.css"></link>
     <link rel="stylesheet" href="/icw/css/contacts.css"></link>
     <link rel="stylesheet" href="/icw/css/about.css"></link>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJBKlAPFj3pjrVtjKOS4u-mwqpfEkt5HQ"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJBKlAPFj3pjrVtjKOS4u-mwqpfEkt5HQ&libraries=geometry,visualization"></script>
     <script type="text/javascript" src="/icw/js/map.js"></script>
+    <script type="text/javascript" src="/icw/js/interactions.js"></script>
+
 {/headerIncludes}
 
 {<body}

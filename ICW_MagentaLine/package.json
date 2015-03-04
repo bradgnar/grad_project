@@ -18,8 +18,9 @@
     "kraken-js": "^1.0.1",
     "less": "^1.7.5",
     "localizr": "^0.1.0",
+    "lodash": "^3.3.1",
     "mongoose": "~3.8.22",
-    "nconf": "file:../../../../../var/folders/72/qxzfmvp13917cr88tpb2wktm392l99/T/npm-8006-d407887c/1422300168426-0.5513813605066389/d335b5a0f511db5123414c41e9e35b708c1a781a",
+    "nconf": "^0.7.1",
     "q": "^1.1.2"
   },
   "devDependencies": {

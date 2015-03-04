@@ -26,20 +26,20 @@ the ENC data files. As it stands there is a condensed xml of BCNLAT markers,
 which mark the AICW and can act as a layer for the Google Maps API.  Here is
 the script that creates it from the ENC root of the xml files.
 
-run 'python ENC_condense_xml.py /theRoot/OfENCfiles > /the/destination/file.xml'
+run `python ENC_condense_xml.py /theRoot/OfENCfiles > /the/destination/file.xml`
 
 If you would like to get that data into mongodb for further processing it will
 take two more steps. The first step will be to transform the kml into a csv
 file.
 
-run 'python xml_buoys_to_csv.py /path/of/file > ~/the/destination/file.csv'
+run `python xml_buoys_to_csv.py /path/of/file > ~/the/destination/file.csv`
 
 After that you will want to run another script which will move the csv into
 mongo.  It is important to note that this will index the points via their
 coordinates.
 
 
-run 'python buoys_into_mongo.py /the/path/to/your/file databaseName collectionName'
+run `python buoys_into_mongo.py /the/path/to/your/file databaseName collectionName`
 
 
 ####Putting in your csv/data
