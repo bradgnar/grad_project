@@ -1,17 +1,28 @@
 //wanted a global map
-var map;
+var map,
+    iconString = "http://maps.google.com/mapfiles/ms/icons/",
+    pngString = ".png",
+    iconMap = {
+        0: iconString + 'blue' + pngString,
+        1: iconString + 'purple' + pngString,
+        2: iconString + 'red' + pngString,
+        3: iconString + 'orange' + pngString,
+        4: iconString + 'yellow' + pngString,
+        5: iconString + 'green' + pngString
+    };
+
 
 function initialize() {
     var notZoomable = {
       center: { lat: 33.9, lng: -78.38},
-      zoom: 10,
+      zoom: 12,
       mapTypeId: google.maps.MapTypeId.SATELLITE,
       zoomControl: false,
       scrollWheel: false
     },
     zoomable = {
         center: { lat: 33.9, lng: -78.38},
-          zoom: 10,
+          zoom: 12,
           mapTypeId: google.maps.MapTypeId.SATELLITE,
           zoomControl: true
     },
@@ -51,15 +62,13 @@ function initialize() {
     }
 
     function makeHeatMap (response) {
-        //first remove the marker so that you can 
-        alert('here')
-        console.log(JSON.stringify(response))
-        //deleteMarkers();
+
         if (heatMapLayer) {
             removeHeatmapLayer();
         }
     
         var heatMapData = _.map(response, function (val) {
+            console.log(val.weight)
             return {
                 location: new google.maps.LatLng(val.loc[1], val.loc[0]),
                 weight: val.weight
