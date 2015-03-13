@@ -15,7 +15,7 @@ var convert = {
 	depthClassification: function (data) {
 		return _.map(data , function (val) {
 			var depthMod = val.avgDepth % DEPTH_CLASS_SPREAD;
-			val.depthClass = depthMod > MAX_DEPTH_CLASS ? 5 : depthMod;
+			val.depthClass = depthMod > MAX_DEPTH_CLASS ? 6 : depthMod;
 			return val;
 		});
 	}

@@ -3,7 +3,8 @@ var mongoose = require('mongoose'),
 	Buoy = require('../models/buoy'),
     Sounding = require('../models/sounding'),
     convert = require('../lib/converter'),
-    queryHelper = require('../lib/queryHelper');
+    queryHelper = require('../lib/queryHelper'),
+    soundingDepth = 'WLDepth_ft';
 
 module.exports.getMarkers = function (req, res, next) {
 
@@ -31,7 +32,7 @@ module.exports.getDepthPoints = function (req, res, next) {
     }
 
     Sounding.find(queryObj)
-        .where('WLDepth_ft').lt(params.depth)
+        .where(soundingDepth).lt(params.depth)
         .exec(function (err, data) {
             res.json(data)
         });
@@ -61,12 +62,9 @@ module.exports.getDepthPointsForHeat = function (req, res, next) {
         queryObj = queryHelper.boxQuery(params.bounds.bottomLeft, params.bounds.upperRight);
     }
 
-    console.log('>>>>>>>>>>>>>>>>>>>>>params.depth')
-    console.log(params.depth)
-
-    Sounding.find(queryObj)
+    Sounding.find(queryObj)    
+        .where(soundingDepth).lt(params.depth)
         .exec(function (err, data) {
-            console.log(convert.heatmap(data))
             res.json(convert.heatmap(data, params.depth));
         });
 }

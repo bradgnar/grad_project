@@ -68,7 +68,6 @@ function initialize() {
         }
     
         var heatMapData = _.map(response, function (val) {
-            console.log(val.weight)
             return {
                 location: new google.maps.LatLng(val.loc[1], val.loc[0]),
                 weight: val.weight
