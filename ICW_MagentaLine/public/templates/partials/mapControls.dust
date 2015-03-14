@@ -11,5 +11,13 @@
         <button type="button" id="depth-finder-info" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="bottom">
             <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
         </button>
+        <div id="geolocation-container">
+            <button type="button" id="turn-on-geolocation" class="btn btn-default btn-info">
+                <span>Geolocation On</span>
+            </button>
+            <button type="button" id="turn-off-geolocation" class="btn btn-default btn-info">
+                <span>Geolocation off</span>
+            </button>
+        </div>
     </div>
 </div>

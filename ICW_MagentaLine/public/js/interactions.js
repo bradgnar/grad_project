@@ -24,5 +24,7 @@ $(document).ready(function () {
         content: 'Use this to check the channel to see if there are any places where your boat cannot pass, this should be the <strong>minimum depth</strong> necessary for your boat to travel safely.'
     });
 
+    
+
 
 });

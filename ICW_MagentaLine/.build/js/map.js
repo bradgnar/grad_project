@@ -27,7 +27,8 @@ function initialize() {
           zoomControl: true
     },
     markerArray = [],
-    heatMapLayer;
+    heatMapLayer,
+    watchID;
 
 // key=AIzaSyBJBKlAPFj3pjrVtjKOS4u-mwqpfEkt5HQ
     map = new google.maps.Map(document.getElementById('map-canvas'), notZoomable);
@@ -45,6 +46,67 @@ function initialize() {
 
     google.maps.event.addDomListener(document.getElementById('depth-finder-submit'), 'click', queryDepth);
 
+    google.maps.event.addDomListener(document.getElementById('turn-on-geolocation'), 'click', checkForGeolocation);
+
+    google.maps.event.addDomListener(document.getElementById('turn-off-geolocation'), 'click', dontUseGeolocation);
+
+
+/******************************************************************************
+ * Geolocation functions
+ ******************************************************************************/
+
+    function checkForGeolocation (success, error) {
+
+        if ("geolocation" in navigator) {
+          watchGeolocation();
+        } else {
+          alert('Sorry geolocation is not available in your current navigator')
+        }
+    }
+
+    function watchGeolocation () {
+        console.log('starting the geolocation watch');
+        watchId = navigator.geolocation.watchPosition(function(position, error) {
+            if (!error) {
+                makeThePositonWatchUpdates(postion);
+            } else {
+                showGeolocationError(error);
+            }
+        });
+    }
+
+    function makeThePositionWatchUpdates (position) {
+        var latitude = position.coords.latitude,
+            longitude =  position.coords.longitude;
+
+
+    }
+
+    function showGeolocationError (error) {
+        console.log(error.code);
+
+        var geolocationErrorMap = {
+            PERMISSION_DENIED: "User denied the request for Geolocation.",
+            POSITION_UNAVAILABLE: "Location information is unavailable.",
+            TIMEOUT: "The request to get user location timed out.",
+            UNKNOWN_ERROR: "An unknown error occurred."
+
+        };
+
+        alert(geolocationErrorMap[error.code]);
+    }
+
+    function dontUseGeolocation () {
+        if (watchId) {
+            navigator.geolocation.clearWatch(watchID);
+        }
+    }
+/******************************************************************************
+ * End Geolocation functions
+ ******************************************************************************/
+/******************************************************************************
+ * Depth and Heat map functions
+ ******************************************************************************/
     function queryDepth (evt) {
         var depthSubmit = $(evt.target || evt.srcElement),
             depthInput = $('#depth-finder-input'),
@@ -85,20 +147,13 @@ function initialize() {
         heatMapLayer.setMap(null);
         heatMapLayer = null;
     }
+/******************************************************************************
+ * End of Depth and Heat map functions
+ ******************************************************************************/
 
-//enables zooming
-    function zoomToggle(evt) {
-        var zoom = $(evt.target || evt.srcElement),
-            mapDiv = $('#map-canvas');
-
-        if (zoom.prop('checked')) {
-            map.setOptions(zoomable);
-            mapDiv.removeClass('scrollOff');
-        } else {
-            map.setOptions(notZoomable);
-            mapDiv.addClass('scrollOff');
-        }
-    }
+/******************************************************************************
+ * Marker functions
+ ******************************************************************************/
 
     function getMarkersFromDB (map) {
         var twoPointBounds = getViewportDimensions(map);
@@ -147,10 +202,26 @@ function initialize() {
         addAllMarkers(response);
 
     }
+/******************************************************************************
+ * End of Marker functions
+ ******************************************************************************/
 
-    function alertError (error) {
-        alert(error);
+//enables zooming
+    function zoomToggle(evt) {
+        var mapDiv = $('#map-canvas');
+
+        if (isZoomTurnedOn(evt)) {
+            map.setOptions(zoomable);
+            mapDiv.removeClass('scrollOff');
+        } else {
+            map.setOptions(notZoomable);
+            mapDiv.addClass('scrollOff');
+        }
     }
+}
+
+function alertError (error) {
+    alert(error);
 }
 
 function getViewportDimensions(map) {
@@ -165,6 +236,10 @@ function getViewportDimensions(map) {
         };
 
     return twoPointBounds;
+}
+
+ function isZoomTurnedOn (evt) {
+    return evt ? $(evt.target || evt.srcElement).is(':checked') : $('#zoom-toggle').is(':checked');
 }
 //initialize map
 google.maps.event.addDomListener(window, 'load', initialize);

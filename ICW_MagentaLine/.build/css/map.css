@@ -42,7 +42,23 @@
   margin-right: 5%;
   width: 30%;
 }
-/* line 48, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/map */
+/* line 45, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/map */
+#content #map-controls #depth-finder-info {
+  margin-left: 6px;
+}
+/* line 49, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/map */
+#content #map-controls #geolocation-container {
+  margin-top: 2%;
+}
+/* line 52, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/map */
+#content #map-controls #geolocation-container #turn-on-geolocation {
+  margin-right: 3px;
+}
+/* line 56, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/map */
+#content #map-controls #geolocation-container #turn-off-geolocation {
+  margin-left: 3px;
+}
+/* line 64, /Users/bradleysmith/workspace/grad_project/ICW_MagentaLine/css/map */
 .scrollOff {
   pointer-events: none;
 }
