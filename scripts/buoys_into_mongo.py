@@ -15,7 +15,7 @@ def instantiateCollection (argv):
     collection.create_index([("loc", GEOSPHERE)])
     return collection
 
-def createSoundingObj (row, index):
+def createMarkerObj (row, index):
 	return {
 		"loc": map(float,[row[0],row[1]]),
 		"point_number": index
@@ -28,7 +28,7 @@ def readCsv2Mongo (filePath, collection):
         index = 0
         totIndex = 0
         for row in csvreader:
-            obj = createSoundingObj(row, index)
+            obj = createMarkerObj(row, index)
             if(tuple(obj.get("loc")) not in pointDic):
                 pointDic[tuple(obj.get("loc"))] = obj.get("point_number")
                 index = index + 1

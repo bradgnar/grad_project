@@ -14,6 +14,7 @@ def createObj(data):
 for buoy in db.clean_buoys.find():
 	buoySoundObj = createObj(buoy)
 	for item in db.proto_sounds.find({ "loc" :{'$geoWithin' : { '$center': [[ buoy['loc'][0], buoy['loc'][1]], .007] }}}).limit(20):
+		print item
 		buoySoundObj['sounds'].append(item)
 	db.buoy_sounds.insert(buoySoundObj)
 

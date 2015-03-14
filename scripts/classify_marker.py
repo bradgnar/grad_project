@@ -36,16 +36,30 @@ def readCsv2Mongo (filePath, collection):
                 index = index + 1
                 collection.insert(obj)
 
-def mapFunction ():
-    return Code()
+# def mapFunction ():
+#     return Code("function () {"
+#                 "  var key = this.WLDepth_ft;"
+#                 "  var value = 1"
+#                 "  emit(key, value)"
+#                 "}")
 
-def reduceFunction (): 
-    return Code()
+# def reduceFunction (): 
+#     return Code("function (key, values) {"
+#                 "  var reducedObject = {"
+#                 "  key: key,"
+#                 "  count: 0,"
+#                 "};"
+#                 "")
+
+# def finalizeFunction ():
+#     return Code()
+
+
 
 def querySoundings (argv, loc):
     db = client[argv[2]]
     collection = db[PROTO_SOUNDS]
-    collection.map_reduce(mapFunction, reduceFunction, {query: , finalize: finalizeFunction})
+    collection.map_reduce(mapFunction, reduceFunction, {query: })
 
 def main (argv):
     print userPath
