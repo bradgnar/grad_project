@@ -1,5 +1,5 @@
 var _ = require('lodash'),
-	DEPTH_CLASS_SPREAD = 7,
+	DEPTH_CLASS_SPREAD = 6,
 	MAX_DEPTH_CLASS = 5;
 
 var convert = {
@@ -14,8 +14,8 @@ var convert = {
 	},
 	depthClassification: function (data) {
 		return _.map(data , function (val) {
-			var depthMod = val.avgDepth % DEPTH_CLASS_SPREAD;
-			val.depthClass = depthMod > MAX_DEPTH_CLASS ? 6 : depthMod;
+			var depthLevel = val.avgDepth / DEPTH_CLASS_SPREAD;
+			val.depthClass = depthLevel > MAX_DEPTH_CLASS ? MAX_DEPTH_CLASS : depthLevel;
 			return val;
 		});
 	}

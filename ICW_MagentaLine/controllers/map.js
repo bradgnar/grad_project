@@ -22,7 +22,7 @@ module.exports.getMarkers = function (req, res, next) {
     });
 }
 
-module.exports.getDepthPoints = function (req, res, next) {
+module.exports.getSoundings = function (req, res, next) {
 
     var params = req.query,
         queryObj;
@@ -32,13 +32,12 @@ module.exports.getDepthPoints = function (req, res, next) {
     }
 
     Sounding.find(queryObj)
-        .where(soundingDepth).lt(params.depth)
         .exec(function (err, data) {
             res.json(data)
         });
 }
 
-module.exports.getClassifiedDepthPoints = function (req, res, next) {
+module.exports.getClassifiedMarkers = function (req, res, next) {
     var params = req.query,
         queryObj;
 
@@ -48,9 +47,10 @@ module.exports.getClassifiedDepthPoints = function (req, res, next) {
         queryObj = {};
     }
 
-    Buoy.find(queryObj).exec(function (err, data) {
-        res.json(data);
-    });
+    Buoy.find(queryObj)
+        .exec(function (err, data) {
+            res.json(convert.depthClassification(data));
+        });
 }
 
 module.exports.getDepthPointsForHeat = function (req, res, next) {

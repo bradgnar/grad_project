@@ -16,10 +16,15 @@ var map,
 
 
 function initialize() {
-    //semi global map ids
+    //semi global map ids and attribute object
     var markerArray = [],
     heatMapLayer,
-    watchID;
+    watchID
+    geoOptions = {
+        enableHighAccuracy: true, 
+        maximumAge        : 60000, 
+        timeout           : 27000
+    };
 
     function setMapOptions (config) {
         var config = config || {};
@@ -94,31 +99,25 @@ function initialize() {
     function checkForGeolocation (success, error) {
 
         if ("geolocation" in navigator) {
-          watchGeolocation();
+          watchId = navigator.geolocation.watchPosition(geoSuccess, geoError, geoOptions);
         } else {
           alert('Sorry geolocation is not available in your current navigator')
         }
     }
 
-    function watchGeolocation () {
-        console.log('starting the geolocation watch');
-        watchId = navigator.geolocation.watchPosition(function(position, error) {
-            if (!error) {
-                makeThePositonWatchUpdates(postion);
-            } else {
-                showGeolocationError(error);
-            }
-        });
-    }
+    function geoSuccess (position) {
+        var config = {
+            latitude: position.coords.latitude,
+            longitude: position.coords.longitude
+        };
 
-    function makeThePositionWatchUpdates (position) {
-        var latitude = position.coords.latitude,
-            longitude =  position.coords.longitude;
-
+        map.setOptions(setMapOptions(config));
+        getMarkersFromDB(map);
+        queryDepth();
 
     }
 
-    function showGeolocationError (error) {
+    function geoError (error) {
         console.log(error.code);
 
         var geolocationErrorMap = {
@@ -135,6 +134,7 @@ function initialize() {
     function dontUseGeolocation () {
         if (watchId) {
             navigator.geolocation.clearWatch(watchID);
+            watchId = undefined;
         }
     }
 /******************************************************************************
@@ -143,9 +143,8 @@ function initialize() {
 /******************************************************************************
  * Depth and Heat map functions
  ******************************************************************************/
-    function queryDepth (evt) {
-        var depthSubmit = $(evt.target || evt.srcElement),
-            depthInput = $('#depth-finder-input'),
+    function queryDepth () {
+        var depthInput = $('#depth-finder-input'),
             depth = depthInput.val(),
             twoPointBounds = getViewportDimensions(map),
             params = {};
@@ -153,8 +152,13 @@ function initialize() {
             params.depth = depth;
             params.bounds = twoPointBounds;
 
-        if (depth) {
-            $.get('depth', params)
+        if (!depth) {
+            if (heatMapLayer) {
+                removeHeatmapLayer();
+            }
+            return;
+        } else {
+            $.get('heatData', params)
                 .then(makeHeatMap, alertError);
         }
     }
@@ -194,7 +198,7 @@ function initialize() {
     function getMarkersFromDB (map) {
         var twoPointBounds = getViewportDimensions(map);
 
-        $.get('markers', twoPointBounds)
+        $.get('classifiedMarkers', twoPointBounds)
             .then(updateMarkers, alertError);
     }
 
@@ -213,12 +217,16 @@ function initialize() {
         markerArray = [];
     }
 
-    function addMarker (location, number) {
+    function createMarker (config) {
         var marker = new google.maps.Marker({
-            position: location,
+            position: config.location,
             map: map,
-            title: '' + number
+            title: '' + config.number,
+            icon: config.icon
         });
+    }
+
+    function addMarker (marker) {
         markerArray.push(marker);
     }
 
@@ -229,11 +237,16 @@ function initialize() {
 
     function addAllMarkers (newMarkers) {
         _.forEach(newMarkers, function (marker) {
-            addMarker(createLocation(marker), marker.point_number);
+            addMarker(createMarker({
+                location: createLocation(marker),
+                number: marker.point_number,
+                icon: iconMap[marker.depthClass]
+            }));
         });
     }
 
     function updateMarkers (response) {
+        console.log(response[1])
         deleteMarkers();
         addAllMarkers(response);
 
@@ -244,6 +257,7 @@ function initialize() {
 }
 
 function alertError (error) {
+    console.log(error)
     alert(error);
 }
 
