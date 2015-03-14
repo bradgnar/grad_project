@@ -9,29 +9,34 @@ var map,
         3: iconString + 'orange' + pngString,
         4: iconString + 'yellow' + pngString,
         5: iconString + 'green' + pngString
-    };
+    },
+    defaultMapLat = 33.9,
+    defaultMapLong = -78.38,
+    defaultZoom = 12;
 
 
 function initialize() {
-    var notZoomable = {
-      center: { lat: 33.9, lng: -78.38},
-      zoom: 12,
-      mapTypeId: google.maps.MapTypeId.SATELLITE,
-      zoomControl: false,
-      scrollWheel: false
-    },
-    zoomable = {
-        center: { lat: 33.9, lng: -78.38},
-          zoom: 12,
-          mapTypeId: google.maps.MapTypeId.SATELLITE,
-          zoomControl: true
-    },
-    markerArray = [],
+    //semi global map ids
+    var markerArray = [],
     heatMapLayer,
     watchID;
 
+    function setMapOptions (config) {
+        var config = config || {};
+        return {
+            center: {
+                lat: config.lat || defaultMapLat,
+                lng: config.long || defaultMapLong
+            },
+            zoom: config.zoom || defaultZoom,
+            mapTypeId: google.maps.MapTypeId.SATELLITE,
+            zoomControl: isZoomTurnedOn(),
+            scrollWheel: isZoomTurnedOn()
+        }
+    }
+
 // key=AIzaSyBJBKlAPFj3pjrVtjKOS4u-mwqpfEkt5HQ
-    map = new google.maps.Map(document.getElementById('map-canvas'), notZoomable);
+    map = new google.maps.Map(document.getElementById('map-canvas'), setMapOptions());
 
 //Map events
     google.maps.event.addListener(map, 'zoom_changed', function () {
@@ -50,6 +55,37 @@ function initialize() {
 
     google.maps.event.addDomListener(document.getElementById('turn-off-geolocation'), 'click', dontUseGeolocation);
 
+/******************************************************************************
+ * Map Helper Functions
+ *****************************************************************************/
+    function zoomToggle(evt) {
+        var mapDiv = $('#map-canvas');
+
+        if (isZoomTurnedOn(evt)) {
+            map.setOptions(setMapOptions());
+            mapDiv.removeClass('scrollOff');
+        } else {
+            map.setOptions(setMapOptions());
+            mapDiv.addClass('scrollOff');
+        }
+    }
+
+    function setMapOptions (config) {
+        var config = config || {};
+        return {
+            center: {
+                lat: config.lat || defaultMapLat,
+                lng: config.long || defaultMapLong
+            },
+            zoom: config.zoom || defaultZoom,
+            mapTypeId: google.maps.MapTypeId.SATELLITE,
+            zoomControl: isZoomTurnedOn(),
+            scrollWheel: isZoomTurnedOn()
+        }
+    }
+/******************************************************************************
+ * End Map Helper Functions
+ *****************************************************************************/
 
 /******************************************************************************
  * Geolocation functions
@@ -205,19 +241,6 @@ function initialize() {
 /******************************************************************************
  * End of Marker functions
  ******************************************************************************/
-
-//enables zooming
-    function zoomToggle(evt) {
-        var mapDiv = $('#map-canvas');
-
-        if (isZoomTurnedOn(evt)) {
-            map.setOptions(zoomable);
-            mapDiv.removeClass('scrollOff');
-        } else {
-            map.setOptions(notZoomable);
-            mapDiv.addClass('scrollOff');
-        }
-    }
 }
 
 function alertError (error) {
