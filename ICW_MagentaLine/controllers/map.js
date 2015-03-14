@@ -4,7 +4,8 @@ var mongoose = require('mongoose'),
     Sounding = require('../models/sounding'),
     convert = require('../lib/converter'),
     queryHelper = require('../lib/queryHelper'),
-    soundingDepth = 'WLDepth_ft';
+    soundingDepth = 'WLDepth_ft',
+    _ = require('lodash');
 
 module.exports.getMarkers = function (req, res, next) {
 
@@ -39,7 +40,8 @@ module.exports.getSoundings = function (req, res, next) {
 
 module.exports.getClassifiedMarkers = function (req, res, next) {
     var params = req.query,
-        queryObj;
+        queryObj,
+        MAX_DISTANCE = 5;
 
     if (params) {
         queryObj = queryHelper.boxQuery(params.bottomLeft, params.upperRight);

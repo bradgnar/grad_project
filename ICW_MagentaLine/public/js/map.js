@@ -198,7 +198,7 @@ function initialize() {
     function getMarkersFromDB (map) {
         var twoPointBounds = getViewportDimensions(map);
 
-        $.get('classifiedMarkers', twoPointBounds)
+        $.get('markers', twoPointBounds)
             .then(updateMarkers, alertError);
     }
 
