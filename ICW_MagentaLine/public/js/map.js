@@ -62,6 +62,7 @@ function initialize() {
 
     google.maps.event.addDomListener(document.getElementById('marker-classification'), 'click', function () {
         getMarkersFromDB(map);
+        $('#marker-key-container').toggle();
     });
 
     google.maps.event.addDomListener(document.getElementById('zoom-toggle'), 'click', zoomToggle);

@@ -23,4 +23,28 @@
     <div class="control-group">
         <input type="checkbox" id="marker-classification">  Classify Markers
     </div> 
+    <div class="control-group">
+        <div id="marker-key-container" hidden>
+            <h3>Marker Key</h3>
+            <div>
+                <img src="http://maps.google.com/mapfiles/ms/icons/blue.png" alt="Blue Marker 0 - 6 feet">  0 - 7 feet
+            </div>
+            <div>
+                <img src="http://maps.google.com/mapfiles/ms/icons/purple.png" alt="Purple Marker 0 - 6 feet">  7 - 13 feet
+            </div>
+            <div>
+                <img src="http://maps.google.com/mapfiles/ms/icons/green.png" alt="Green Marker 0 - 6 feet">  13 - 19 feet
+            </div>
+            <div>
+                <img src="http://maps.google.com/mapfiles/ms/icons/orange.png" alt="Orange Marker 0 - 6 feet"> 19 - 25 feet
+            </div>
+            <div>
+                <img src="http://maps.google.com/mapfiles/ms/icons/yellow.png" alt="Yellow Marker 0 - 6 feet">  25 - 31 feet
+            </div>
+            <div>
+                <img src="http://maps.google.com/mapfiles/ms/icons/red.png" alt="Red Marker 0 - 6 feet">  31+ feet
+            </div>
+        </div>
+    </div>
 </div>
+
