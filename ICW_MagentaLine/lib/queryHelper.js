@@ -12,16 +12,17 @@ var queryHelper = {
         };
 	},
     nearQuery: function (longitude, latitude, maxDistance) {
-        'loc': {
-            '$nearSphere': {
-                '$geometry': {
-                    'type' : "Point",
-                    'coordinates' : [ longitude, latitude ]
-                 },
-                 '$maxDistance': maxDistance
-              }
+        return {
+            'loc': {
+                '$nearSphere': {
+                    '$geometry': {
+                        'type' : "Point",
+                        'coordinates' : [ longitude, latitude ]
+                     },
+                     '$maxDistance': maxDistance
+                }
             }
-        }
+        };
     }
 };
 

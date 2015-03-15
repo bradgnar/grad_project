@@ -3,7 +3,7 @@
         Map Controls
     </h4>
     <div class="control-group">
-        <input type="checkbox" id="zoom-toggle">Enable Zoom
+        <input type="checkbox" id="zoom-toggle">  Enable Zoom
     <div>
     <div class="control-group">
         <input type="text" id="depth-finder-input" class="input-sm numbers-only">
@@ -11,13 +11,16 @@
         <button type="button" id="depth-finder-info" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="bottom">
             <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
         </button>
-        <div id="geolocation-container">
-            <button type="button" id="turn-on-geolocation" class="btn btn-default btn-info">
-                <span>Geolocation On</span>
-            </button>
-            <button type="button" id="turn-off-geolocation" class="btn btn-default btn-info">
-                <span>Geolocation off</span>
-            </button>
-        </div>
     </div>
+    <div id="geolocation-container" class="control-group">
+        <button type="button" id="turn-on-geolocation" class="btn btn-default btn-info">
+            <span>Geolocation On</span>
+        </button>
+        <button type="button" id="turn-off-geolocation" class="btn btn-default btn-info">
+            <span>Geolocation off</span>
+        </button>
+    </div>
+    <div class="control-group">
+        <input type="checkbox" id="marker-classification">  Classify Markers
+    </div> 
 </div>

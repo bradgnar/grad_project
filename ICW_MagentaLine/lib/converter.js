@@ -14,9 +14,10 @@ var convert = {
 	},
 	depthClassification: function (data) {
 		return _.map(data , function (val) {
-			var depthLevel = val.avgDepth / DEPTH_CLASS_SPREAD;
-			val.depthClass = depthLevel > MAX_DEPTH_CLASS ? MAX_DEPTH_CLASS : depthLevel;
-			return val;
+			var depthLevel = Math.floor(val.avg_depth / DEPTH_CLASS_SPREAD),
+				depthClass = depthLevel > MAX_DEPTH_CLASS ? MAX_DEPTH_CLASS : depthLevel,
+				newVal = _.assign(val, {depth_class: depthClass});
+			return newVal;
 		});
 	}
 };

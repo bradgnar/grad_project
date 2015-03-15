@@ -1,6 +1,7 @@
 var mongoose = require('mongoose'),
 	db = mongoose.connection,
 	Buoy = require('../models/buoy'),
+    BuoyPlus = require('../models/buoyPlus')
     Sounding = require('../models/sounding'),
     convert = require('../lib/converter'),
     queryHelper = require('../lib/queryHelper'),
@@ -49,7 +50,7 @@ module.exports.getClassifiedMarkers = function (req, res, next) {
         queryObj = {};
     }
 
-    Buoy.find(queryObj)
+    BuoyPlus.find(queryObj)
         .exec(function (err, data) {
             res.json(convert.depthClassification(data));
         });

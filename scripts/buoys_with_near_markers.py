@@ -9,9 +9,9 @@ client = MongoClient('localhost', 27017)
 db = client['icw']
 soundingsCollection = db['proto_sounds']
 buoyCollection = db['buoys']
-db.bouy_w_depth.drop()
-db.buoy_w_depth.create_index([("loc", GEOSPHERE)])
-buoyWDepth = db['buoy_w_depth']
+db.depth_buoys.drop()
+db.depth_buoys.create_index([("loc", GEOSPHERE)])
+buoyWDepth = db['depth_buoys']
 buoyCursor = buoyCollection.find({"loc": {"$within": {"$box": [[-78.51665,33.87697], [-78.25579,33.92045]]}}})
 index = 0
 
@@ -19,8 +19,8 @@ def createMarkerObj (loc, index, avgDepth, count):
 	return {
 		"loc": loc,
 		"point_number": index,
-		"avgDepth": avgDepth,
-		"number": count
+		"avg_depth": avgDepth,
+		"number_of_soundings": count
 		}
 
 for buoy in buoyCursor:
@@ -32,6 +32,5 @@ for buoy in buoyCursor:
 		count = count + 1
 	avgDepth = totalDepth / count
 	markerObj = createMarkerObj(loc, index, avgDepth, count)
-	print markerObj
 	buoyWDepth.insert(markerObj)
 	index = index + 1
