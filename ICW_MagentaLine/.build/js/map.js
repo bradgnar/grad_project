@@ -60,9 +60,9 @@ function initialize() {
         getMarkersFromDB(map);
     });
 
-    // google.maps.event.addDomListener(document.getElementById('marker-classification'), 'click', function () {
-    //     getMarkersFromDB(map);
-    // });
+    google.maps.event.addDomListener(document.getElementById('marker-classification'), 'click', function () {
+        getMarkersFromDB(map);
+    });
 
     google.maps.event.addDomListener(document.getElementById('zoom-toggle'), 'click', zoomToggle);
 
@@ -122,9 +122,11 @@ function initialize() {
 
     function geoSuccess (position) {
         var config = {
-            latitude: position.coords.latitude,
-            longitude: position.coords.longitude
+            lat: position.coords.latitude,
+            long: position.coords.longitude
         };
+        console.log('>>>>>>>>>>there was a success')
+        console.log('here is your position' + JSON.stringify(config))
 
         map.setOptions(setMapOptions(config));
         getMarkersFromDB(map);
@@ -133,8 +135,6 @@ function initialize() {
     }
 
     function geoError (error) {
-        console.log(error.code);
-
         var geolocationErrorMap = {
             PERMISSION_DENIED: "User denied the request for Geolocation.",
             POSITION_UNAVAILABLE: "Location information is unavailable.",
@@ -142,7 +142,8 @@ function initialize() {
             UNKNOWN_ERROR: "An unknown error occurred."
 
         };
-
+        alert(error)
+        alert(JSON.stringify(error))
         alert(geolocationErrorMap[error.code]);
     }
 
@@ -213,7 +214,7 @@ function initialize() {
     function getMarkersFromDB (map) {
         var twoPointBounds = getViewportDimensions(map);
 
-        $.get(URLS.CLASSIFIED_MARKERS, twoPointBounds)
+        $.get(isClassifiedOn() ? URLS.CLASSIFIED_MARKERS : URLS.MARKERS, twoPointBounds)
             .then(updateMarkers, alertError);
     }
 
@@ -233,7 +234,7 @@ function initialize() {
     }
 
     function createMarker (config) {
-        var marker = new google.maps.Marker({
+        return new google.maps.Marker({
             position: config.location,
             map: map,
             title: '' + config.number,
@@ -261,7 +262,6 @@ function initialize() {
     }
 
     function updateMarkers (response) {
-        console.log(response[1])
         deleteMarkers();
         addAllMarkers(response);
 
@@ -272,7 +272,6 @@ function initialize() {
 }
 
 function alertError (error) {
-    console.log(error)
     alert(error);
 }
 
