@@ -143,8 +143,6 @@ function initialize() {
             UNKNOWN_ERROR: "An unknown error occurred."
 
         };
-        alert(error)
-        alert(JSON.stringify(error))
         alert(geolocationErrorMap[error.code]);
     }
 

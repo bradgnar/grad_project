@@ -1,6 +1,11 @@
 {
+    "express": {
+        "mountpath": "/icw-service"
+    },
 
-    
+    "databaseConfig": {
+        "connectionString": "mongodb://localhost/icw"
+    },
 
     "middleware": {
 
@@ -29,3 +34,4 @@
         
     }
 }
+

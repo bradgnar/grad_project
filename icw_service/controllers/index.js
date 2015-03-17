@@ -1,18 +1,22 @@
 'use strict';
 
 
-var IndexModel = require('../models/index');
+var MapController = require('./map');
 
 
 module.exports = function (router) {
 
-    var model = new IndexModel();
 
-
-    router.get('/', function (req, res) {
-        
-        res.send('<code><pre>' + JSON.stringify(model, null, 2) + '</pre></code>');
-        
+    router.get('/map', function (req, res) {
+        res.render('map', {});
     });
+
+    router.get('/markers', MapController.getMarkers);
+
+    router.get('/heatData', MapController.getDepthPointsForHeat);
+
+    router.get('/soundings', MapController.getSoundings);
+
+    router.get('/classifiedMarkers', MapController.getClassifiedMarkers);
 
 };

@@ -6,7 +6,8 @@ var mongoose = require('mongoose'),
     convert = require('../lib/converter'),
     queryHelper = require('../lib/queryHelper'),
     soundingDepth = 'WLDepth_ft',
-    _ = require('lodash');
+    _ = require('lodash'),
+    icwClient = require('../lib/icw_client');
 
 module.exports.getMarkers = function (req, res, next) {
 
@@ -19,9 +20,14 @@ module.exports.getMarkers = function (req, res, next) {
         queryObj = {};
     }
 
-    Buoy.find(queryObj).exec(function (err, data) {
-        res.json(data);
-    });
+    icwClient.getMarkers(queryObj)
+        .then(function (response) {
+            console.log('>>>>>>>>>>>>>>>>>>>>>>in the response')        
+            res.json(response)
+        },
+        function (err) {
+            console.log('>>>>>>>>>>>>>>>>>>>in the error')
+        })
 }
 
 module.exports.getSoundings = function (req, res, next) {

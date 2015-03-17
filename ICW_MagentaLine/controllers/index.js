@@ -6,7 +6,8 @@ var MapController = require('./map');
 
 module.exports = function (router) {
 
-
+	
+	
     router.get('/map', function (req, res) {
         res.render('map', {});
     });

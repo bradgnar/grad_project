@@ -13,6 +13,8 @@ module.exports.getMarkers = function (req, res, next) {
     var params = req.query,
         queryObj;
 
+        console.log('in get markers')
+
     if (params) {
         queryObj = queryHelper.boxQuery(params.bottomLeft, params.upperRight);
     } else {
@@ -20,6 +22,7 @@ module.exports.getMarkers = function (req, res, next) {
     }
 
     Buoy.find(queryObj).exec(function (err, data) {
+        console .log('int eh find as well' +   data)
         res.json(data);
     });
 }
