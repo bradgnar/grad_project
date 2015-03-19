@@ -261,6 +261,8 @@ function initialize() {
     }
 
     function updateMarkers (response) {
+        console.log('this is the response form the db')
+        console.log(response)
         deleteMarkers();
         addAllMarkers(response);
 
