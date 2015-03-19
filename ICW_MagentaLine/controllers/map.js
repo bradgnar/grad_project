@@ -1,7 +1,8 @@
 var _ = require('lodash'),
     qs = require('querystring'),
     Promise = require('bluebird'),
-    MarkerModel = require('../models/markerModel');
+    MarkerModel = require('../models/markerModel'),
+    SoundingModel = require('../models/soundingModel');
 
 module.exports.getMarkers = function (req, res, next) {
     var getMarkers = Promise.promisify(MarkerModel.getMarkers);
@@ -14,20 +15,17 @@ module.exports.getMarkers = function (req, res, next) {
         });    
 };
 
-// module.exports.getSoundings = function (req, res, next) {
+module.exports.getSoundings = function (req, res, next) {
 
-//     var params = req.query,
-//         queryObj;
+    var getSoundings = Promise.promisify(SoundingModel.getSoundings);
 
-//     if (params) {
-//         queryObj = queryHelper.boxQuery(params.bounds.bottomLeft, params.bounds.upperRight);
-//     }
-
-//     Sounding.find(queryObj)
-//         .exec(function (err, data) {
-//             res.json(data)
-//         });
-// }
+    getSoundings(req.query)
+        .then(function (response) {
+            res.json(JSON.parse(response));
+        }, function (err) {
+            res.json(JSON.parse(err.message));
+        });
+};
 
 module.exports.getClassifiedMarkers = function (req, res, next) {
 
@@ -41,35 +39,15 @@ module.exports.getClassifiedMarkers = function (req, res, next) {
         });
 };
 
-    // var params = req.query,
-    //     queryObj,
-    //     MAX_DISTANCE = 5;
+module.exports.getDepthPointsForHeat = function (req, res, next) {
 
-    // if (params) {
-    //     queryObj = queryHelper.boxQuery(params.bottomLeft, params.upperRight);
-    // } else {
-    //     queryObj = {};
-    // }
-
-    // BuoyPlus.find(queryObj)
-    //     .exec(function (err, data) {
-    //         res.json(convert.depthClassification(data));
-    //     });
-// }
-
-// module.exports.getDepthPointsForHeat = function (req, res, next) {
-
-//     var params = req.query,
-//         queryObj;
-
-//     if (params) {
-//         queryObj = queryHelper.boxQuery(params.bounds.bottomLeft, params.bounds.upperRight);
-//     }
-
-//     Sounding.find(queryObj)    
-//         .where(soundingDepth).lt(params.depth)
-//         .exec(function (err, data) {
-//             res.json(convert.heatmap(data, params.depth));
-//         });
-// }
+    var getHeatMapData = Promise.promisify(SoundingModel.getHeatMapData)
+    
+    getHeatMapData(req.query)
+        .then(function (response) {
+            res.json(JSON.parse(response));
+        }, function (err) {
+            res.json(JSON.parse(err.message));
+        });
+};
 

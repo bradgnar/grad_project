@@ -14,9 +14,9 @@ module.exports = function (router) {
 
     router.get('/markers', MapController.getMarkers);
 
-    // router.get('/heatData', MapController.getDepthPointsForHeat);
+    router.get('/heatData', MapController.getDepthPointsForHeat);
 
-    // router.get('/soundings', MapController.getSoundings);
+    router.get('/soundings', MapController.getSoundings);
 
     router.get('/classifiedMarkers', MapController.getClassifiedMarkers);
 

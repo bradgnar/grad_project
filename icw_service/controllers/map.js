@@ -46,7 +46,6 @@ module.exports.getClassifiedMarkers = function (req, res, next) {
         queryObj,
         MAX_DISTANCE = 5;
 
-console.log(params);
     if (params) {
         queryObj = queryHelper.boxQuery(params.bottomLeft, params.upperRight);
     } else {
