@@ -1,5 +1,4 @@
-var _ = require('lodash'),
-    icwClient = require('../icw_client');
+var icwClient = require('../icw_client');
 
 module.exports.getMarkers = function (queryData, callback) {
     icwClient.getMarkers(queryData, function (err, response) {

@@ -9,10 +9,6 @@ var db = function () {
             db.on('error', console.error.bind(console, 'connection error:'));
             db.once('open', function callback() {
                 console.log('db connection open woot woot get dem thangs');
-                console.log('available collections');
-                mongoose.connection.db.collectionNames(function (err, names) {
-                    console.log(names);
-                });
             });
         }
     };

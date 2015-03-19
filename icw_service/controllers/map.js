@@ -1,12 +1,9 @@
-var mongoose = require('mongoose'),
-	db = mongoose.connection,
-	Buoy = require('../models/buoy'),
+var Buoy = require('../models/buoy'),
     BuoyPlus = require('../models/buoyPlus')
     Sounding = require('../models/sounding'),
     convert = require('../lib/converter'),
     queryHelper = require('../lib/queryHelper'),
-    soundingDepth = 'WLDepth_ft',
-    _ = require('lodash');
+    soundingDepth = 'WLDepth_ft';
 
 module.exports.getMarkers = function (req, res, next) {
 

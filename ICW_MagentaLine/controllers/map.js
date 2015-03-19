@@ -1,6 +1,4 @@
-var _ = require('lodash'),
-    qs = require('querystring'),
-    Promise = require('bluebird'),
+var Promise = require('bluebird'),
     MarkerModel = require('../models/markerModel'),
     SoundingModel = require('../models/soundingModel');
 
@@ -42,9 +40,6 @@ module.exports.getClassifiedMarkers = function (req, res, next) {
 module.exports.getDepthPointsForHeat = function (req, res, next) {
 
     var getHeatMapData = Promise.promisify(SoundingModel.getHeatMapData);
-
-    console.log('>>>>>>>>>>>in the controller for the interface this is the query')
-    console.log(JSON.stringify(req.query))
     
     getHeatMapData(req.query)
         .then(function (response) {

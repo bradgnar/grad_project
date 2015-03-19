@@ -3,7 +3,6 @@
 var http = require('http'),
     express = require('express'),
     kraken = require('kraken-js'),
-    db = require('./lib/mongodb'),
     nconf = require('nconf'),
     path = require('path');
 
@@ -22,7 +21,6 @@ options = {
          */
 
         nconf.use('file', { file: path.join(__dirname, 'config/config.json') });
-        db.config(nconf.get('databaseConfig'));
         next(null, config);
     }
 };

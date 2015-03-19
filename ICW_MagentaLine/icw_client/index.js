@@ -1,5 +1,4 @@
-var _ = require('lodash'),
-    qs = require('querystring'),
+var qs = require('querystring'),
     config = {
         host:'http://localhost:',
         port: 8001,
@@ -8,6 +7,7 @@ var _ = require('lodash'),
     request = require('request');
 
 module.exports.getMarkers = function (data, callback) {
+    
     var querystring = qs.stringify(data),
     url = buildUrl('markers', querystring);
 
@@ -22,8 +22,14 @@ module.exports.getMarkers = function (data, callback) {
 
 module.exports.getSoundings = function (data, callback) {
 
-    var querystring = qs.stringify(data),
-    url = buildUrl('soundings', querystring);
+    var queryObj = {
+            upperRightLong: data.bounds.upperRight[0],
+            upperRightLat: data.bounds.upperRight[1],
+            bottomLeftLong: data.bounds.bottomLeft[0],
+            bottomLeftLat: data.bounds.bottomLeft[1]
+        },
+        querystring = qs.stringify(queryObj),
+        url = buildUrl('soundings', querystring);
 
     request.get(url, function (err, res) {
         if (!err) {
@@ -35,6 +41,7 @@ module.exports.getSoundings = function (data, callback) {
 }
 
 module.exports.getClassifiedMarkers = function (data, callback) {
+
     var querystring = qs.stringify(data),
     url = buildUrl('classifiedMarkers', querystring);
 
@@ -49,9 +56,6 @@ module.exports.getClassifiedMarkers = function (data, callback) {
 
 module.exports.getHeatMapData = function (data, callback) {
 
-    console.log('in the sounding model this is the query data')
-    console.log(JSON.stringify(data))
-
     var queryObj = {
             depth: data.depth,
             upperRightLong: data.bounds.upperRight[0],
@@ -61,10 +65,6 @@ module.exports.getHeatMapData = function (data, callback) {
         },
         querystring = qs.stringify(queryObj),
         url = buildUrl('heatData', querystring);
-
-    console.log('>>>>>>>and the query string and url')
-    console.log(querystring)
-    console.log(url)
 
         request.get(url, function (err, res) {
             if (!err) {

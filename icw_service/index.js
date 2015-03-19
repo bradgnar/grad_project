@@ -9,14 +9,7 @@ var express = require('express'),
 
 
 var options, app, server;
-var allowCrossDomain = function(req, res, next) {
-    res.header('Access-Control-Allow-Origin', 'localhost:8000');
-    res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
-    res.header('Access-Control-Allow-Headers', 'Content-Type');
-    res.header('Access-Control-Allow-Headers', 'Content-Length');
 
-    next();
-}
 /*
  * Create and configure application. Also exports application instance for use by tests.
  * See https://github.com/krakenjs/kraken-js#options for additional configuration options.
@@ -36,15 +29,11 @@ options = {
 
 app = module.exports = express();
 
-//app.use(allowCrossDomain);
 app.use(kraken(options));
 app.on('start', function () {
     console.log('Application ready to serve requests.');
     console.log('Environment: %s', app.kraken.get('env:env'));
 });
-
-//module.exports = app;
-
 
 /*
  * Create and start HTTP server.
