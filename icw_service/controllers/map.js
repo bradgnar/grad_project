@@ -13,16 +13,12 @@ module.exports.getMarkers = function (req, res, next) {
     var params = req.query,
         queryObj;
 
-        console.log("THIS IS THE SERVICE SPEAKING")
-        console.log('in get markers' + JSON.stringify(params))
-
     if (params) {
         queryObj = queryHelper.boxQuery(params.bottomLeft, params.upperRight);
     } else {
         queryObj = {};
     }
-    console.log('>>>>>>>>>>this is the queryobj')
-    console.log(JSON.stringify(queryObj))
+
     Buoy.find(queryObj).exec(function (err, data) {
         console .log('int eh find as well' +   JSON.stringify(data))
         res.json(data);
@@ -50,6 +46,7 @@ module.exports.getClassifiedMarkers = function (req, res, next) {
         queryObj,
         MAX_DISTANCE = 5;
 
+console.log(params);
     if (params) {
         queryObj = queryHelper.boxQuery(params.bottomLeft, params.upperRight);
     } else {

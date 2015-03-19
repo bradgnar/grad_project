@@ -18,6 +18,6 @@ module.exports = function (router) {
 
     // router.get('/soundings', MapController.getSoundings);
 
-    // router.get('/classifiedMarkers', MapController.getClassifiedMarkers);
+    router.get('/classifiedMarkers', MapController.getClassifiedMarkers);
 
 };

@@ -10,7 +10,7 @@ var _ = require('lodash'),
     //icwClient = require('../lib/icw_client'),
     qs = require('querystring'),
     config = {
-        host:'http://localhost',
+        host:'http://localhost:',
         port: 8001,
         serviceName: '/icw-service'
     },
@@ -21,89 +21,17 @@ var _ = require('lodash'),
     // console.log(Object.keys())
 
 module.exports.getMarkers = function (data, callback) {
-    var dataString = JSON.stringify(data);
-    querystring = qs.stringify(data);
+    var querystring = qs.stringify(data),
+    url = buildUrl('markers', querystring);
 
-    console.log('>>>>>>>>>this is the query string')
-    console.log(querystring)
-
-    request.get("http://localhost:8001/icw-service/markers?" + querystring, function (err, res) {
+    request.get(url, function (err, res) {
         if (!err) {
-            //var resultsObj = JSON.parse(body);
-            //Just an example of how to access properties:
-            console.log(res.body)
-            //console.log(resultsObj);
             callback(undefined, res.body)
         } else {
-            console.log(err.message)
+            callback(err)
         }
     });
-
-//     var options = {
-//       host: config.host,
-//       port: 8001,
-//       path: config.serviceName + '?' + qs.stringify(dataString),
-//       method: 'GET',
-//       headers: {
-//         'Content-Type': 'application/json; charset=utf-8',
-//         'Content-Length': dataString.length 
-//       }
-//     };
-
-// var req = http.request(options, function(res) {
-//   var msg = '';
-
-//   res.setEncoding('utf8');
-//   req.on('error', function(e) {
-//       console.log('problem with request: ' + e.message);
-//     });
-//   res.on('data', function(chunk) {
-//     msg += chunk;
-//   });
-//   res.on('end', function() {
-//     console.log(JSON.parse(msg));
-//   });
-// });
-
-// req.write(data);
-// req.end();
-}
-
-// module.exports.getMarkers = function (bounds, callback) {
-//     var query = '/markers?' + qs.stringify(bounds),
-//         url = buildUrl(query);
-// console.log('this is the url for the thingy')
-// console.log(url)
-
-//         // http.get(url, function (err, response) {
-//         //     if (err || !response || response.statusCode < 200 || response.statusCode >= 300) {
-//         //         console.log(JSON.stringify(err))
-//         //         callback(err);
-//         //         return;
-//         //     }
-
-//         //     callback(undefined, response);
-//         // });
-//     // var params = req.query,
-//     //     queryObj;
-
-
-
-//     // if (params) {
-//     //     queryObj = queryHelper.boxQuery(params.bottomLeft, params.upperRight);
-//     // } else {
-//     //     queryObj = {};
-//     // }
-
-//     // icwClient.getMarkers(queryObj)
-//     //     .then(function (response) {
-//     //         console.log('>>>>>>>>>>>>>>>>>>>>>>in the response')        
-//     //         res.json(response)
-//     //     },
-//     //     function (err) {
-//     //         console.log('>>>>>>>>>>>>>>>>>>>in the error')
-//     //     })
-// };
+};
 
 // module.exports.getSoundings = function (req, res, next) {
 
@@ -120,22 +48,18 @@ module.exports.getMarkers = function (data, callback) {
 //         });
 // }
 
-// module.exports.getClassifiedMarkers = function (req, res, next) {
-//     var params = req.query,
-//         queryObj,
-//         MAX_DISTANCE = 5;
+module.exports.getClassifiedMarkers = function (data, callback) {
+    var querystring = qs.stringify(data),
+    url = buildUrl('classifiedMarkers', querystring);
 
-//     if (params) {
-//         queryObj = queryHelper.boxQuery(params.bottomLeft, params.upperRight);
-//     } else {
-//         queryObj = {};
-//     }
-
-//     BuoyPlus.find(queryObj)
-//         .exec(function (err, data) {
-//             res.json(convert.depthClassification(data));
-//         });
-// }
+    request.get(url, function (err, res) {
+        if (!err) {
+            callback(undefined, res.body)
+        } else {
+            callback(err)
+        }
+    });
+}
 
 // module.exports.getDepthPointsForHeat = function (req, res, next) {
 
@@ -153,6 +77,7 @@ module.exports.getMarkers = function (data, callback) {
 //         });
 // }
 
-function buildUrl (additonalUrl) {
-    return config.host + config.port + config.serviceName + additionalUrl;
+
+function buildUrl (method, additionalUrl) {
+    return config.host + config.port + config.serviceName + '/' + method  + '?' + additionalUrl;
 }

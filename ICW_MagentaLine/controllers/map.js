@@ -1,5 +1,4 @@
 var _ = require('lodash'),
-    icwClient = require('../icw_client'),
     qs = require('querystring'),
     Promise = require('bluebird'),
     MarkerModel = require('../models/markerModel');
@@ -39,7 +38,8 @@ module.exports.getClassifiedMarkers = function (req, res, next) {
             res.json(JSON.parse(response));
         }, function (err) {
             res.json(JSON.parse(err.message));
-        })
+        });
+};
 
     // var params = req.query,
     //     queryObj,
@@ -55,7 +55,7 @@ module.exports.getClassifiedMarkers = function (req, res, next) {
     //     .exec(function (err, data) {
     //         res.json(convert.depthClassification(data));
     //     });
-}
+// }
 
 // module.exports.getDepthPointsForHeat = function (req, res, next) {
 
