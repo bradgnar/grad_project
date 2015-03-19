@@ -20,10 +20,8 @@ module.exports.getMarkers = function (req, res, next) {
     }
 
     Buoy.find(queryObj).exec(function (err, data) {
-        console .log('int eh find as well' +   JSON.stringify(data))
         res.json(data);
     });
-    //{"loc":{"$geoWithin":{"$box":[["-78.54067504882812","33.820173292536026"],["-78.21932495117187","33.97975204220477"]]}}}
 }
 
 module.exports.getSoundings = function (req, res, next) {
@@ -32,14 +30,14 @@ module.exports.getSoundings = function (req, res, next) {
         queryObj;
 
     if (params) {
-        queryObj = queryHelper.boxQuery(params.bounds.bottomLeft, params.bounds.upperRight);
+        queryObj = queryHelper.boxQuery([params.bottomLeftLong, params.bottomLeftLat], [params.upperRightLong, params.upperRightLat]);
     }
 
     Sounding.find(queryObj)
         .exec(function (err, data) {
             res.json(data)
         });
-}
+};
 
 module.exports.getClassifiedMarkers = function (req, res, next) {
     var params = req.query,
@@ -56,7 +54,7 @@ module.exports.getClassifiedMarkers = function (req, res, next) {
         .exec(function (err, data) {
             res.json(convert.depthClassification(data));
         });
-}
+};
 
 module.exports.getDepthPointsForHeat = function (req, res, next) {
 
@@ -64,7 +62,7 @@ module.exports.getDepthPointsForHeat = function (req, res, next) {
         queryObj;
 
     if (params) {
-        queryObj = queryHelper.boxQuery(params.bounds.bottomLeft, params.bounds.upperRight);
+        queryObj = queryHelper.boxQuery([params.bottomLeftLong, params.bottomLeftLat], [params.upperRightLong, params.upperRightLat]);
     }
 
     Sounding.find(queryObj)    
@@ -72,4 +70,4 @@ module.exports.getDepthPointsForHeat = function (req, res, next) {
         .exec(function (err, data) {
             res.json(convert.heatmap(data, params.depth));
         });
-}
+};

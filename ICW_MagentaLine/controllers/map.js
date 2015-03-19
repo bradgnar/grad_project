@@ -41,13 +41,16 @@ module.exports.getClassifiedMarkers = function (req, res, next) {
 
 module.exports.getDepthPointsForHeat = function (req, res, next) {
 
-    var getHeatMapData = Promise.promisify(SoundingModel.getHeatMapData)
+    var getHeatMapData = Promise.promisify(SoundingModel.getHeatMapData);
+
+    console.log('>>>>>>>>>>>in the controller for the interface this is the query')
+    console.log(JSON.stringify(req.query))
     
     getHeatMapData(req.query)
         .then(function (response) {
             res.json(JSON.parse(response));
         }, function (err) {
-            res.json(JSON.parse(err.message));
+            res.json(err.message);
         });
 };
 
