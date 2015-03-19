@@ -126,8 +126,6 @@ function initialize() {
             lat: position.coords.latitude,
             long: position.coords.longitude
         };
-        console.log('>>>>>>>>>>there was a success')
-        console.log('here is your position' + JSON.stringify(config))
 
         map.setOptions(setMapOptions(config));
         getMarkersFromDB(map);
@@ -143,7 +141,7 @@ function initialize() {
             UNKNOWN_ERROR: "An unknown error occurred."
 
         };
-        alert(error)
+        alert(JSON.stringify(error))
         alert(JSON.stringify(error))
         alert(geolocationErrorMap[error.code]);
     }
