@@ -8,6 +8,7 @@
     "test": "grunt test"
   },
   "dependencies": {
+    "body-parser": "^1.12.3",
     "engine-munger": "^0.2.0",
     "express": "^4.3.0",
     "kraken-devtools": "^1.0.0",
