@@ -46,7 +46,6 @@ function initialize() {
         }
     }
 
-// key=AIzaSyBJBKlAPFj3pjrVtjKOS4u-mwqpfEkt5HQ
     map = new google.maps.Map(document.getElementById('map-canvas'), setMapOptions());
 
 /******************************************************************************
